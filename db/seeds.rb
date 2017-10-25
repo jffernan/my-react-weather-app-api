@@ -1,7 +1,7 @@
 cities = City.create(
 [
     {
-        "city": "New York",
+        "name": "New York",
         "growth_from_2000_to_2013": "4.8%",
         "latitude": 40.7127837,
         "longitude": -74.0059413,
@@ -10,7 +10,7 @@ cities = City.create(
         "state": "New York"
     },
     {
-        "city": "Los Angeles",
+        "name": "Los Angeles",
         "growth_from_2000_to_2013": "4.8%",
         "latitude": 34.0522342,
         "longitude": -118.2436849,
@@ -19,7 +19,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Chicago",
+        "name": "Chicago",
         "growth_from_2000_to_2013": "-6.1%",
         "latitude": 41.8781136,
         "longitude": -87.6297982,
@@ -28,7 +28,7 @@ cities = City.create(
         "state": "Illinois"
     },
     {
-        "city": "Houston",
+        "name": "Houston",
         "growth_from_2000_to_2013": "11.0%",
         "latitude": 29.7604267,
         "longitude": -95.3698028,
@@ -37,7 +37,7 @@ cities = City.create(
         "state": "Texas"
     },
     {
-        "city": "Philadelphia",
+        "name": "Philadelphia",
         "growth_from_2000_to_2013": "2.6%",
         "latitude": 39.9525839,
         "longitude": -75.1652215,
@@ -46,7 +46,7 @@ cities = City.create(
         "state": "Pennsylvania"
     },
     {
-        "city": "Phoenix",
+        "name": "Phoenix",
         "growth_from_2000_to_2013": "14.0%",
         "latitude": 33.4483771,
         "longitude": -112.0740373,
@@ -55,7 +55,7 @@ cities = City.create(
         "state": "Arizona"
     },
     {
-        "city": "San Antonio",
+        "name": "San Antonio",
         "growth_from_2000_to_2013": "21.0%",
         "latitude": 29.4241219,
         "longitude": -98.49362819999999,
@@ -64,7 +64,7 @@ cities = City.create(
         "state": "Texas"
     },
     {
-        "city": "San Diego",
+        "name": "San Diego",
         "growth_from_2000_to_2013": "10.5%",
         "latitude": 32.715738,
         "longitude": -117.1610838,
@@ -73,7 +73,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Dallas",
+        "name": "Dallas",
         "growth_from_2000_to_2013": "5.6%",
         "latitude": 32.7766642,
         "longitude": -96.79698789999999,
@@ -82,7 +82,7 @@ cities = City.create(
         "state": "Texas"
     },
     {
-        "city": "San Jose",
+        "name": "San Jose",
         "growth_from_2000_to_2013": "10.5%",
         "latitude": 37.3382082,
         "longitude": -121.8863286,
@@ -91,7 +91,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Austin",
+        "name": "Austin",
         "growth_from_2000_to_2013": "31.7%",
         "latitude": 30.267153,
         "longitude": -97.7430608,
@@ -100,7 +100,7 @@ cities = City.create(
         "state": "Texas"
     },
     {
-        "city": "Indianapolis",
+        "name": "Indianapolis",
         "growth_from_2000_to_2013": "7.8%",
         "latitude": 39.768403,
         "longitude": -86.158068,
@@ -109,7 +109,7 @@ cities = City.create(
         "state": "Indiana"
     },
     {
-        "city": "Jacksonville",
+        "name": "Jacksonville",
         "growth_from_2000_to_2013": "14.3%",
         "latitude": 30.3321838,
         "longitude": -81.65565099999999,
@@ -118,7 +118,7 @@ cities = City.create(
         "state": "Florida"
     },
     {
-        "city": "San Francisco",
+        "name": "San Francisco",
         "growth_from_2000_to_2013": "7.7%",
         "latitude": 37.7749295,
         "longitude": -122.4194155,
@@ -127,7 +127,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Columbus",
+        "name": "Columbus",
         "growth_from_2000_to_2013": "14.8%",
         "latitude": 39.9611755,
         "longitude": -82.99879419999999,
@@ -136,7 +136,7 @@ cities = City.create(
         "state": "Ohio"
     },
     {
-        "city": "Charlotte",
+        "name": "Charlotte",
         "growth_from_2000_to_2013": "39.1%",
         "latitude": 35.2270869,
         "longitude": -80.8431267,
@@ -145,7 +145,7 @@ cities = City.create(
         "state": "North Carolina"
     },
     {
-        "city": "Fort Worth",
+        "name": "Fort Worth",
         "growth_from_2000_to_2013": "45.1%",
         "latitude": 32.7554883,
         "longitude": -97.3307658,
@@ -154,7 +154,7 @@ cities = City.create(
         "state": "Texas"
     },
     {
-        "city": "Detroit",
+        "name": "Detroit",
         "growth_from_2000_to_2013": "-27.1%",
         "latitude": 42.331427,
         "longitude": -83.0457538,
@@ -163,7 +163,7 @@ cities = City.create(
         "state": "Michigan"
     },
     {
-        "city": "El Paso",
+        "name": "El Paso",
         "growth_from_2000_to_2013": "19.4%",
         "latitude": 31.7775757,
         "longitude": -106.4424559,
@@ -172,7 +172,7 @@ cities = City.create(
         "state": "Texas"
     },
     {
-        "city": "Memphis",
+        "name": "Memphis",
         "growth_from_2000_to_2013": "-5.3%",
         "latitude": 35.1495343,
         "longitude": -90.0489801,
@@ -181,7 +181,7 @@ cities = City.create(
         "state": "Tennessee"
     },
     {
-        "city": "Seattle",
+        "name": "Seattle",
         "growth_from_2000_to_2013": "15.6%",
         "latitude": 47.6062095,
         "longitude": -122.3320708,
@@ -190,7 +190,7 @@ cities = City.create(
         "state": "Washington"
     },
     {
-        "city": "Denver",
+        "name": "Denver",
         "growth_from_2000_to_2013": "16.7%",
         "latitude": 39.7392358,
         "longitude": -104.990251,
@@ -199,7 +199,7 @@ cities = City.create(
         "state": "Colorado"
     },
     {
-        "city": "Washington",
+        "name": "Washington",
         "growth_from_2000_to_2013": "13.0%",
         "latitude": 38.9071923,
         "longitude": -77.0368707,
@@ -208,7 +208,7 @@ cities = City.create(
         "state": "District of Columbia"
     },
     {
-        "city": "Boston",
+        "name": "Boston",
         "growth_from_2000_to_2013": "9.4%",
         "latitude": 42.3600825,
         "longitude": -71.0588801,
@@ -217,7 +217,7 @@ cities = City.create(
         "state": "Massachusetts"
     },
     {
-        "city": "Nashville-Davidson",
+        "name": "Nashville-Davidson",
         "growth_from_2000_to_2013": "16.2%",
         "latitude": 36.1626638,
         "longitude": -86.7816016,
@@ -226,7 +226,7 @@ cities = City.create(
         "state": "Tennessee"
     },
     {
-        "city": "Baltimore",
+        "name": "Baltimore",
         "growth_from_2000_to_2013": "-4.0%",
         "latitude": 39.2903848,
         "longitude": -76.6121893,
@@ -235,7 +235,7 @@ cities = City.create(
         "state": "Maryland"
     },
     {
-        "city": "Oklahoma City",
+        "name": "Oklahoma City",
         "growth_from_2000_to_2013": "20.2%",
         "latitude": 35.4675602,
         "longitude": -97.5164276,
@@ -244,7 +244,7 @@ cities = City.create(
         "state": "Oklahoma"
     },
     {
-        "city": "Louisville/Jefferson County",
+        "name": "Louisville/Jefferson County",
         "growth_from_2000_to_2013": "10.0%",
         "latitude": 38.2526647,
         "longitude": -85.7584557,
@@ -253,7 +253,7 @@ cities = City.create(
         "state": "Kentucky"
     },
     {
-        "city": "Portland",
+        "name": "Portland",
         "growth_from_2000_to_2013": "15.0%",
         "latitude": 45.5230622,
         "longitude": -122.6764816,
@@ -262,7 +262,7 @@ cities = City.create(
         "state": "Oregon"
     },
     {
-        "city": "Las Vegas",
+        "name": "Las Vegas",
         "growth_from_2000_to_2013": "24.5%",
         "latitude": 36.1699412,
         "longitude": -115.1398296,
@@ -271,7 +271,7 @@ cities = City.create(
         "state": "Nevada"
     },
     {
-        "city": "Milwaukee",
+        "name": "Milwaukee",
         "growth_from_2000_to_2013": "0.3%",
         "latitude": 43.0389025,
         "longitude": -87.9064736,
@@ -280,7 +280,7 @@ cities = City.create(
         "state": "Wisconsin"
     },
     {
-        "city": "Albuquerque",
+        "name": "Albuquerque",
         "growth_from_2000_to_2013": "23.5%",
         "latitude": 35.0853336,
         "longitude": -106.6055534,
@@ -289,7 +289,7 @@ cities = City.create(
         "state": "New Mexico"
     },
     {
-        "city": "Tucson",
+        "name": "Tucson",
         "growth_from_2000_to_2013": "7.5%",
         "latitude": 32.2217429,
         "longitude": -110.926479,
@@ -298,7 +298,7 @@ cities = City.create(
         "state": "Arizona"
     },
     {
-        "city": "Fresno",
+        "name": "Fresno",
         "growth_from_2000_to_2013": "18.3%",
         "latitude": 36.7468422,
         "longitude": -119.7725868,
@@ -307,7 +307,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Sacramento",
+        "name": "Sacramento",
         "growth_from_2000_to_2013": "17.2%",
         "latitude": 38.5815719,
         "longitude": -121.4943996,
@@ -316,7 +316,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Long Beach",
+        "name": "Long Beach",
         "growth_from_2000_to_2013": "1.5%",
         "latitude": 33.7700504,
         "longitude": -118.1937395,
@@ -325,7 +325,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Kansas City",
+        "name": "Kansas City",
         "growth_from_2000_to_2013": "5.5%",
         "latitude": 39.0997265,
         "longitude": -94.5785667,
@@ -334,7 +334,7 @@ cities = City.create(
         "state": "Missouri"
     },
     {
-        "city": "Mesa",
+        "name": "Mesa",
         "growth_from_2000_to_2013": "13.5%",
         "latitude": 33.4151843,
         "longitude": -111.8314724,
@@ -343,7 +343,7 @@ cities = City.create(
         "state": "Arizona"
     },
     {
-        "city": "Virginia Beach",
+        "name": "Virginia Beach",
         "growth_from_2000_to_2013": "5.1%",
         "latitude": 36.8529263,
         "longitude": -75.97798499999999,
@@ -352,7 +352,7 @@ cities = City.create(
         "state": "Virginia"
     },
     {
-        "city": "Atlanta",
+        "name": "Atlanta",
         "growth_from_2000_to_2013": "6.2%",
         "latitude": 33.7489954,
         "longitude": -84.3879824,
@@ -361,7 +361,7 @@ cities = City.create(
         "state": "Georgia"
     },
     {
-        "city": "Colorado Springs",
+        "name": "Colorado Springs",
         "growth_from_2000_to_2013": "21.4%",
         "latitude": 38.8338816,
         "longitude": -104.8213634,
@@ -370,7 +370,7 @@ cities = City.create(
         "state": "Colorado"
     },
     {
-        "city": "Omaha",
+        "name": "Omaha",
         "growth_from_2000_to_2013": "5.9%",
         "latitude": 41.2523634,
         "longitude": -95.99798829999999,
@@ -379,7 +379,7 @@ cities = City.create(
         "state": "Nebraska"
     },
     {
-        "city": "Raleigh",
+        "name": "Raleigh",
         "growth_from_2000_to_2013": "48.7%",
         "latitude": 35.7795897,
         "longitude": -78.6381787,
@@ -388,7 +388,7 @@ cities = City.create(
         "state": "North Carolina"
     },
     {
-        "city": "Miami",
+        "name": "Miami",
         "growth_from_2000_to_2013": "14.9%",
         "latitude": 25.7616798,
         "longitude": -80.1917902,
@@ -397,7 +397,7 @@ cities = City.create(
         "state": "Florida"
     },
     {
-        "city": "Oakland",
+        "name": "Oakland",
         "growth_from_2000_to_2013": "1.3%",
         "latitude": 37.8043637,
         "longitude": -122.2711137,
@@ -406,7 +406,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Minneapolis",
+        "name": "Minneapolis",
         "growth_from_2000_to_2013": "4.5%",
         "latitude": 44.977753,
         "longitude": -93.2650108,
@@ -415,7 +415,7 @@ cities = City.create(
         "state": "Minnesota"
     },
     {
-        "city": "Tulsa",
+        "name": "Tulsa",
         "growth_from_2000_to_2013": "1.3%",
         "latitude": 36.1539816,
         "longitude": -95.99277500000001,
@@ -424,7 +424,7 @@ cities = City.create(
         "state": "Oklahoma"
     },
     {
-        "city": "Cleveland",
+        "name": "Cleveland",
         "growth_from_2000_to_2013": "-18.1%",
         "latitude": 41.49932,
         "longitude": -81.6943605,
@@ -433,7 +433,7 @@ cities = City.create(
         "state": "Ohio"
     },
     {
-        "city": "Wichita",
+        "name": "Wichita",
         "growth_from_2000_to_2013": "9.7%",
         "latitude": 37.688889,
         "longitude": -97.336111,
@@ -442,7 +442,7 @@ cities = City.create(
         "state": "Kansas"
     },
     {
-        "city": "Arlington",
+        "name": "Arlington",
         "growth_from_2000_to_2013": "13.3%",
         "latitude": 32.735687,
         "longitude": -97.10806559999999,
@@ -451,7 +451,7 @@ cities = City.create(
         "state": "Texas"
     },
     {
-        "city": "New Orleans",
+        "name": "New Orleans",
         "growth_from_2000_to_2013": "-21.6%",
         "latitude": 29.95106579999999,
         "longitude": -90.0715323,
@@ -460,7 +460,7 @@ cities = City.create(
         "state": "Louisiana"
     },
     {
-        "city": "Bakersfield",
+        "name": "Bakersfield",
         "growth_from_2000_to_2013": "48.4%",
         "latitude": 35.3732921,
         "longitude": -119.0187125,
@@ -469,7 +469,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Tampa",
+        "name": "Tampa",
         "growth_from_2000_to_2013": "16.0%",
         "latitude": 27.950575,
         "longitude": -82.4571776,
@@ -478,7 +478,7 @@ cities = City.create(
         "state": "Florida"
     },
     {
-        "city": "Honolulu",
+        "name": "Honolulu",
         "growth_from_2000_to_2013": "-6.2%",
         "latitude": 21.3069444,
         "longitude": -157.8583333,
@@ -487,7 +487,7 @@ cities = City.create(
         "state": "Hawaii"
     },
     {
-        "city": "Aurora",
+        "name": "Aurora",
         "growth_from_2000_to_2013": "24.4%",
         "latitude": 39.7294319,
         "longitude": -104.8319195,
@@ -496,7 +496,7 @@ cities = City.create(
         "state": "Colorado"
     },
     {
-        "city": "Anaheim",
+        "name": "Anaheim",
         "growth_from_2000_to_2013": "4.7%",
         "latitude": 33.8352932,
         "longitude": -117.9145036,
@@ -505,7 +505,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Santa Ana",
+        "name": "Santa Ana",
         "growth_from_2000_to_2013": "-1.2%",
         "latitude": 33.7455731,
         "longitude": -117.8678338,
@@ -514,7 +514,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "St. Louis",
+        "name": "St. Louis",
         "growth_from_2000_to_2013": "-8.2%",
         "latitude": 38.6270025,
         "longitude": -90.19940419999999,
@@ -523,7 +523,7 @@ cities = City.create(
         "state": "Missouri"
     },
     {
-        "city": "Riverside",
+        "name": "Riverside",
         "growth_from_2000_to_2013": "22.5%",
         "latitude": 33.9533487,
         "longitude": -117.3961564,
@@ -532,7 +532,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Corpus Christi",
+        "name": "Corpus Christi",
         "growth_from_2000_to_2013": "14.1%",
         "latitude": 27.8005828,
         "longitude": -97.39638099999999,
@@ -541,7 +541,7 @@ cities = City.create(
         "state": "Texas"
     },
     {
-        "city": "Lexington-Fayette",
+        "name": "Lexington-Fayette",
         "growth_from_2000_to_2013": "18.0%",
         "latitude": 38.0405837,
         "longitude": -84.5037164,
@@ -550,7 +550,7 @@ cities = City.create(
         "state": "Kentucky"
     },
     {
-        "city": "Pittsburgh",
+        "name": "Pittsburgh",
         "growth_from_2000_to_2013": "-8.3%",
         "latitude": 40.44062479999999,
         "longitude": -79.9958864,
@@ -559,7 +559,7 @@ cities = City.create(
         "state": "Pennsylvania"
     },
     {
-        "city": "Anchorage",
+        "name": "Anchorage",
         "growth_from_2000_to_2013": "15.4%",
         "latitude": 61.2180556,
         "longitude": -149.9002778,
@@ -568,7 +568,7 @@ cities = City.create(
         "state": "Alaska"
     },
     {
-        "city": "Stockton",
+        "name": "Stockton",
         "growth_from_2000_to_2013": "21.8%",
         "latitude": 37.9577016,
         "longitude": -121.2907796,
@@ -577,7 +577,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Cincinnati",
+        "name": "Cincinnati",
         "growth_from_2000_to_2013": "-10.1%",
         "latitude": 39.1031182,
         "longitude": -84.5120196,
@@ -586,7 +586,7 @@ cities = City.create(
         "state": "Ohio"
     },
     {
-        "city": "St. Paul",
+        "name": "St. Paul",
         "growth_from_2000_to_2013": "2.8%",
         "latitude": 44.9537029,
         "longitude": -93.0899578,
@@ -595,7 +595,7 @@ cities = City.create(
         "state": "Minnesota"
     },
     {
-        "city": "Toledo",
+        "name": "Toledo",
         "growth_from_2000_to_2013": "-10.0%",
         "latitude": 41.6639383,
         "longitude": -83.55521200000001,
@@ -604,7 +604,7 @@ cities = City.create(
         "state": "Ohio"
     },
     {
-        "city": "Greensboro",
+        "name": "Greensboro",
         "growth_from_2000_to_2013": "22.3%",
         "latitude": 36.0726354,
         "longitude": -79.7919754,
@@ -613,7 +613,7 @@ cities = City.create(
         "state": "North Carolina"
     },
     {
-        "city": "Newark",
+        "name": "Newark",
         "growth_from_2000_to_2013": "2.1%",
         "latitude": 40.735657,
         "longitude": -74.1723667,
@@ -622,7 +622,7 @@ cities = City.create(
         "state": "New Jersey"
     },
     {
-        "city": "Plano",
+        "name": "Plano",
         "growth_from_2000_to_2013": "22.4%",
         "latitude": 33.0198431,
         "longitude": -96.6988856,
@@ -631,7 +631,7 @@ cities = City.create(
         "state": "Texas"
     },
     {
-        "city": "Henderson",
+        "name": "Henderson",
         "growth_from_2000_to_2013": "51.0%",
         "latitude": 36.0395247,
         "longitude": -114.9817213,
@@ -640,7 +640,7 @@ cities = City.create(
         "state": "Nevada"
     },
     {
-        "city": "Lincoln",
+        "name": "Lincoln",
         "growth_from_2000_to_2013": "18.0%",
         "latitude": 40.8257625,
         "longitude": -96.6851982,
@@ -649,7 +649,7 @@ cities = City.create(
         "state": "Nebraska"
     },
     {
-        "city": "Buffalo",
+        "name": "Buffalo",
         "growth_from_2000_to_2013": "-11.3%",
         "latitude": 42.88644679999999,
         "longitude": -78.8783689,
@@ -658,7 +658,7 @@ cities = City.create(
         "state": "New York"
     },
     {
-        "city": "Jersey City",
+        "name": "Jersey City",
         "growth_from_2000_to_2013": "7.2%",
         "latitude": 40.72815749999999,
         "longitude": -74.0776417,
@@ -667,7 +667,7 @@ cities = City.create(
         "state": "New Jersey"
     },
     {
-        "city": "Chula Vista",
+        "name": "Chula Vista",
         "growth_from_2000_to_2013": "46.2%",
         "latitude": 32.6400541,
         "longitude": -117.0841955,
@@ -676,7 +676,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Fort Wayne",
+        "name": "Fort Wayne",
         "growth_from_2000_to_2013": "1.0%",
         "latitude": 41.079273,
         "longitude": -85.1393513,
@@ -685,7 +685,7 @@ cities = City.create(
         "state": "Indiana"
     },
     {
-        "city": "Orlando",
+        "name": "Orlando",
         "growth_from_2000_to_2013": "31.2%",
         "latitude": 28.5383355,
         "longitude": -81.3792365,
@@ -694,7 +694,7 @@ cities = City.create(
         "state": "Florida"
     },
     {
-        "city": "St. Petersburg",
+        "name": "St. Petersburg",
         "growth_from_2000_to_2013": "0.3%",
         "latitude": 27.773056,
         "longitude": -82.64,
@@ -703,7 +703,7 @@ cities = City.create(
         "state": "Florida"
     },
     {
-        "city": "Chandler",
+        "name": "Chandler",
         "growth_from_2000_to_2013": "38.7%",
         "latitude": 33.3061605,
         "longitude": -111.8412502,
@@ -712,7 +712,7 @@ cities = City.create(
         "state": "Arizona"
     },
     {
-        "city": "Laredo",
+        "name": "Laredo",
         "growth_from_2000_to_2013": "38.2%",
         "latitude": 27.5305671,
         "longitude": -99.48032409999999,
@@ -721,7 +721,7 @@ cities = City.create(
         "state": "Texas"
     },
     {
-        "city": "Norfolk",
+        "name": "Norfolk",
         "growth_from_2000_to_2013": "5.0%",
         "latitude": 36.8507689,
         "longitude": -76.28587259999999,
@@ -730,7 +730,7 @@ cities = City.create(
         "state": "Virginia"
     },
     {
-        "city": "Durham",
+        "name": "Durham",
         "growth_from_2000_to_2013": "29.9%",
         "latitude": 35.9940329,
         "longitude": -78.898619,
@@ -739,7 +739,7 @@ cities = City.create(
         "state": "North Carolina"
     },
     {
-        "city": "Madison",
+        "name": "Madison",
         "growth_from_2000_to_2013": "15.8%",
         "latitude": 43.0730517,
         "longitude": -89.4012302,
@@ -748,7 +748,7 @@ cities = City.create(
         "state": "Wisconsin"
     },
     {
-        "city": "Lubbock",
+        "name": "Lubbock",
         "growth_from_2000_to_2013": "19.6%",
         "latitude": 33.5778631,
         "longitude": -101.8551665,
@@ -757,7 +757,7 @@ cities = City.create(
         "state": "Texas"
     },
     {
-        "city": "Irvine",
+        "name": "Irvine",
         "growth_from_2000_to_2013": "61.3%",
         "latitude": 33.6839473,
         "longitude": -117.7946942,
@@ -766,7 +766,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Winston-Salem",
+        "name": "Winston-Salem",
         "growth_from_2000_to_2013": "16.9%",
         "latitude": 36.09985959999999,
         "longitude": -80.244216,
@@ -775,7 +775,7 @@ cities = City.create(
         "state": "North Carolina"
     },
     {
-        "city": "Glendale",
+        "name": "Glendale",
         "growth_from_2000_to_2013": "5.7%",
         "latitude": 33.5386523,
         "longitude": -112.1859866,
@@ -784,7 +784,7 @@ cities = City.create(
         "state": "Arizona"
     },
     {
-        "city": "Garland",
+        "name": "Garland",
         "growth_from_2000_to_2013": "8.5%",
         "latitude": 32.912624,
         "longitude": -96.63888329999999,
@@ -793,7 +793,7 @@ cities = City.create(
         "state": "Texas"
     },
     {
-        "city": "Hialeah",
+        "name": "Hialeah",
         "growth_from_2000_to_2013": "3.2%",
         "latitude": 25.8575963,
         "longitude": -80.2781057,
@@ -802,7 +802,7 @@ cities = City.create(
         "state": "Florida"
     },
     {
-        "city": "Reno",
+        "name": "Reno",
         "growth_from_2000_to_2013": "26.8%",
         "latitude": 39.5296329,
         "longitude": -119.8138027,
@@ -811,7 +811,7 @@ cities = City.create(
         "state": "Nevada"
     },
     {
-        "city": "Chesapeake",
+        "name": "Chesapeake",
         "growth_from_2000_to_2013": "15.1%",
         "latitude": 36.7682088,
         "longitude": -76.2874927,
@@ -820,7 +820,7 @@ cities = City.create(
         "state": "Virginia"
     },
     {
-        "city": "Gilbert",
+        "name": "Gilbert",
         "growth_from_2000_to_2013": "96.0%",
         "latitude": 33.3528264,
         "longitude": -111.789027,
@@ -829,7 +829,7 @@ cities = City.create(
         "state": "Arizona"
     },
     {
-        "city": "Baton Rouge",
+        "name": "Baton Rouge",
         "growth_from_2000_to_2013": "0.4%",
         "latitude": 30.4582829,
         "longitude": -91.1403196,
@@ -838,7 +838,7 @@ cities = City.create(
         "state": "Louisiana"
     },
     {
-        "city": "Irving",
+        "name": "Irving",
         "growth_from_2000_to_2013": "19.1%",
         "latitude": 32.8140177,
         "longitude": -96.9488945,
@@ -847,7 +847,7 @@ cities = City.create(
         "state": "Texas"
     },
     {
-        "city": "Scottsdale",
+        "name": "Scottsdale",
         "growth_from_2000_to_2013": "11.0%",
         "latitude": 33.4941704,
         "longitude": -111.9260519,
@@ -856,7 +856,7 @@ cities = City.create(
         "state": "Arizona"
     },
     {
-        "city": "North Las Vegas",
+        "name": "North Las Vegas",
         "growth_from_2000_to_2013": "92.2%",
         "latitude": 36.1988592,
         "longitude": -115.1175013,
@@ -865,7 +865,7 @@ cities = City.create(
         "state": "Nevada"
     },
     {
-        "city": "Fremont",
+        "name": "Fremont",
         "growth_from_2000_to_2013": "10.0%",
         "latitude": 37.5482697,
         "longitude": -121.9885719,
@@ -874,7 +874,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Boise City",
+        "name": "Boise City",
         "growth_from_2000_to_2013": "9.5%",
         "latitude": 43.6187102,
         "longitude": -116.2146068,
@@ -883,7 +883,7 @@ cities = City.create(
         "state": "Idaho"
     },
     {
-        "city": "Richmond",
+        "name": "Richmond",
         "growth_from_2000_to_2013": "8.2%",
         "latitude": 37.5407246,
         "longitude": -77.4360481,
@@ -892,7 +892,7 @@ cities = City.create(
         "state": "Virginia"
     },
     {
-        "city": "San Bernardino",
+        "name": "San Bernardino",
         "growth_from_2000_to_2013": "13.0%",
         "latitude": 34.1083449,
         "longitude": -117.2897652,
@@ -901,7 +901,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Birmingham",
+        "name": "Birmingham",
         "growth_from_2000_to_2013": "-12.3%",
         "latitude": 33.5206608,
         "longitude": -86.80248999999999,
@@ -910,7 +910,7 @@ cities = City.create(
         "state": "Alabama"
     },
     {
-        "city": "Spokane",
+        "name": "Spokane",
         "growth_from_2000_to_2013": "7.0%",
         "latitude": 47.6587802,
         "longitude": -117.4260466,
@@ -919,7 +919,7 @@ cities = City.create(
         "state": "Washington"
     },
     {
-        "city": "Rochester",
+        "name": "Rochester",
         "growth_from_2000_to_2013": "-4.1%",
         "latitude": 43.16103,
         "longitude": -77.6109219,
@@ -928,7 +928,7 @@ cities = City.create(
         "state": "New York"
     },
     {
-        "city": "Des Moines",
+        "name": "Des Moines",
         "growth_from_2000_to_2013": "3.9%",
         "latitude": 41.6005448,
         "longitude": -93.6091064,
@@ -937,7 +937,7 @@ cities = City.create(
         "state": "Iowa"
     },
     {
-        "city": "Modesto",
+        "name": "Modesto",
         "growth_from_2000_to_2013": "7.7%",
         "latitude": 37.63909719999999,
         "longitude": -120.9968782,
@@ -946,7 +946,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Fayetteville",
+        "name": "Fayetteville",
         "growth_from_2000_to_2013": "2.4%",
         "latitude": 35.0526641,
         "longitude": -78.87835849999999,
@@ -955,7 +955,7 @@ cities = City.create(
         "state": "North Carolina"
     },
     {
-        "city": "Tacoma",
+        "name": "Tacoma",
         "growth_from_2000_to_2013": "4.9%",
         "latitude": 47.2528768,
         "longitude": -122.4442906,
@@ -964,7 +964,7 @@ cities = City.create(
         "state": "Washington"
     },
     {
-        "city": "Oxnard",
+        "name": "Oxnard",
         "growth_from_2000_to_2013": "18.2%",
         "latitude": 34.1975048,
         "longitude": -119.1770516,
@@ -973,7 +973,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Fontana",
+        "name": "Fontana",
         "growth_from_2000_to_2013": "38.3%",
         "latitude": 34.0922335,
         "longitude": -117.435048,
@@ -982,7 +982,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Columbus",
+        "name": "Columbus",
         "growth_from_2000_to_2013": "8.7%",
         "latitude": 32.4609764,
         "longitude": -84.9877094,
@@ -991,7 +991,7 @@ cities = City.create(
         "state": "Georgia"
     },
     {
-        "city": "Montgomery",
+        "name": "Montgomery",
         "growth_from_2000_to_2013": "-0.1%",
         "latitude": 32.3668052,
         "longitude": -86.2999689,
@@ -1000,7 +1000,7 @@ cities = City.create(
         "state": "Alabama"
     },
     {
-        "city": "Moreno Valley",
+        "name": "Moreno Valley",
         "growth_from_2000_to_2013": "40.4%",
         "latitude": 33.9424658,
         "longitude": -117.2296717,
@@ -1009,7 +1009,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Shreveport",
+        "name": "Shreveport",
         "growth_from_2000_to_2013": "-0.1%",
         "latitude": 32.5251516,
         "longitude": -93.7501789,
@@ -1018,7 +1018,7 @@ cities = City.create(
         "state": "Louisiana"
     },
     {
-        "city": "Aurora",
+        "name": "Aurora",
         "growth_from_2000_to_2013": "38.4%",
         "latitude": 41.7605849,
         "longitude": -88.32007150000001,
@@ -1027,7 +1027,7 @@ cities = City.create(
         "state": "Illinois"
     },
     {
-        "city": "Yonkers",
+        "name": "Yonkers",
         "growth_from_2000_to_2013": "1.8%",
         "latitude": 40.9312099,
         "longitude": -73.89874689999999,
@@ -1036,7 +1036,7 @@ cities = City.create(
         "state": "New York"
     },
     {
-        "city": "Akron",
+        "name": "Akron",
         "growth_from_2000_to_2013": "-8.6%",
         "latitude": 41.0814447,
         "longitude": -81.51900529999999,
@@ -1045,7 +1045,7 @@ cities = City.create(
         "state": "Ohio"
     },
     {
-        "city": "Huntington Beach",
+        "name": "Huntington Beach",
         "growth_from_2000_to_2013": "3.9%",
         "latitude": 33.660297,
         "longitude": -117.9992265,
@@ -1054,7 +1054,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Little Rock",
+        "name": "Little Rock",
         "growth_from_2000_to_2013": "7.6%",
         "latitude": 34.7464809,
         "longitude": -92.28959479999999,
@@ -1063,7 +1063,7 @@ cities = City.create(
         "state": "Arkansas"
     },
     {
-        "city": "Augusta-Richmond County",
+        "name": "Augusta-Richmond County",
         "growth_from_2000_to_2013": "1.1%",
         "latitude": 33.4734978,
         "longitude": -82.0105148,
@@ -1072,7 +1072,7 @@ cities = City.create(
         "state": "Georgia"
     },
     {
-        "city": "Amarillo",
+        "name": "Amarillo",
         "growth_from_2000_to_2013": "12.8%",
         "latitude": 35.2219971,
         "longitude": -101.8312969,
@@ -1081,7 +1081,7 @@ cities = City.create(
         "state": "Texas"
     },
     {
-        "city": "Glendale",
+        "name": "Glendale",
         "growth_from_2000_to_2013": "0.3%",
         "latitude": 34.1425078,
         "longitude": -118.255075,
@@ -1090,7 +1090,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Mobile",
+        "name": "Mobile",
         "growth_from_2000_to_2013": "-1.9%",
         "latitude": 30.6953657,
         "longitude": -88.0398912,
@@ -1099,7 +1099,7 @@ cities = City.create(
         "state": "Alabama"
     },
     {
-        "city": "Grand Rapids",
+        "name": "Grand Rapids",
         "growth_from_2000_to_2013": "-2.8%",
         "latitude": 42.9633599,
         "longitude": -85.6680863,
@@ -1108,7 +1108,7 @@ cities = City.create(
         "state": "Michigan"
     },
     {
-        "city": "Salt Lake City",
+        "name": "Salt Lake City",
         "growth_from_2000_to_2013": "5.1%",
         "latitude": 40.7607793,
         "longitude": -111.8910474,
@@ -1117,7 +1117,7 @@ cities = City.create(
         "state": "Utah"
     },
     {
-        "city": "Tallahassee",
+        "name": "Tallahassee",
         "growth_from_2000_to_2013": "21.8%",
         "latitude": 30.4382559,
         "longitude": -84.28073289999999,
@@ -1126,7 +1126,7 @@ cities = City.create(
         "state": "Florida"
     },
     {
-        "city": "Huntsville",
+        "name": "Huntsville",
         "growth_from_2000_to_2013": "16.3%",
         "latitude": 34.7303688,
         "longitude": -86.5861037,
@@ -1135,7 +1135,7 @@ cities = City.create(
         "state": "Alabama"
     },
     {
-        "city": "Grand Prairie",
+        "name": "Grand Prairie",
         "growth_from_2000_to_2013": "43.1%",
         "latitude": 32.7459645,
         "longitude": -96.99778459999999,
@@ -1144,7 +1144,7 @@ cities = City.create(
         "state": "Texas"
     },
     {
-        "city": "Knoxville",
+        "name": "Knoxville",
         "growth_from_2000_to_2013": "3.9%",
         "latitude": 35.9606384,
         "longitude": -83.9207392,
@@ -1153,7 +1153,7 @@ cities = City.create(
         "state": "Tennessee"
     },
     {
-        "city": "Worcester",
+        "name": "Worcester",
         "growth_from_2000_to_2013": "5.8%",
         "latitude": 42.2625932,
         "longitude": -71.8022934,
@@ -1162,7 +1162,7 @@ cities = City.create(
         "state": "Massachusetts"
     },
     {
-        "city": "Newport News",
+        "name": "Newport News",
         "growth_from_2000_to_2013": "0.9%",
         "latitude": 37.0870821,
         "longitude": -76.4730122,
@@ -1171,7 +1171,7 @@ cities = City.create(
         "state": "Virginia"
     },
     {
-        "city": "Brownsville",
+        "name": "Brownsville",
         "growth_from_2000_to_2013": "26.8%",
         "latitude": 25.9017472,
         "longitude": -97.4974838,
@@ -1180,7 +1180,7 @@ cities = City.create(
         "state": "Texas"
     },
     {
-        "city": "Overland Park",
+        "name": "Overland Park",
         "growth_from_2000_to_2013": "19.4%",
         "latitude": 38.9822282,
         "longitude": -94.6707917,
@@ -1189,7 +1189,7 @@ cities = City.create(
         "state": "Kansas"
     },
     {
-        "city": "Santa Clarita",
+        "name": "Santa Clarita",
         "growth_from_2000_to_2013": "15.3%",
         "latitude": 34.3916641,
         "longitude": -118.542586,
@@ -1198,7 +1198,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Providence",
+        "name": "Providence",
         "growth_from_2000_to_2013": "2.3%",
         "latitude": 41.8239891,
         "longitude": -71.4128343,
@@ -1207,7 +1207,7 @@ cities = City.create(
         "state": "Rhode Island"
     },
     {
-        "city": "Garden Grove",
+        "name": "Garden Grove",
         "growth_from_2000_to_2013": "5.8%",
         "latitude": 33.7739053,
         "longitude": -117.9414477,
@@ -1216,7 +1216,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Chattanooga",
+        "name": "Chattanooga",
         "growth_from_2000_to_2013": "10.5%",
         "latitude": 35.0456297,
         "longitude": -85.3096801,
@@ -1225,7 +1225,7 @@ cities = City.create(
         "state": "Tennessee"
     },
     {
-        "city": "Oceanside",
+        "name": "Oceanside",
         "growth_from_2000_to_2013": "6.6%",
         "latitude": 33.1958696,
         "longitude": -117.3794834,
@@ -1234,7 +1234,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Jackson",
+        "name": "Jackson",
         "growth_from_2000_to_2013": "-6.8%",
         "latitude": 32.2987573,
         "longitude": -90.1848103,
@@ -1243,7 +1243,7 @@ cities = City.create(
         "state": "Mississippi"
     },
     {
-        "city": "Fort Lauderdale",
+        "name": "Fort Lauderdale",
         "growth_from_2000_to_2013": "0.7%",
         "latitude": 26.1224386,
         "longitude": -80.13731740000001,
@@ -1252,7 +1252,7 @@ cities = City.create(
         "state": "Florida"
     },
     {
-        "city": "Santa Rosa",
+        "name": "Santa Rosa",
         "growth_from_2000_to_2013": "15.2%",
         "latitude": 38.440429,
         "longitude": -122.7140548,
@@ -1261,7 +1261,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Rancho Cucamonga",
+        "name": "Rancho Cucamonga",
         "growth_from_2000_to_2013": "32.7%",
         "latitude": 34.10639889999999,
         "longitude": -117.5931084,
@@ -1270,7 +1270,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Port St. Lucie",
+        "name": "Port St. Lucie",
         "growth_from_2000_to_2013": "91.7%",
         "latitude": 27.2730492,
         "longitude": -80.3582261,
@@ -1279,7 +1279,7 @@ cities = City.create(
         "state": "Florida"
     },
     {
-        "city": "Tempe",
+        "name": "Tempe",
         "growth_from_2000_to_2013": "5.8%",
         "latitude": 33.4255104,
         "longitude": -111.9400054,
@@ -1288,7 +1288,7 @@ cities = City.create(
         "state": "Arizona"
     },
     {
-        "city": "Ontario",
+        "name": "Ontario",
         "growth_from_2000_to_2013": "5.5%",
         "latitude": 34.0633443,
         "longitude": -117.6508876,
@@ -1297,7 +1297,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Vancouver",
+        "name": "Vancouver",
         "growth_from_2000_to_2013": "14.2%",
         "latitude": 45.6387281,
         "longitude": -122.6614861,
@@ -1306,7 +1306,7 @@ cities = City.create(
         "state": "Washington"
     },
     {
-        "city": "Cape Coral",
+        "name": "Cape Coral",
         "growth_from_2000_to_2013": "60.4%",
         "latitude": 26.5628537,
         "longitude": -81.9495331,
@@ -1315,7 +1315,7 @@ cities = City.create(
         "state": "Florida"
     },
     {
-        "city": "Sioux Falls",
+        "name": "Sioux Falls",
         "growth_from_2000_to_2013": "31.1%",
         "latitude": 43.5445959,
         "longitude": -96.73110340000001,
@@ -1324,7 +1324,7 @@ cities = City.create(
         "state": "South Dakota"
     },
     {
-        "city": "Springfield",
+        "name": "Springfield",
         "growth_from_2000_to_2013": "7.8%",
         "latitude": 37.2089572,
         "longitude": -93.29229889999999,
@@ -1333,7 +1333,7 @@ cities = City.create(
         "state": "Missouri"
     },
     {
-        "city": "Peoria",
+        "name": "Peoria",
         "growth_from_2000_to_2013": "46.5%",
         "latitude": 33.5805955,
         "longitude": -112.2373779,
@@ -1342,7 +1342,7 @@ cities = City.create(
         "state": "Arizona"
     },
     {
-        "city": "Pembroke Pines",
+        "name": "Pembroke Pines",
         "growth_from_2000_to_2013": "17.4%",
         "latitude": 26.007765,
         "longitude": -80.2962555,
@@ -1351,7 +1351,7 @@ cities = City.create(
         "state": "Florida"
     },
     {
-        "city": "Elk Grove",
+        "name": "Elk Grove",
         "growth_from_2000_to_2013": "97.1%",
         "latitude": 38.4087993,
         "longitude": -121.3716178,
@@ -1360,7 +1360,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Salem",
+        "name": "Salem",
         "growth_from_2000_to_2013": "16.4%",
         "latitude": 44.9428975,
         "longitude": -123.0350963,
@@ -1369,7 +1369,7 @@ cities = City.create(
         "state": "Oregon"
     },
     {
-        "city": "Lancaster",
+        "name": "Lancaster",
         "growth_from_2000_to_2013": "33.8%",
         "latitude": 34.6867846,
         "longitude": -118.1541632,
@@ -1378,7 +1378,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Corona",
+        "name": "Corona",
         "growth_from_2000_to_2013": "23.6%",
         "latitude": 33.8752935,
         "longitude": -117.5664384,
@@ -1387,7 +1387,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Eugene",
+        "name": "Eugene",
         "growth_from_2000_to_2013": "14.4%",
         "latitude": 44.0520691,
         "longitude": -123.0867536,
@@ -1396,7 +1396,7 @@ cities = City.create(
         "state": "Oregon"
     },
     {
-        "city": "Palmdale",
+        "name": "Palmdale",
         "growth_from_2000_to_2013": "33.7%",
         "latitude": 34.5794343,
         "longitude": -118.1164613,
@@ -1405,7 +1405,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Salinas",
+        "name": "Salinas",
         "growth_from_2000_to_2013": "8.4%",
         "latitude": 36.6777372,
         "longitude": -121.6555013,
@@ -1414,7 +1414,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Springfield",
+        "name": "Springfield",
         "growth_from_2000_to_2013": "1.1%",
         "latitude": 42.1014831,
         "longitude": -72.589811,
@@ -1423,7 +1423,7 @@ cities = City.create(
         "state": "Massachusetts"
     },
     {
-        "city": "Pasadena",
+        "name": "Pasadena",
         "growth_from_2000_to_2013": "7.5%",
         "latitude": 29.6910625,
         "longitude": -95.2091006,
@@ -1432,7 +1432,7 @@ cities = City.create(
         "state": "Texas"
     },
     {
-        "city": "Fort Collins",
+        "name": "Fort Collins",
         "growth_from_2000_to_2013": "26.6%",
         "latitude": 40.5852602,
         "longitude": -105.084423,
@@ -1441,7 +1441,7 @@ cities = City.create(
         "state": "Colorado"
     },
     {
-        "city": "Hayward",
+        "name": "Hayward",
         "growth_from_2000_to_2013": "7.5%",
         "latitude": 37.6688205,
         "longitude": -122.0807964,
@@ -1450,7 +1450,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Pomona",
+        "name": "Pomona",
         "growth_from_2000_to_2013": "2.1%",
         "latitude": 34.055103,
         "longitude": -117.7499909,
@@ -1459,7 +1459,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Cary",
+        "name": "Cary",
         "growth_from_2000_to_2013": "55.1%",
         "latitude": 35.79154,
         "longitude": -78.7811169,
@@ -1468,7 +1468,7 @@ cities = City.create(
         "state": "North Carolina"
     },
     {
-        "city": "Rockford",
+        "name": "Rockford",
         "growth_from_2000_to_2013": "-1.0%",
         "latitude": 42.2711311,
         "longitude": -89.0939952,
@@ -1477,7 +1477,7 @@ cities = City.create(
         "state": "Illinois"
     },
     {
-        "city": "Alexandria",
+        "name": "Alexandria",
         "growth_from_2000_to_2013": "15.0%",
         "latitude": 38.8048355,
         "longitude": -77.0469214,
@@ -1486,7 +1486,7 @@ cities = City.create(
         "state": "Virginia"
     },
     {
-        "city": "Escondido",
+        "name": "Escondido",
         "growth_from_2000_to_2013": "10.7%",
         "latitude": 33.1192068,
         "longitude": -117.086421,
@@ -1495,7 +1495,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "McKinney",
+        "name": "McKinney",
         "growth_from_2000_to_2013": "165.3%",
         "latitude": 33.1972465,
         "longitude": -96.6397822,
@@ -1504,7 +1504,7 @@ cities = City.create(
         "state": "Texas"
     },
     {
-        "city": "Kansas City",
+        "name": "Kansas City",
         "growth_from_2000_to_2013": "1.1%",
         "latitude": 39.114053,
         "longitude": -94.6274636,
@@ -1513,7 +1513,7 @@ cities = City.create(
         "state": "Kansas"
     },
     {
-        "city": "Joliet",
+        "name": "Joliet",
         "growth_from_2000_to_2013": "36.5%",
         "latitude": 41.525031,
         "longitude": -88.0817251,
@@ -1522,7 +1522,7 @@ cities = City.create(
         "state": "Illinois"
     },
     {
-        "city": "Sunnyvale",
+        "name": "Sunnyvale",
         "growth_from_2000_to_2013": "11.9%",
         "latitude": 37.36883,
         "longitude": -122.0363496,
@@ -1531,7 +1531,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Torrance",
+        "name": "Torrance",
         "growth_from_2000_to_2013": "6.6%",
         "latitude": 33.8358492,
         "longitude": -118.3406288,
@@ -1540,7 +1540,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Bridgeport",
+        "name": "Bridgeport",
         "growth_from_2000_to_2013": "5.4%",
         "latitude": 41.1865478,
         "longitude": -73.19517669999999,
@@ -1549,7 +1549,7 @@ cities = City.create(
         "state": "Connecticut"
     },
     {
-        "city": "Lakewood",
+        "name": "Lakewood",
         "growth_from_2000_to_2013": "1.9%",
         "latitude": 39.7047095,
         "longitude": -105.0813734,
@@ -1558,7 +1558,7 @@ cities = City.create(
         "state": "Colorado"
     },
     {
-        "city": "Hollywood",
+        "name": "Hollywood",
         "growth_from_2000_to_2013": "4.8%",
         "latitude": 26.0112014,
         "longitude": -80.1494901,
@@ -1567,7 +1567,7 @@ cities = City.create(
         "state": "Florida"
     },
     {
-        "city": "Paterson",
+        "name": "Paterson",
         "growth_from_2000_to_2013": "-2.2%",
         "latitude": 40.9167654,
         "longitude": -74.17181099999999,
@@ -1576,7 +1576,7 @@ cities = City.create(
         "state": "New Jersey"
     },
     {
-        "city": "Naperville",
+        "name": "Naperville",
         "growth_from_2000_to_2013": "12.0%",
         "latitude": 41.7508391,
         "longitude": -88.1535352,
@@ -1585,7 +1585,7 @@ cities = City.create(
         "state": "Illinois"
     },
     {
-        "city": "Syracuse",
+        "name": "Syracuse",
         "growth_from_2000_to_2013": "-0.9%",
         "latitude": 43.0481221,
         "longitude": -76.14742439999999,
@@ -1594,7 +1594,7 @@ cities = City.create(
         "state": "New York"
     },
     {
-        "city": "Mesquite",
+        "name": "Mesquite",
         "growth_from_2000_to_2013": "14.7%",
         "latitude": 32.76679550000001,
         "longitude": -96.5991593,
@@ -1603,7 +1603,7 @@ cities = City.create(
         "state": "Texas"
     },
     {
-        "city": "Dayton",
+        "name": "Dayton",
         "growth_from_2000_to_2013": "-13.5%",
         "latitude": 39.7589478,
         "longitude": -84.1916069,
@@ -1612,7 +1612,7 @@ cities = City.create(
         "state": "Ohio"
     },
     {
-        "city": "Savannah",
+        "name": "Savannah",
         "growth_from_2000_to_2013": "7.5%",
         "latitude": 32.0835407,
         "longitude": -81.09983419999999,
@@ -1621,7 +1621,7 @@ cities = City.create(
         "state": "Georgia"
     },
     {
-        "city": "Clarksville",
+        "name": "Clarksville",
         "growth_from_2000_to_2013": "36.9%",
         "latitude": 36.5297706,
         "longitude": -87.3594528,
@@ -1630,7 +1630,7 @@ cities = City.create(
         "state": "Tennessee"
     },
     {
-        "city": "Orange",
+        "name": "Orange",
         "growth_from_2000_to_2013": "7.7%",
         "latitude": 33.7877944,
         "longitude": -117.8531119,
@@ -1639,7 +1639,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Pasadena",
+        "name": "Pasadena",
         "growth_from_2000_to_2013": "3.8%",
         "latitude": 34.1477849,
         "longitude": -118.1445155,
@@ -1648,7 +1648,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Fullerton",
+        "name": "Fullerton",
         "growth_from_2000_to_2013": "9.8%",
         "latitude": 33.8703596,
         "longitude": -117.9242966,
@@ -1657,7 +1657,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Killeen",
+        "name": "Killeen",
         "growth_from_2000_to_2013": "52.1%",
         "latitude": 31.1171194,
         "longitude": -97.72779589999999,
@@ -1666,7 +1666,7 @@ cities = City.create(
         "state": "Texas"
     },
     {
-        "city": "Frisco",
+        "name": "Frisco",
         "growth_from_2000_to_2013": "287.7%",
         "latitude": 33.1506744,
         "longitude": -96.82361159999999,
@@ -1675,7 +1675,7 @@ cities = City.create(
         "state": "Texas"
     },
     {
-        "city": "Hampton",
+        "name": "Hampton",
         "growth_from_2000_to_2013": "-6.6%",
         "latitude": 37.0298687,
         "longitude": -76.34522179999999,
@@ -1684,7 +1684,7 @@ cities = City.create(
         "state": "Virginia"
     },
     {
-        "city": "McAllen",
+        "name": "McAllen",
         "growth_from_2000_to_2013": "27.6%",
         "latitude": 26.2034071,
         "longitude": -98.23001239999999,
@@ -1693,7 +1693,7 @@ cities = City.create(
         "state": "Texas"
     },
     {
-        "city": "Warren",
+        "name": "Warren",
         "growth_from_2000_to_2013": "-2.3%",
         "latitude": 42.5144566,
         "longitude": -83.01465259999999,
@@ -1702,7 +1702,7 @@ cities = City.create(
         "state": "Michigan"
     },
     {
-        "city": "Bellevue",
+        "name": "Bellevue",
         "growth_from_2000_to_2013": "19.1%",
         "latitude": 47.610377,
         "longitude": -122.2006786,
@@ -1711,7 +1711,7 @@ cities = City.create(
         "state": "Washington"
     },
     {
-        "city": "West Valley City",
+        "name": "West Valley City",
         "growth_from_2000_to_2013": "22.2%",
         "latitude": 40.6916132,
         "longitude": -112.0010501,
@@ -1720,7 +1720,7 @@ cities = City.create(
         "state": "Utah"
     },
     {
-        "city": "Columbia",
+        "name": "Columbia",
         "growth_from_2000_to_2013": "11.7%",
         "latitude": 34.0007104,
         "longitude": -81.0348144,
@@ -1729,7 +1729,7 @@ cities = City.create(
         "state": "South Carolina"
     },
     {
-        "city": "Olathe",
+        "name": "Olathe",
         "growth_from_2000_to_2013": "40.4%",
         "latitude": 38.8813958,
         "longitude": -94.81912849999999,
@@ -1738,7 +1738,7 @@ cities = City.create(
         "state": "Kansas"
     },
     {
-        "city": "Sterling Heights",
+        "name": "Sterling Heights",
         "growth_from_2000_to_2013": "5.2%",
         "latitude": 42.5803122,
         "longitude": -83.0302033,
@@ -1747,7 +1747,7 @@ cities = City.create(
         "state": "Michigan"
     },
     {
-        "city": "New Haven",
+        "name": "New Haven",
         "growth_from_2000_to_2013": "5.5%",
         "latitude": 41.308274,
         "longitude": -72.9278835,
@@ -1756,7 +1756,7 @@ cities = City.create(
         "state": "Connecticut"
     },
     {
-        "city": "Miramar",
+        "name": "Miramar",
         "growth_from_2000_to_2013": "74.7%",
         "latitude": 25.9860762,
         "longitude": -80.30356019999999,
@@ -1765,7 +1765,7 @@ cities = City.create(
         "state": "Florida"
     },
     {
-        "city": "Waco",
+        "name": "Waco",
         "growth_from_2000_to_2013": "12.5%",
         "latitude": 31.549333,
         "longitude": -97.1466695,
@@ -1774,7 +1774,7 @@ cities = City.create(
         "state": "Texas"
     },
     {
-        "city": "Thousand Oaks",
+        "name": "Thousand Oaks",
         "growth_from_2000_to_2013": "9.5%",
         "latitude": 34.1705609,
         "longitude": -118.8375937,
@@ -1783,7 +1783,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Cedar Rapids",
+        "name": "Cedar Rapids",
         "growth_from_2000_to_2013": "5.4%",
         "latitude": 41.9778795,
         "longitude": -91.6656232,
@@ -1792,7 +1792,7 @@ cities = City.create(
         "state": "Iowa"
     },
     {
-        "city": "Charleston",
+        "name": "Charleston",
         "growth_from_2000_to_2013": "29.2%",
         "latitude": 32.7764749,
         "longitude": -79.93105120000001,
@@ -1801,7 +1801,7 @@ cities = City.create(
         "state": "South Carolina"
     },
     {
-        "city": "Visalia",
+        "name": "Visalia",
         "growth_from_2000_to_2013": "33.6%",
         "latitude": 36.3302284,
         "longitude": -119.2920585,
@@ -1810,7 +1810,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Topeka",
+        "name": "Topeka",
         "growth_from_2000_to_2013": "3.4%",
         "latitude": 39.0558235,
         "longitude": -95.68901849999999,
@@ -1819,7 +1819,7 @@ cities = City.create(
         "state": "Kansas"
     },
     {
-        "city": "Elizabeth",
+        "name": "Elizabeth",
         "growth_from_2000_to_2013": "5.5%",
         "latitude": 40.6639916,
         "longitude": -74.2107006,
@@ -1828,7 +1828,7 @@ cities = City.create(
         "state": "New Jersey"
     },
     {
-        "city": "Gainesville",
+        "name": "Gainesville",
         "growth_from_2000_to_2013": "12.8%",
         "latitude": 29.6516344,
         "longitude": -82.32482619999999,
@@ -1837,7 +1837,7 @@ cities = City.create(
         "state": "Florida"
     },
     {
-        "city": "Thornton",
+        "name": "Thornton",
         "growth_from_2000_to_2013": "52.9%",
         "latitude": 39.8680412,
         "longitude": -104.9719243,
@@ -1846,7 +1846,7 @@ cities = City.create(
         "state": "Colorado"
     },
     {
-        "city": "Roseville",
+        "name": "Roseville",
         "growth_from_2000_to_2013": "56.2%",
         "latitude": 38.7521235,
         "longitude": -121.2880059,
@@ -1855,7 +1855,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Carrollton",
+        "name": "Carrollton",
         "growth_from_2000_to_2013": "14.9%",
         "latitude": 32.9756415,
         "longitude": -96.8899636,
@@ -1864,7 +1864,7 @@ cities = City.create(
         "state": "Texas"
     },
     {
-        "city": "Coral Springs",
+        "name": "Coral Springs",
         "growth_from_2000_to_2013": "5.7%",
         "latitude": 26.271192,
         "longitude": -80.2706044,
@@ -1873,7 +1873,7 @@ cities = City.create(
         "state": "Florida"
     },
     {
-        "city": "Stamford",
+        "name": "Stamford",
         "growth_from_2000_to_2013": "7.6%",
         "latitude": 41.0534302,
         "longitude": -73.5387341,
@@ -1882,7 +1882,7 @@ cities = City.create(
         "state": "Connecticut"
     },
     {
-        "city": "Simi Valley",
+        "name": "Simi Valley",
         "growth_from_2000_to_2013": "12.6%",
         "latitude": 34.2694474,
         "longitude": -118.781482,
@@ -1891,7 +1891,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Concord",
+        "name": "Concord",
         "growth_from_2000_to_2013": "2.9%",
         "latitude": 37.9779776,
         "longitude": -122.0310733,
@@ -1900,7 +1900,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Hartford",
+        "name": "Hartford",
         "growth_from_2000_to_2013": "0.6%",
         "latitude": 41.76371109999999,
         "longitude": -72.6850932,
@@ -1909,7 +1909,7 @@ cities = City.create(
         "state": "Connecticut"
     },
     {
-        "city": "Kent",
+        "name": "Kent",
         "growth_from_2000_to_2013": "54.3%",
         "latitude": 47.3809335,
         "longitude": -122.2348431,
@@ -1918,7 +1918,7 @@ cities = City.create(
         "state": "Washington"
     },
     {
-        "city": "Lafayette",
+        "name": "Lafayette",
         "growth_from_2000_to_2013": "11.0%",
         "latitude": 30.2240897,
         "longitude": -92.0198427,
@@ -1927,7 +1927,7 @@ cities = City.create(
         "state": "Louisiana"
     },
     {
-        "city": "Midland",
+        "name": "Midland",
         "growth_from_2000_to_2013": "30.4%",
         "latitude": 31.9973456,
         "longitude": -102.0779146,
@@ -1936,7 +1936,7 @@ cities = City.create(
         "state": "Texas"
     },
     {
-        "city": "Surprise",
+        "name": "Surprise",
         "growth_from_2000_to_2013": "281.9%",
         "latitude": 33.6292337,
         "longitude": -112.3679279,
@@ -1945,7 +1945,7 @@ cities = City.create(
         "state": "Arizona"
     },
     {
-        "city": "Denton",
+        "name": "Denton",
         "growth_from_2000_to_2013": "47.1%",
         "latitude": 33.2148412,
         "longitude": -97.13306829999999,
@@ -1954,7 +1954,7 @@ cities = City.create(
         "state": "Texas"
     },
     {
-        "city": "Victorville",
+        "name": "Victorville",
         "growth_from_2000_to_2013": "87.6%",
         "latitude": 34.5362184,
         "longitude": -117.2927641,
@@ -1963,7 +1963,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Evansville",
+        "name": "Evansville",
         "growth_from_2000_to_2013": "-0.8%",
         "latitude": 37.9715592,
         "longitude": -87.5710898,
@@ -1972,7 +1972,7 @@ cities = City.create(
         "state": "Indiana"
     },
     {
-        "city": "Santa Clara",
+        "name": "Santa Clara",
         "growth_from_2000_to_2013": "17.4%",
         "latitude": 37.3541079,
         "longitude": -121.9552356,
@@ -1981,7 +1981,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Abilene",
+        "name": "Abilene",
         "growth_from_2000_to_2013": "3.6%",
         "latitude": 32.4487364,
         "longitude": -99.73314390000002,
@@ -1990,7 +1990,7 @@ cities = City.create(
         "state": "Texas"
     },
     {
-        "city": "Athens-Clarke County",
+        "name": "Athens-Clarke County",
         "growth_from_2000_to_2013": "19.0%",
         "latitude": 33.9519347,
         "longitude": -83.357567,
@@ -1999,7 +1999,7 @@ cities = City.create(
         "state": "Georgia"
     },
     {
-        "city": "Vallejo",
+        "name": "Vallejo",
         "growth_from_2000_to_2013": "1.2%",
         "latitude": 38.1040864,
         "longitude": -122.2566367,
@@ -2008,7 +2008,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Allentown",
+        "name": "Allentown",
         "growth_from_2000_to_2013": "11.2%",
         "latitude": 40.6084305,
         "longitude": -75.4901833,
@@ -2017,7 +2017,7 @@ cities = City.create(
         "state": "Pennsylvania"
     },
     {
-        "city": "Norman",
+        "name": "Norman",
         "growth_from_2000_to_2013": "22.0%",
         "latitude": 35.2225668,
         "longitude": -97.4394777,
@@ -2026,7 +2026,7 @@ cities = City.create(
         "state": "Oklahoma"
     },
     {
-        "city": "Beaumont",
+        "name": "Beaumont",
         "growth_from_2000_to_2013": "3.7%",
         "latitude": 30.080174,
         "longitude": -94.1265562,
@@ -2035,7 +2035,7 @@ cities = City.create(
         "state": "Texas"
     },
     {
-        "city": "Independence",
+        "name": "Independence",
         "growth_from_2000_to_2013": "3.2%",
         "latitude": 39.0911161,
         "longitude": -94.41550679999999,
@@ -2044,7 +2044,7 @@ cities = City.create(
         "state": "Missouri"
     },
     {
-        "city": "Murfreesboro",
+        "name": "Murfreesboro",
         "growth_from_2000_to_2013": "65.1%",
         "latitude": 35.8456213,
         "longitude": -86.39027,
@@ -2053,7 +2053,7 @@ cities = City.create(
         "state": "Tennessee"
     },
     {
-        "city": "Ann Arbor",
+        "name": "Ann Arbor",
         "growth_from_2000_to_2013": "2.0%",
         "latitude": 42.2808256,
         "longitude": -83.7430378,
@@ -2062,7 +2062,7 @@ cities = City.create(
         "state": "Michigan"
     },
     {
-        "city": "Springfield",
+        "name": "Springfield",
         "growth_from_2000_to_2013": "4.2%",
         "latitude": 39.78172130000001,
         "longitude": -89.6501481,
@@ -2071,7 +2071,7 @@ cities = City.create(
         "state": "Illinois"
     },
     {
-        "city": "Berkeley",
+        "name": "Berkeley",
         "growth_from_2000_to_2013": "13.3%",
         "latitude": 37.8715926,
         "longitude": -122.272747,
@@ -2080,7 +2080,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Peoria",
+        "name": "Peoria",
         "growth_from_2000_to_2013": "3.0%",
         "latitude": 40.6936488,
         "longitude": -89.5889864,
@@ -2089,7 +2089,7 @@ cities = City.create(
         "state": "Illinois"
     },
     {
-        "city": "Provo",
+        "name": "Provo",
         "growth_from_2000_to_2013": "10.0%",
         "latitude": 40.2338438,
         "longitude": -111.6585337,
@@ -2098,7 +2098,7 @@ cities = City.create(
         "state": "Utah"
     },
     {
-        "city": "El Monte",
+        "name": "El Monte",
         "growth_from_2000_to_2013": "-0.4%",
         "latitude": 34.0686206,
         "longitude": -118.0275667,
@@ -2107,7 +2107,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Columbia",
+        "name": "Columbia",
         "growth_from_2000_to_2013": "34.0%",
         "latitude": 38.9517053,
         "longitude": -92.3340724,
@@ -2116,7 +2116,7 @@ cities = City.create(
         "state": "Missouri"
     },
     {
-        "city": "Lansing",
+        "name": "Lansing",
         "growth_from_2000_to_2013": "-4.4%",
         "latitude": 42.732535,
         "longitude": -84.5555347,
@@ -2125,7 +2125,7 @@ cities = City.create(
         "state": "Michigan"
     },
     {
-        "city": "Fargo",
+        "name": "Fargo",
         "growth_from_2000_to_2013": "24.9%",
         "latitude": 46.8771863,
         "longitude": -96.7898034,
@@ -2134,7 +2134,7 @@ cities = City.create(
         "state": "North Dakota"
     },
     {
-        "city": "Downey",
+        "name": "Downey",
         "growth_from_2000_to_2013": "5.3%",
         "latitude": 33.9401088,
         "longitude": -118.1331593,
@@ -2143,7 +2143,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Costa Mesa",
+        "name": "Costa Mesa",
         "growth_from_2000_to_2013": "2.4%",
         "latitude": 33.6411316,
         "longitude": -117.9186689,
@@ -2152,7 +2152,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Wilmington",
+        "name": "Wilmington",
         "growth_from_2000_to_2013": "24.8%",
         "latitude": 34.2257255,
         "longitude": -77.9447102,
@@ -2161,7 +2161,7 @@ cities = City.create(
         "state": "North Carolina"
     },
     {
-        "city": "Arvada",
+        "name": "Arvada",
         "growth_from_2000_to_2013": "9.2%",
         "latitude": 39.8027644,
         "longitude": -105.0874842,
@@ -2170,7 +2170,7 @@ cities = City.create(
         "state": "Colorado"
     },
     {
-        "city": "Inglewood",
+        "name": "Inglewood",
         "growth_from_2000_to_2013": "-1.0%",
         "latitude": 33.9616801,
         "longitude": -118.3531311,
@@ -2179,7 +2179,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Miami Gardens",
+        "name": "Miami Gardens",
         "growth_from_2000_to_2013": "10.5%",
         "latitude": 25.9420377,
         "longitude": -80.2456045,
@@ -2188,7 +2188,7 @@ cities = City.create(
         "state": "Florida"
     },
     {
-        "city": "Carlsbad",
+        "name": "Carlsbad",
         "growth_from_2000_to_2013": "39.7%",
         "latitude": 33.1580933,
         "longitude": -117.3505939,
@@ -2197,7 +2197,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Westminster",
+        "name": "Westminster",
         "growth_from_2000_to_2013": "9.4%",
         "latitude": 39.8366528,
         "longitude": -105.0372046,
@@ -2206,7 +2206,7 @@ cities = City.create(
         "state": "Colorado"
     },
     {
-        "city": "Rochester",
+        "name": "Rochester",
         "growth_from_2000_to_2013": "23.9%",
         "latitude": 44.0121221,
         "longitude": -92.4801989,
@@ -2215,7 +2215,7 @@ cities = City.create(
         "state": "Minnesota"
     },
     {
-        "city": "Odessa",
+        "name": "Odessa",
         "growth_from_2000_to_2013": "22.3%",
         "latitude": 31.8456816,
         "longitude": -102.3676431,
@@ -2224,7 +2224,7 @@ cities = City.create(
         "state": "Texas"
     },
     {
-        "city": "Manchester",
+        "name": "Manchester",
         "growth_from_2000_to_2013": "2.9%",
         "latitude": 42.9956397,
         "longitude": -71.4547891,
@@ -2233,7 +2233,7 @@ cities = City.create(
         "state": "New Hampshire"
     },
     {
-        "city": "Elgin",
+        "name": "Elgin",
         "growth_from_2000_to_2013": "16.0%",
         "latitude": 42.0354084,
         "longitude": -88.2825668,
@@ -2242,7 +2242,7 @@ cities = City.create(
         "state": "Illinois"
     },
     {
-        "city": "West Jordan",
+        "name": "West Jordan",
         "growth_from_2000_to_2013": "38.4%",
         "latitude": 40.6096698,
         "longitude": -111.9391031,
@@ -2251,7 +2251,7 @@ cities = City.create(
         "state": "Utah"
     },
     {
-        "city": "Round Rock",
+        "name": "Round Rock",
         "growth_from_2000_to_2013": "81.0%",
         "latitude": 30.5082551,
         "longitude": -97.678896,
@@ -2260,7 +2260,7 @@ cities = City.create(
         "state": "Texas"
     },
     {
-        "city": "Clearwater",
+        "name": "Clearwater",
         "growth_from_2000_to_2013": "0.1%",
         "latitude": 27.9658533,
         "longitude": -82.8001026,
@@ -2269,7 +2269,7 @@ cities = City.create(
         "state": "Florida"
     },
     {
-        "city": "Waterbury",
+        "name": "Waterbury",
         "growth_from_2000_to_2013": "2.2%",
         "latitude": 41.5581525,
         "longitude": -73.0514965,
@@ -2278,7 +2278,7 @@ cities = City.create(
         "state": "Connecticut"
     },
     {
-        "city": "Gresham",
+        "name": "Gresham",
         "growth_from_2000_to_2013": "20.7%",
         "latitude": 45.5001357,
         "longitude": -122.4302013,
@@ -2287,7 +2287,7 @@ cities = City.create(
         "state": "Oregon"
     },
     {
-        "city": "Fairfield",
+        "name": "Fairfield",
         "growth_from_2000_to_2013": "12.8%",
         "latitude": 38.24935809999999,
         "longitude": -122.0399663,
@@ -2296,7 +2296,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Billings",
+        "name": "Billings",
         "growth_from_2000_to_2013": "18.6%",
         "latitude": 45.7832856,
         "longitude": -108.5006904,
@@ -2305,7 +2305,7 @@ cities = City.create(
         "state": "Montana"
     },
     {
-        "city": "Lowell",
+        "name": "Lowell",
         "growth_from_2000_to_2013": "3.4%",
         "latitude": 42.6334247,
         "longitude": -71.31617179999999,
@@ -2314,7 +2314,7 @@ cities = City.create(
         "state": "Massachusetts"
     },
     {
-        "city": "San Buenaventura (Ventura)",
+        "name": "San Buenaventura (Ventura)",
         "growth_from_2000_to_2013": "7.4%",
         "latitude": 34.274646,
         "longitude": -119.2290316,
@@ -2323,7 +2323,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Pueblo",
+        "name": "Pueblo",
         "growth_from_2000_to_2013": "5.9%",
         "latitude": 38.2544472,
         "longitude": -104.6091409,
@@ -2332,7 +2332,7 @@ cities = City.create(
         "state": "Colorado"
     },
     {
-        "city": "High Point",
+        "name": "High Point",
         "growth_from_2000_to_2013": "24.3%",
         "latitude": 35.9556923,
         "longitude": -80.0053176,
@@ -2341,7 +2341,7 @@ cities = City.create(
         "state": "North Carolina"
     },
     {
-        "city": "West Covina",
+        "name": "West Covina",
         "growth_from_2000_to_2013": "2.3%",
         "latitude": 34.0686208,
         "longitude": -117.9389526,
@@ -2350,7 +2350,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Richmond",
+        "name": "Richmond",
         "growth_from_2000_to_2013": "7.9%",
         "latitude": 37.9357576,
         "longitude": -122.3477486,
@@ -2359,7 +2359,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Murrieta",
+        "name": "Murrieta",
         "growth_from_2000_to_2013": "107.4%",
         "latitude": 33.5539143,
         "longitude": -117.2139232,
@@ -2368,7 +2368,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Cambridge",
+        "name": "Cambridge",
         "growth_from_2000_to_2013": "5.5%",
         "latitude": 42.3736158,
         "longitude": -71.10973349999999,
@@ -2377,7 +2377,7 @@ cities = City.create(
         "state": "Massachusetts"
     },
     {
-        "city": "Antioch",
+        "name": "Antioch",
         "growth_from_2000_to_2013": "16.9%",
         "latitude": 38.0049214,
         "longitude": -121.805789,
@@ -2386,7 +2386,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Temecula",
+        "name": "Temecula",
         "growth_from_2000_to_2013": "55.4%",
         "latitude": 33.4936391,
         "longitude": -117.1483648,
@@ -2395,7 +2395,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Norwalk",
+        "name": "Norwalk",
         "growth_from_2000_to_2013": "1.9%",
         "latitude": 33.9022367,
         "longitude": -118.081733,
@@ -2404,7 +2404,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Centennial",
+        "name": "Centennial",
         "growth_from_2000_to_2013": "3.5%",
         "latitude": 39.5807452,
         "longitude": -104.8771726,
@@ -2413,7 +2413,7 @@ cities = City.create(
         "state": "Colorado"
     },
     {
-        "city": "Everett",
+        "name": "Everett",
         "growth_from_2000_to_2013": "9.4%",
         "latitude": 47.9789848,
         "longitude": -122.2020794,
@@ -2422,7 +2422,7 @@ cities = City.create(
         "state": "Washington"
     },
     {
-        "city": "Palm Bay",
+        "name": "Palm Bay",
         "growth_from_2000_to_2013": "31.7%",
         "latitude": 28.0344621,
         "longitude": -80.5886646,
@@ -2431,7 +2431,7 @@ cities = City.create(
         "state": "Florida"
     },
     {
-        "city": "Wichita Falls",
+        "name": "Wichita Falls",
         "growth_from_2000_to_2013": "0.7%",
         "latitude": 33.9137085,
         "longitude": -98.4933873,
@@ -2440,7 +2440,7 @@ cities = City.create(
         "state": "Texas"
     },
     {
-        "city": "Green Bay",
+        "name": "Green Bay",
         "growth_from_2000_to_2013": "1.9%",
         "latitude": 44.51915899999999,
         "longitude": -88.019826,
@@ -2449,7 +2449,7 @@ cities = City.create(
         "state": "Wisconsin"
     },
     {
-        "city": "Daly City",
+        "name": "Daly City",
         "growth_from_2000_to_2013": "1.0%",
         "latitude": 37.6879241,
         "longitude": -122.4702079,
@@ -2458,7 +2458,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Burbank",
+        "name": "Burbank",
         "growth_from_2000_to_2013": "4.2%",
         "latitude": 34.1808392,
         "longitude": -118.3089661,
@@ -2467,7 +2467,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Richardson",
+        "name": "Richardson",
         "growth_from_2000_to_2013": "13.2%",
         "latitude": 32.9483335,
         "longitude": -96.7298519,
@@ -2476,7 +2476,7 @@ cities = City.create(
         "state": "Texas"
     },
     {
-        "city": "Pompano Beach",
+        "name": "Pompano Beach",
         "growth_from_2000_to_2013": "4.0%",
         "latitude": 26.2378597,
         "longitude": -80.1247667,
@@ -2485,7 +2485,7 @@ cities = City.create(
         "state": "Florida"
     },
     {
-        "city": "North Charleston",
+        "name": "North Charleston",
         "growth_from_2000_to_2013": "27.4%",
         "latitude": 32.8546197,
         "longitude": -79.9748103,
@@ -2494,7 +2494,7 @@ cities = City.create(
         "state": "South Carolina"
     },
     {
-        "city": "Broken Arrow",
+        "name": "Broken Arrow",
         "growth_from_2000_to_2013": "28.2%",
         "latitude": 36.060949,
         "longitude": -95.7974526,
@@ -2503,7 +2503,7 @@ cities = City.create(
         "state": "Oklahoma"
     },
     {
-        "city": "Boulder",
+        "name": "Boulder",
         "growth_from_2000_to_2013": "9.0%",
         "latitude": 40.0149856,
         "longitude": -105.2705456,
@@ -2512,7 +2512,7 @@ cities = City.create(
         "state": "Colorado"
     },
     {
-        "city": "West Palm Beach",
+        "name": "West Palm Beach",
         "growth_from_2000_to_2013": "23.5%",
         "latitude": 26.7153424,
         "longitude": -80.0533746,
@@ -2521,7 +2521,7 @@ cities = City.create(
         "state": "Florida"
     },
     {
-        "city": "Santa Maria",
+        "name": "Santa Maria",
         "growth_from_2000_to_2013": "30.9%",
         "latitude": 34.9530337,
         "longitude": -120.4357191,
@@ -2530,7 +2530,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "El Cajon",
+        "name": "El Cajon",
         "growth_from_2000_to_2013": "7.4%",
         "latitude": 32.7947731,
         "longitude": -116.9625269,
@@ -2539,7 +2539,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Davenport",
+        "name": "Davenport",
         "growth_from_2000_to_2013": "3.9%",
         "latitude": 41.5236437,
         "longitude": -90.5776367,
@@ -2548,7 +2548,7 @@ cities = City.create(
         "state": "Iowa"
     },
     {
-        "city": "Rialto",
+        "name": "Rialto",
         "growth_from_2000_to_2013": "9.8%",
         "latitude": 34.1064001,
         "longitude": -117.3703235,
@@ -2557,7 +2557,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Las Cruces",
+        "name": "Las Cruces",
         "growth_from_2000_to_2013": "37.6%",
         "latitude": 32.3199396,
         "longitude": -106.7636538,
@@ -2566,7 +2566,7 @@ cities = City.create(
         "state": "New Mexico"
     },
     {
-        "city": "San Mateo",
+        "name": "San Mateo",
         "growth_from_2000_to_2013": "9.0%",
         "latitude": 37.5629917,
         "longitude": -122.3255254,
@@ -2575,7 +2575,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Lewisville",
+        "name": "Lewisville",
         "growth_from_2000_to_2013": "28.9%",
         "latitude": 33.046233,
         "longitude": -96.994174,
@@ -2584,7 +2584,7 @@ cities = City.create(
         "state": "Texas"
     },
     {
-        "city": "South Bend",
+        "name": "South Bend",
         "growth_from_2000_to_2013": "-6.8%",
         "latitude": 41.6763545,
         "longitude": -86.25198979999999,
@@ -2593,7 +2593,7 @@ cities = City.create(
         "state": "Indiana"
     },
     {
-        "city": "Lakeland",
+        "name": "Lakeland",
         "growth_from_2000_to_2013": "18.3%",
         "latitude": 28.0394654,
         "longitude": -81.9498042,
@@ -2602,7 +2602,7 @@ cities = City.create(
         "state": "Florida"
     },
     {
-        "city": "Erie",
+        "name": "Erie",
         "growth_from_2000_to_2013": "-2.8%",
         "latitude": 42.12922409999999,
         "longitude": -80.085059,
@@ -2611,7 +2611,7 @@ cities = City.create(
         "state": "Pennsylvania"
     },
     {
-        "city": "Tyler",
+        "name": "Tyler",
         "growth_from_2000_to_2013": "18.6%",
         "latitude": 32.3512601,
         "longitude": -95.30106239999999,
@@ -2620,7 +2620,7 @@ cities = City.create(
         "state": "Texas"
     },
     {
-        "city": "Pearland",
+        "name": "Pearland",
         "growth_from_2000_to_2013": "117.2%",
         "latitude": 29.5635666,
         "longitude": -95.2860474,
@@ -2629,7 +2629,7 @@ cities = City.create(
         "state": "Texas"
     },
     {
-        "city": "College Station",
+        "name": "College Station",
         "growth_from_2000_to_2013": "45.2%",
         "latitude": 30.627977,
         "longitude": -96.3344068,
@@ -2638,7 +2638,7 @@ cities = City.create(
         "state": "Texas"
     },
     {
-        "city": "Kenosha",
+        "name": "Kenosha",
         "growth_from_2000_to_2013": "9.5%",
         "latitude": 42.5847425,
         "longitude": -87.82118539999999,
@@ -2647,7 +2647,7 @@ cities = City.create(
         "state": "Wisconsin"
     },
     {
-        "city": "Sandy Springs",
+        "name": "Sandy Springs",
         "growth_from_2000_to_2013": "17.4%",
         "latitude": 33.9304352,
         "longitude": -84.3733147,
@@ -2656,7 +2656,7 @@ cities = City.create(
         "state": "Georgia"
     },
     {
-        "city": "Clovis",
+        "name": "Clovis",
         "growth_from_2000_to_2013": "42.6%",
         "latitude": 36.8252277,
         "longitude": -119.7029194,
@@ -2665,7 +2665,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Flint",
+        "name": "Flint",
         "growth_from_2000_to_2013": "-20.0%",
         "latitude": 43.0125274,
         "longitude": -83.6874562,
@@ -2674,7 +2674,7 @@ cities = City.create(
         "state": "Michigan"
     },
     {
-        "city": "Roanoke",
+        "name": "Roanoke",
         "growth_from_2000_to_2013": "3.8%",
         "latitude": 37.2709704,
         "longitude": -79.9414266,
@@ -2683,7 +2683,7 @@ cities = City.create(
         "state": "Virginia"
     },
     {
-        "city": "Albany",
+        "name": "Albany",
         "growth_from_2000_to_2013": "4.1%",
         "latitude": 42.6525793,
         "longitude": -73.7562317,
@@ -2692,7 +2692,7 @@ cities = City.create(
         "state": "New York"
     },
     {
-        "city": "Jurupa Valley",
+        "name": "Jurupa Valley",
         "growth_from_2000_to_2013": "",
         "latitude": 33.9971974,
         "longitude": -117.4854802,
@@ -2701,7 +2701,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Compton",
+        "name": "Compton",
         "growth_from_2000_to_2013": "4.5%",
         "latitude": 33.8958492,
         "longitude": -118.2200712,
@@ -2710,7 +2710,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "San Angelo",
+        "name": "San Angelo",
         "growth_from_2000_to_2013": "10.2%",
         "latitude": 31.4637723,
         "longitude": -100.4370375,
@@ -2719,7 +2719,7 @@ cities = City.create(
         "state": "Texas"
     },
     {
-        "city": "Hillsboro",
+        "name": "Hillsboro",
         "growth_from_2000_to_2013": "36.4%",
         "latitude": 45.5228939,
         "longitude": -122.989827,
@@ -2728,7 +2728,7 @@ cities = City.create(
         "state": "Oregon"
     },
     {
-        "city": "Lawton",
+        "name": "Lawton",
         "growth_from_2000_to_2013": "4.9%",
         "latitude": 34.6035669,
         "longitude": -98.39592909999999,
@@ -2737,7 +2737,7 @@ cities = City.create(
         "state": "Oklahoma"
     },
     {
-        "city": "Renton",
+        "name": "Renton",
         "growth_from_2000_to_2013": "88.4%",
         "latitude": 47.48287759999999,
         "longitude": -122.2170661,
@@ -2746,7 +2746,7 @@ cities = City.create(
         "state": "Washington"
     },
     {
-        "city": "Vista",
+        "name": "Vista",
         "growth_from_2000_to_2013": "7.7%",
         "latitude": 33.2000368,
         "longitude": -117.2425355,
@@ -2755,7 +2755,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Davie",
+        "name": "Davie",
         "growth_from_2000_to_2013": "17.7%",
         "latitude": 26.0764783,
         "longitude": -80.25211569999999,
@@ -2764,7 +2764,7 @@ cities = City.create(
         "state": "Florida"
     },
     {
-        "city": "Greeley",
+        "name": "Greeley",
         "growth_from_2000_to_2013": "23.1%",
         "latitude": 40.4233142,
         "longitude": -104.7091322,
@@ -2773,7 +2773,7 @@ cities = City.create(
         "state": "Colorado"
     },
     {
-        "city": "Mission Viejo",
+        "name": "Mission Viejo",
         "growth_from_2000_to_2013": "2.9%",
         "latitude": 33.6000232,
         "longitude": -117.6719953,
@@ -2782,7 +2782,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Portsmouth",
+        "name": "Portsmouth",
         "growth_from_2000_to_2013": "-4.2%",
         "latitude": 36.8354258,
         "longitude": -76.2982742,
@@ -2791,7 +2791,7 @@ cities = City.create(
         "state": "Virginia"
     },
     {
-        "city": "Dearborn",
+        "name": "Dearborn",
         "growth_from_2000_to_2013": "-2.0%",
         "latitude": 42.3222599,
         "longitude": -83.17631449999999,
@@ -2800,7 +2800,7 @@ cities = City.create(
         "state": "Michigan"
     },
     {
-        "city": "South Gate",
+        "name": "South Gate",
         "growth_from_2000_to_2013": "-0.8%",
         "latitude": 33.954737,
         "longitude": -118.2120161,
@@ -2809,7 +2809,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Tuscaloosa",
+        "name": "Tuscaloosa",
         "growth_from_2000_to_2013": "21.1%",
         "latitude": 33.2098407,
         "longitude": -87.56917349999999,
@@ -2818,7 +2818,7 @@ cities = City.create(
         "state": "Alabama"
     },
     {
-        "city": "Livonia",
+        "name": "Livonia",
         "growth_from_2000_to_2013": "-5.4%",
         "latitude": 42.36837,
         "longitude": -83.35270969999999,
@@ -2827,7 +2827,7 @@ cities = City.create(
         "state": "Michigan"
     },
     {
-        "city": "New Bedford",
+        "name": "New Bedford",
         "growth_from_2000_to_2013": "1.2%",
         "latitude": 41.6362152,
         "longitude": -70.93420499999999,
@@ -2836,7 +2836,7 @@ cities = City.create(
         "state": "Massachusetts"
     },
     {
-        "city": "Vacaville",
+        "name": "Vacaville",
         "growth_from_2000_to_2013": "5.4%",
         "latitude": 38.3565773,
         "longitude": -121.9877444,
@@ -2845,7 +2845,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Brockton",
+        "name": "Brockton",
         "growth_from_2000_to_2013": "-0.3%",
         "latitude": 42.0834335,
         "longitude": -71.0183787,
@@ -2854,7 +2854,7 @@ cities = City.create(
         "state": "Massachusetts"
     },
     {
-        "city": "Roswell",
+        "name": "Roswell",
         "growth_from_2000_to_2013": "15.2%",
         "latitude": 34.0232431,
         "longitude": -84.3615555,
@@ -2863,7 +2863,7 @@ cities = City.create(
         "state": "Georgia"
     },
     {
-        "city": "Beaverton",
+        "name": "Beaverton",
         "growth_from_2000_to_2013": "17.0%",
         "latitude": 45.48706199999999,
         "longitude": -122.8037102,
@@ -2872,7 +2872,7 @@ cities = City.create(
         "state": "Oregon"
     },
     {
-        "city": "Quincy",
+        "name": "Quincy",
         "growth_from_2000_to_2013": "5.8%",
         "latitude": 42.2528772,
         "longitude": -71.0022705,
@@ -2881,7 +2881,7 @@ cities = City.create(
         "state": "Massachusetts"
     },
     {
-        "city": "Sparks",
+        "name": "Sparks",
         "growth_from_2000_to_2013": "39.4%",
         "latitude": 39.5349112,
         "longitude": -119.7526886,
@@ -2890,7 +2890,7 @@ cities = City.create(
         "state": "Nevada"
     },
     {
-        "city": "Yakima",
+        "name": "Yakima",
         "growth_from_2000_to_2013": "11.7%",
         "latitude": 46.6020711,
         "longitude": -120.5058987,
@@ -2899,7 +2899,7 @@ cities = City.create(
         "state": "Washington"
     },
     {
-        "city": "Lee's Summit",
+        "name": "Lee's Summit",
         "growth_from_2000_to_2013": "31.2%",
         "latitude": 38.9108408,
         "longitude": -94.3821724,
@@ -2908,7 +2908,7 @@ cities = City.create(
         "state": "Missouri"
     },
     {
-        "city": "Federal Way",
+        "name": "Federal Way",
         "growth_from_2000_to_2013": "8.8%",
         "latitude": 47.3223221,
         "longitude": -122.3126222,
@@ -2917,7 +2917,7 @@ cities = City.create(
         "state": "Washington"
     },
     {
-        "city": "Carson",
+        "name": "Carson",
         "growth_from_2000_to_2013": "2.9%",
         "latitude": 33.8316745,
         "longitude": -118.281693,
@@ -2926,7 +2926,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Santa Monica",
+        "name": "Santa Monica",
         "growth_from_2000_to_2013": "9.6%",
         "latitude": 34.0194543,
         "longitude": -118.4911912,
@@ -2935,7 +2935,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Hesperia",
+        "name": "Hesperia",
         "growth_from_2000_to_2013": "46.1%",
         "latitude": 34.4263886,
         "longitude": -117.3008784,
@@ -2944,7 +2944,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Allen",
+        "name": "Allen",
         "growth_from_2000_to_2013": "104.0%",
         "latitude": 33.1031744,
         "longitude": -96.67055030000002,
@@ -2953,7 +2953,7 @@ cities = City.create(
         "state": "Texas"
     },
     {
-        "city": "Rio Rancho",
+        "name": "Rio Rancho",
         "growth_from_2000_to_2013": "74.4%",
         "latitude": 35.2327544,
         "longitude": -106.6630437,
@@ -2962,7 +2962,7 @@ cities = City.create(
         "state": "New Mexico"
     },
     {
-        "city": "Yuma",
+        "name": "Yuma",
         "growth_from_2000_to_2013": "16.2%",
         "latitude": 32.6926512,
         "longitude": -114.6276916,
@@ -2971,7 +2971,7 @@ cities = City.create(
         "state": "Arizona"
     },
     {
-        "city": "Westminster",
+        "name": "Westminster",
         "growth_from_2000_to_2013": "3.9%",
         "latitude": 33.7513419,
         "longitude": -117.9939921,
@@ -2980,7 +2980,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Orem",
+        "name": "Orem",
         "growth_from_2000_to_2013": "8.5%",
         "latitude": 40.2968979,
         "longitude": -111.6946475,
@@ -2989,7 +2989,7 @@ cities = City.create(
         "state": "Utah"
     },
     {
-        "city": "Lynn",
+        "name": "Lynn",
         "growth_from_2000_to_2013": "2.6%",
         "latitude": 42.46676300000001,
         "longitude": -70.9494938,
@@ -2998,7 +2998,7 @@ cities = City.create(
         "state": "Massachusetts"
     },
     {
-        "city": "Redding",
+        "name": "Redding",
         "growth_from_2000_to_2013": "11.9%",
         "latitude": 40.5865396,
         "longitude": -122.3916754,
@@ -3007,7 +3007,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Spokane Valley",
+        "name": "Spokane Valley",
         "growth_from_2000_to_2013": "12.6%",
         "latitude": 47.6732281,
         "longitude": -117.2393748,
@@ -3016,7 +3016,7 @@ cities = City.create(
         "state": "Washington"
     },
     {
-        "city": "Miami Beach",
+        "name": "Miami Beach",
         "growth_from_2000_to_2013": "3.3%",
         "latitude": 25.790654,
         "longitude": -80.1300455,
@@ -3025,7 +3025,7 @@ cities = City.create(
         "state": "Florida"
     },
     {
-        "city": "League City",
+        "name": "League City",
         "growth_from_2000_to_2013": "98.3%",
         "latitude": 29.5074538,
         "longitude": -95.0949303,
@@ -3034,7 +3034,7 @@ cities = City.create(
         "state": "Texas"
     },
     {
-        "city": "Lawrence",
+        "name": "Lawrence",
         "growth_from_2000_to_2013": "12.7%",
         "latitude": 38.9716689,
         "longitude": -95.2352501,
@@ -3043,7 +3043,7 @@ cities = City.create(
         "state": "Kansas"
     },
     {
-        "city": "Santa Barbara",
+        "name": "Santa Barbara",
         "growth_from_2000_to_2013": "0.9%",
         "latitude": 34.4208305,
         "longitude": -119.6981901,
@@ -3052,7 +3052,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Plantation",
+        "name": "Plantation",
         "growth_from_2000_to_2013": "8.6%",
         "latitude": 26.1275862,
         "longitude": -80.23310359999999,
@@ -3061,7 +3061,7 @@ cities = City.create(
         "state": "Florida"
     },
     {
-        "city": "Sandy",
+        "name": "Sandy",
         "growth_from_2000_to_2013": "1.3%",
         "latitude": 40.5649781,
         "longitude": -111.8389726,
@@ -3070,7 +3070,7 @@ cities = City.create(
         "state": "Utah"
     },
     {
-        "city": "Sunrise",
+        "name": "Sunrise",
         "growth_from_2000_to_2013": "4.6%",
         "latitude": 26.1669711,
         "longitude": -80.25659499999999,
@@ -3079,7 +3079,7 @@ cities = City.create(
         "state": "Florida"
     },
     {
-        "city": "Macon",
+        "name": "Macon",
         "growth_from_2000_to_2013": "-7.3%",
         "latitude": 32.8406946,
         "longitude": -83.6324022,
@@ -3088,7 +3088,7 @@ cities = City.create(
         "state": "Georgia"
     },
     {
-        "city": "Longmont",
+        "name": "Longmont",
         "growth_from_2000_to_2013": "24.4%",
         "latitude": 40.1672068,
         "longitude": -105.1019275,
@@ -3097,7 +3097,7 @@ cities = City.create(
         "state": "Colorado"
     },
     {
-        "city": "Boca Raton",
+        "name": "Boca Raton",
         "growth_from_2000_to_2013": "7.5%",
         "latitude": 26.3683064,
         "longitude": -80.1289321,
@@ -3106,7 +3106,7 @@ cities = City.create(
         "state": "Florida"
     },
     {
-        "city": "San Marcos",
+        "name": "San Marcos",
         "growth_from_2000_to_2013": "60.0%",
         "latitude": 33.1433723,
         "longitude": -117.1661449,
@@ -3115,7 +3115,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Greenville",
+        "name": "Greenville",
         "growth_from_2000_to_2013": "41.9%",
         "latitude": 35.612661,
         "longitude": -77.3663538,
@@ -3124,7 +3124,7 @@ cities = City.create(
         "state": "North Carolina"
     },
     {
-        "city": "Waukegan",
+        "name": "Waukegan",
         "growth_from_2000_to_2013": "0.5%",
         "latitude": 42.3636331,
         "longitude": -87.84479379999999,
@@ -3133,7 +3133,7 @@ cities = City.create(
         "state": "Illinois"
     },
     {
-        "city": "Fall River",
+        "name": "Fall River",
         "growth_from_2000_to_2013": "-3.7%",
         "latitude": 41.7014912,
         "longitude": -71.1550451,
@@ -3142,7 +3142,7 @@ cities = City.create(
         "state": "Massachusetts"
     },
     {
-        "city": "Chico",
+        "name": "Chico",
         "growth_from_2000_to_2013": "14.2%",
         "latitude": 39.7284944,
         "longitude": -121.8374777,
@@ -3151,7 +3151,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Newton",
+        "name": "Newton",
         "growth_from_2000_to_2013": "4.9%",
         "latitude": 42.3370413,
         "longitude": -71.20922139999999,
@@ -3160,7 +3160,7 @@ cities = City.create(
         "state": "Massachusetts"
     },
     {
-        "city": "San Leandro",
+        "name": "San Leandro",
         "growth_from_2000_to_2013": "10.3%",
         "latitude": 37.7249296,
         "longitude": -122.1560768,
@@ -3169,7 +3169,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Reading",
+        "name": "Reading",
         "growth_from_2000_to_2013": "8.0%",
         "latitude": 40.3356483,
         "longitude": -75.9268747,
@@ -3178,7 +3178,7 @@ cities = City.create(
         "state": "Pennsylvania"
     },
     {
-        "city": "Norwalk",
+        "name": "Norwalk",
         "growth_from_2000_to_2013": "5.6%",
         "latitude": 41.11774399999999,
         "longitude": -73.4081575,
@@ -3187,7 +3187,7 @@ cities = City.create(
         "state": "Connecticut"
     },
     {
-        "city": "Fort Smith",
+        "name": "Fort Smith",
         "growth_from_2000_to_2013": "8.6%",
         "latitude": 35.3859242,
         "longitude": -94.39854749999999,
@@ -3196,7 +3196,7 @@ cities = City.create(
         "state": "Arkansas"
     },
     {
-        "city": "Newport Beach",
+        "name": "Newport Beach",
         "growth_from_2000_to_2013": "10.4%",
         "latitude": 33.6189101,
         "longitude": -117.9289469,
@@ -3205,7 +3205,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Asheville",
+        "name": "Asheville",
         "growth_from_2000_to_2013": "19.6%",
         "latitude": 35.5950581,
         "longitude": -82.5514869,
@@ -3214,7 +3214,7 @@ cities = City.create(
         "state": "North Carolina"
     },
     {
-        "city": "Nashua",
+        "name": "Nashua",
         "growth_from_2000_to_2013": "0.4%",
         "latitude": 42.7653662,
         "longitude": -71.46756599999999,
@@ -3223,7 +3223,7 @@ cities = City.create(
         "state": "New Hampshire"
     },
     {
-        "city": "Edmond",
+        "name": "Edmond",
         "growth_from_2000_to_2013": "26.9%",
         "latitude": 35.6528323,
         "longitude": -97.47809540000002,
@@ -3232,7 +3232,7 @@ cities = City.create(
         "state": "Oklahoma"
     },
     {
-        "city": "Whittier",
+        "name": "Whittier",
         "growth_from_2000_to_2013": "3.3%",
         "latitude": 33.9791793,
         "longitude": -118.032844,
@@ -3241,7 +3241,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Nampa",
+        "name": "Nampa",
         "growth_from_2000_to_2013": "57.9%",
         "latitude": 43.5407172,
         "longitude": -116.5634624,
@@ -3250,7 +3250,7 @@ cities = City.create(
         "state": "Idaho"
     },
     {
-        "city": "Bloomington",
+        "name": "Bloomington",
         "growth_from_2000_to_2013": "1.3%",
         "latitude": 44.840798,
         "longitude": -93.2982799,
@@ -3259,7 +3259,7 @@ cities = City.create(
         "state": "Minnesota"
     },
     {
-        "city": "Deltona",
+        "name": "Deltona",
         "growth_from_2000_to_2013": "23.1%",
         "latitude": 28.9005446,
         "longitude": -81.26367379999999,
@@ -3268,7 +3268,7 @@ cities = City.create(
         "state": "Florida"
     },
     {
-        "city": "Hawthorne",
+        "name": "Hawthorne",
         "growth_from_2000_to_2013": "2.3%",
         "latitude": 33.9164032,
         "longitude": -118.3525748,
@@ -3277,7 +3277,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Duluth",
+        "name": "Duluth",
         "growth_from_2000_to_2013": "-0.1%",
         "latitude": 46.78667189999999,
         "longitude": -92.1004852,
@@ -3286,7 +3286,7 @@ cities = City.create(
         "state": "Minnesota"
     },
     {
-        "city": "Carmel",
+        "name": "Carmel",
         "growth_from_2000_to_2013": "60.4%",
         "latitude": 39.978371,
         "longitude": -86.1180435,
@@ -3295,7 +3295,7 @@ cities = City.create(
         "state": "Indiana"
     },
     {
-        "city": "Suffolk",
+        "name": "Suffolk",
         "growth_from_2000_to_2013": "33.5%",
         "latitude": 36.7282054,
         "longitude": -76.5835621,
@@ -3304,7 +3304,7 @@ cities = City.create(
         "state": "Virginia"
     },
     {
-        "city": "Clifton",
+        "name": "Clifton",
         "growth_from_2000_to_2013": "7.9%",
         "latitude": 40.8584328,
         "longitude": -74.16375529999999,
@@ -3313,7 +3313,7 @@ cities = City.create(
         "state": "New Jersey"
     },
     {
-        "city": "Citrus Heights",
+        "name": "Citrus Heights",
         "growth_from_2000_to_2013": "-0.1%",
         "latitude": 38.7071247,
         "longitude": -121.2810611,
@@ -3322,7 +3322,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Livermore",
+        "name": "Livermore",
         "growth_from_2000_to_2013": "15.1%",
         "latitude": 37.6818745,
         "longitude": -121.7680088,
@@ -3331,7 +3331,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Tracy",
+        "name": "Tracy",
         "growth_from_2000_to_2013": "45.9%",
         "latitude": 37.7396513,
         "longitude": -121.4252227,
@@ -3340,7 +3340,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Alhambra",
+        "name": "Alhambra",
         "growth_from_2000_to_2013": "-0.7%",
         "latitude": 34.095287,
         "longitude": -118.1270146,
@@ -3349,7 +3349,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Kirkland",
+        "name": "Kirkland",
         "growth_from_2000_to_2013": "87.5%",
         "latitude": 47.6814875,
         "longitude": -122.2087353,
@@ -3358,7 +3358,7 @@ cities = City.create(
         "state": "Washington"
     },
     {
-        "city": "Trenton",
+        "name": "Trenton",
         "growth_from_2000_to_2013": "-1.2%",
         "latitude": 40.2170534,
         "longitude": -74.7429384,
@@ -3367,7 +3367,7 @@ cities = City.create(
         "state": "New Jersey"
     },
     {
-        "city": "Ogden",
+        "name": "Ogden",
         "growth_from_2000_to_2013": "8.6%",
         "latitude": 41.223,
         "longitude": -111.9738304,
@@ -3376,7 +3376,7 @@ cities = City.create(
         "state": "Utah"
     },
     {
-        "city": "Hoover",
+        "name": "Hoover",
         "growth_from_2000_to_2013": "32.7%",
         "latitude": 33.4053867,
         "longitude": -86.8113781,
@@ -3385,7 +3385,7 @@ cities = City.create(
         "state": "Alabama"
     },
     {
-        "city": "Cicero",
+        "name": "Cicero",
         "growth_from_2000_to_2013": "-1.6%",
         "latitude": 41.8455877,
         "longitude": -87.7539448,
@@ -3394,7 +3394,7 @@ cities = City.create(
         "state": "Illinois"
     },
     {
-        "city": "Fishers",
+        "name": "Fishers",
         "growth_from_2000_to_2013": "114.8%",
         "latitude": 39.9567548,
         "longitude": -86.01335,
@@ -3403,7 +3403,7 @@ cities = City.create(
         "state": "Indiana"
     },
     {
-        "city": "Sugar Land",
+        "name": "Sugar Land",
         "growth_from_2000_to_2013": "29.1%",
         "latitude": 29.6196787,
         "longitude": -95.6349463,
@@ -3412,7 +3412,7 @@ cities = City.create(
         "state": "Texas"
     },
     {
-        "city": "Danbury",
+        "name": "Danbury",
         "growth_from_2000_to_2013": "11.4%",
         "latitude": 41.394817,
         "longitude": -73.4540111,
@@ -3421,7 +3421,7 @@ cities = City.create(
         "state": "Connecticut"
     },
     {
-        "city": "Meridian",
+        "name": "Meridian",
         "growth_from_2000_to_2013": "127.6%",
         "latitude": 43.6121087,
         "longitude": -116.3915131,
@@ -3430,7 +3430,7 @@ cities = City.create(
         "state": "Idaho"
     },
     {
-        "city": "Indio",
+        "name": "Indio",
         "growth_from_2000_to_2013": "66.0%",
         "latitude": 33.7205771,
         "longitude": -116.2155619,
@@ -3439,7 +3439,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Concord",
+        "name": "Concord",
         "growth_from_2000_to_2013": "47.4%",
         "latitude": 35.4087517,
         "longitude": -80.579511,
@@ -3448,7 +3448,7 @@ cities = City.create(
         "state": "North Carolina"
     },
     {
-        "city": "Menifee",
+        "name": "Menifee",
         "growth_from_2000_to_2013": "95.0%",
         "latitude": 33.6971468,
         "longitude": -117.185294,
@@ -3457,7 +3457,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Champaign",
+        "name": "Champaign",
         "growth_from_2000_to_2013": "18.3%",
         "latitude": 40.1164204,
         "longitude": -88.2433829,
@@ -3466,7 +3466,7 @@ cities = City.create(
         "state": "Illinois"
     },
     {
-        "city": "Buena Park",
+        "name": "Buena Park",
         "growth_from_2000_to_2013": "6.1%",
         "latitude": 33.8675143,
         "longitude": -117.9981181,
@@ -3475,7 +3475,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Troy",
+        "name": "Troy",
         "growth_from_2000_to_2013": "2.2%",
         "latitude": 42.6064095,
         "longitude": -83.1497751,
@@ -3484,7 +3484,7 @@ cities = City.create(
         "state": "Michigan"
     },
     {
-        "city": "O'Fallon",
+        "name": "O'Fallon",
         "growth_from_2000_to_2013": "62.6%",
         "latitude": 38.8106075,
         "longitude": -90.69984769999999,
@@ -3493,7 +3493,7 @@ cities = City.create(
         "state": "Missouri"
     },
     {
-        "city": "Johns Creek",
+        "name": "Johns Creek",
         "growth_from_2000_to_2013": "36.5%",
         "latitude": 34.0289259,
         "longitude": -84.198579,
@@ -3502,7 +3502,7 @@ cities = City.create(
         "state": "Georgia"
     },
     {
-        "city": "Bellingham",
+        "name": "Bellingham",
         "growth_from_2000_to_2013": "21.8%",
         "latitude": 48.74908,
         "longitude": -122.4781473,
@@ -3511,7 +3511,7 @@ cities = City.create(
         "state": "Washington"
     },
     {
-        "city": "Westland",
+        "name": "Westland",
         "growth_from_2000_to_2013": "-4.7%",
         "latitude": 42.32420399999999,
         "longitude": -83.400211,
@@ -3520,7 +3520,7 @@ cities = City.create(
         "state": "Michigan"
     },
     {
-        "city": "Bloomington",
+        "name": "Bloomington",
         "growth_from_2000_to_2013": "16.1%",
         "latitude": 39.165325,
         "longitude": -86.52638569999999,
@@ -3529,7 +3529,7 @@ cities = City.create(
         "state": "Indiana"
     },
     {
-        "city": "Sioux City",
+        "name": "Sioux City",
         "growth_from_2000_to_2013": "-2.9%",
         "latitude": 42.4999942,
         "longitude": -96.40030689999999,
@@ -3538,7 +3538,7 @@ cities = City.create(
         "state": "Iowa"
     },
     {
-        "city": "Warwick",
+        "name": "Warwick",
         "growth_from_2000_to_2013": "-4.6%",
         "latitude": 41.7001009,
         "longitude": -71.4161671,
@@ -3547,7 +3547,7 @@ cities = City.create(
         "state": "Rhode Island"
     },
     {
-        "city": "Hemet",
+        "name": "Hemet",
         "growth_from_2000_to_2013": "37.6%",
         "latitude": 33.7475203,
         "longitude": -116.9719684,
@@ -3556,7 +3556,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Longview",
+        "name": "Longview",
         "growth_from_2000_to_2013": "11.6%",
         "latitude": 32.5007037,
         "longitude": -94.74048909999999,
@@ -3565,7 +3565,7 @@ cities = City.create(
         "state": "Texas"
     },
     {
-        "city": "Farmington Hills",
+        "name": "Farmington Hills",
         "growth_from_2000_to_2013": "-0.9%",
         "latitude": 42.4989936,
         "longitude": -83.3677168,
@@ -3574,7 +3574,7 @@ cities = City.create(
         "state": "Michigan"
     },
     {
-        "city": "Bend",
+        "name": "Bend",
         "growth_from_2000_to_2013": "54.3%",
         "latitude": 44.0581728,
         "longitude": -121.3153096,
@@ -3583,7 +3583,7 @@ cities = City.create(
         "state": "Oregon"
     },
     {
-        "city": "Lakewood",
+        "name": "Lakewood",
         "growth_from_2000_to_2013": "2.1%",
         "latitude": 33.8536269,
         "longitude": -118.1339563,
@@ -3592,7 +3592,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Merced",
+        "name": "Merced",
         "growth_from_2000_to_2013": "25.4%",
         "latitude": 37.3021632,
         "longitude": -120.4829677,
@@ -3601,7 +3601,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Mission",
+        "name": "Mission",
         "growth_from_2000_to_2013": "74.5%",
         "latitude": 26.2159066,
         "longitude": -98.32529319999999,
@@ -3610,7 +3610,7 @@ cities = City.create(
         "state": "Texas"
     },
     {
-        "city": "Chino",
+        "name": "Chino",
         "growth_from_2000_to_2013": "15.6%",
         "latitude": 34.0122346,
         "longitude": -117.688944,
@@ -3619,7 +3619,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Redwood City",
+        "name": "Redwood City",
         "growth_from_2000_to_2013": "7.1%",
         "latitude": 37.48521520000001,
         "longitude": -122.2363548,
@@ -3628,7 +3628,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Edinburg",
+        "name": "Edinburg",
         "growth_from_2000_to_2013": "65.1%",
         "latitude": 26.3017374,
         "longitude": -98.1633432,
@@ -3637,7 +3637,7 @@ cities = City.create(
         "state": "Texas"
     },
     {
-        "city": "Cranston",
+        "name": "Cranston",
         "growth_from_2000_to_2013": "1.4%",
         "latitude": 41.7798226,
         "longitude": -71.4372796,
@@ -3646,7 +3646,7 @@ cities = City.create(
         "state": "Rhode Island"
     },
     {
-        "city": "Parma",
+        "name": "Parma",
         "growth_from_2000_to_2013": "-5.9%",
         "latitude": 41.4047742,
         "longitude": -81.7229086,
@@ -3655,7 +3655,7 @@ cities = City.create(
         "state": "Ohio"
     },
     {
-        "city": "New Rochelle",
+        "name": "New Rochelle",
         "growth_from_2000_to_2013": "9.9%",
         "latitude": 40.9114882,
         "longitude": -73.7823549,
@@ -3664,7 +3664,7 @@ cities = City.create(
         "state": "New York"
     },
     {
-        "city": "Lake Forest",
+        "name": "Lake Forest",
         "growth_from_2000_to_2013": "4.2%",
         "latitude": 33.6469661,
         "longitude": -117.689218,
@@ -3673,7 +3673,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Napa",
+        "name": "Napa",
         "growth_from_2000_to_2013": "8.4%",
         "latitude": 38.2975381,
         "longitude": -122.286865,
@@ -3682,7 +3682,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Hammond",
+        "name": "Hammond",
         "growth_from_2000_to_2013": "-4.6%",
         "latitude": 41.5833688,
         "longitude": -87.5000412,
@@ -3691,7 +3691,7 @@ cities = City.create(
         "state": "Indiana"
     },
     {
-        "city": "Fayetteville",
+        "name": "Fayetteville",
         "growth_from_2000_to_2013": "32.9%",
         "latitude": 36.0625795,
         "longitude": -94.1574263,
@@ -3700,7 +3700,7 @@ cities = City.create(
         "state": "Arkansas"
     },
     {
-        "city": "Bloomington",
+        "name": "Bloomington",
         "growth_from_2000_to_2013": "20.1%",
         "latitude": 40.4842027,
         "longitude": -88.99368729999999,
@@ -3709,7 +3709,7 @@ cities = City.create(
         "state": "Illinois"
     },
     {
-        "city": "Avondale",
+        "name": "Avondale",
         "growth_from_2000_to_2013": "111.5%",
         "latitude": 33.4355977,
         "longitude": -112.3496021,
@@ -3718,7 +3718,7 @@ cities = City.create(
         "state": "Arizona"
     },
     {
-        "city": "Somerville",
+        "name": "Somerville",
         "growth_from_2000_to_2013": "1.6%",
         "latitude": 42.3875968,
         "longitude": -71.0994968,
@@ -3727,7 +3727,7 @@ cities = City.create(
         "state": "Massachusetts"
     },
     {
-        "city": "Palm Coast",
+        "name": "Palm Coast",
         "growth_from_2000_to_2013": "137.2%",
         "latitude": 29.5844524,
         "longitude": -81.20786989999999,
@@ -3736,7 +3736,7 @@ cities = City.create(
         "state": "Florida"
     },
     {
-        "city": "Bryan",
+        "name": "Bryan",
         "growth_from_2000_to_2013": "19.3%",
         "latitude": 30.6743643,
         "longitude": -96.3699632,
@@ -3745,7 +3745,7 @@ cities = City.create(
         "state": "Texas"
     },
     {
-        "city": "Gary",
+        "name": "Gary",
         "growth_from_2000_to_2013": "-23.4%",
         "latitude": 41.5933696,
         "longitude": -87.3464271,
@@ -3754,7 +3754,7 @@ cities = City.create(
         "state": "Indiana"
     },
     {
-        "city": "Largo",
+        "name": "Largo",
         "growth_from_2000_to_2013": "5.1%",
         "latitude": 27.9094665,
         "longitude": -82.7873244,
@@ -3763,7 +3763,7 @@ cities = City.create(
         "state": "Florida"
     },
     {
-        "city": "Brooklyn Park",
+        "name": "Brooklyn Park",
         "growth_from_2000_to_2013": "16.0%",
         "latitude": 45.0941315,
         "longitude": -93.3563405,
@@ -3772,7 +3772,7 @@ cities = City.create(
         "state": "Minnesota"
     },
     {
-        "city": "Tustin",
+        "name": "Tustin",
         "growth_from_2000_to_2013": "15.6%",
         "latitude": 33.7458511,
         "longitude": -117.826166,
@@ -3781,7 +3781,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Racine",
+        "name": "Racine",
         "growth_from_2000_to_2013": "-4.4%",
         "latitude": 42.7261309,
         "longitude": -87.78285230000002,
@@ -3790,7 +3790,7 @@ cities = City.create(
         "state": "Wisconsin"
     },
     {
-        "city": "Deerfield Beach",
+        "name": "Deerfield Beach",
         "growth_from_2000_to_2013": "4.8%",
         "latitude": 26.3184123,
         "longitude": -80.09976569999999,
@@ -3799,7 +3799,7 @@ cities = City.create(
         "state": "Florida"
     },
     {
-        "city": "Lynchburg",
+        "name": "Lynchburg",
         "growth_from_2000_to_2013": "19.5%",
         "latitude": 37.4137536,
         "longitude": -79.14224639999999,
@@ -3808,7 +3808,7 @@ cities = City.create(
         "state": "Virginia"
     },
     {
-        "city": "Mountain View",
+        "name": "Mountain View",
         "growth_from_2000_to_2013": "10.1%",
         "latitude": 37.3860517,
         "longitude": -122.0838511,
@@ -3817,7 +3817,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Medford",
+        "name": "Medford",
         "growth_from_2000_to_2013": "17.1%",
         "latitude": 42.3265152,
         "longitude": -122.8755949,
@@ -3826,7 +3826,7 @@ cities = City.create(
         "state": "Oregon"
     },
     {
-        "city": "Lawrence",
+        "name": "Lawrence",
         "growth_from_2000_to_2013": "7.5%",
         "latitude": 42.7070354,
         "longitude": -71.1631137,
@@ -3835,7 +3835,7 @@ cities = City.create(
         "state": "Massachusetts"
     },
     {
-        "city": "Bellflower",
+        "name": "Bellflower",
         "growth_from_2000_to_2013": "6.3%",
         "latitude": 33.8816818,
         "longitude": -118.1170117,
@@ -3844,7 +3844,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Melbourne",
+        "name": "Melbourne",
         "growth_from_2000_to_2013": "5.9%",
         "latitude": 28.0836269,
         "longitude": -80.60810889999999,
@@ -3853,7 +3853,7 @@ cities = City.create(
         "state": "Florida"
     },
     {
-        "city": "St. Joseph",
+        "name": "St. Joseph",
         "growth_from_2000_to_2013": "4.1%",
         "latitude": 39.7674578,
         "longitude": -94.84668099999999,
@@ -3862,7 +3862,7 @@ cities = City.create(
         "state": "Missouri"
     },
     {
-        "city": "Camden",
+        "name": "Camden",
         "growth_from_2000_to_2013": "-3.6%",
         "latitude": 39.9259463,
         "longitude": -75.1196199,
@@ -3871,7 +3871,7 @@ cities = City.create(
         "state": "New Jersey"
     },
     {
-        "city": "St. George",
+        "name": "St. George",
         "growth_from_2000_to_2013": "53.1%",
         "latitude": 37.0965278,
         "longitude": -113.5684164,
@@ -3880,7 +3880,7 @@ cities = City.create(
         "state": "Utah"
     },
     {
-        "city": "Kennewick",
+        "name": "Kennewick",
         "growth_from_2000_to_2013": "29.1%",
         "latitude": 46.2112458,
         "longitude": -119.1372338,
@@ -3889,7 +3889,7 @@ cities = City.create(
         "state": "Washington"
     },
     {
-        "city": "Baldwin Park",
+        "name": "Baldwin Park",
         "growth_from_2000_to_2013": "0.8%",
         "latitude": 34.0852868,
         "longitude": -117.9608978,
@@ -3898,7 +3898,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Chino Hills",
+        "name": "Chino Hills",
         "growth_from_2000_to_2013": "13.6%",
         "latitude": 33.9898188,
         "longitude": -117.7325848,
@@ -3907,7 +3907,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Alameda",
+        "name": "Alameda",
         "growth_from_2000_to_2013": "5.4%",
         "latitude": 37.7652065,
         "longitude": -122.2416355,
@@ -3916,7 +3916,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Albany",
+        "name": "Albany",
         "growth_from_2000_to_2013": "-0.6%",
         "latitude": 31.5785074,
         "longitude": -84.15574099999999,
@@ -3925,7 +3925,7 @@ cities = City.create(
         "state": "Georgia"
     },
     {
-        "city": "Arlington Heights",
+        "name": "Arlington Heights",
         "growth_from_2000_to_2013": "-0.6%",
         "latitude": 42.0883603,
         "longitude": -87.98062650000001,
@@ -3934,7 +3934,7 @@ cities = City.create(
         "state": "Illinois"
     },
     {
-        "city": "Scranton",
+        "name": "Scranton",
         "growth_from_2000_to_2013": "0.0%",
         "latitude": 41.408969,
         "longitude": -75.66241219999999,
@@ -3943,7 +3943,7 @@ cities = City.create(
         "state": "Pennsylvania"
     },
     {
-        "city": "Evanston",
+        "name": "Evanston",
         "growth_from_2000_to_2013": "1.9%",
         "latitude": 42.0450722,
         "longitude": -87.68769689999999,
@@ -3952,7 +3952,7 @@ cities = City.create(
         "state": "Illinois"
     },
     {
-        "city": "Kalamazoo",
+        "name": "Kalamazoo",
         "growth_from_2000_to_2013": "-1.9%",
         "latitude": 42.2917069,
         "longitude": -85.5872286,
@@ -3961,7 +3961,7 @@ cities = City.create(
         "state": "Michigan"
     },
     {
-        "city": "Baytown",
+        "name": "Baytown",
         "growth_from_2000_to_2013": "13.1%",
         "latitude": 29.7355047,
         "longitude": -94.97742740000001,
@@ -3970,7 +3970,7 @@ cities = City.create(
         "state": "Texas"
     },
     {
-        "city": "Upland",
+        "name": "Upland",
         "growth_from_2000_to_2013": "9.5%",
         "latitude": 34.09751,
         "longitude": -117.6483876,
@@ -3979,7 +3979,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Springdale",
+        "name": "Springdale",
         "growth_from_2000_to_2013": "57.1%",
         "latitude": 36.18674420000001,
         "longitude": -94.1288141,
@@ -3988,7 +3988,7 @@ cities = City.create(
         "state": "Arkansas"
     },
     {
-        "city": "Bethlehem",
+        "name": "Bethlehem",
         "growth_from_2000_to_2013": "5.2%",
         "latitude": 40.6259316,
         "longitude": -75.37045789999999,
@@ -3997,7 +3997,7 @@ cities = City.create(
         "state": "Pennsylvania"
     },
     {
-        "city": "Schaumburg",
+        "name": "Schaumburg",
         "growth_from_2000_to_2013": "-0.5%",
         "latitude": 42.0333607,
         "longitude": -88.0834059,
@@ -4006,7 +4006,7 @@ cities = City.create(
         "state": "Illinois"
     },
     {
-        "city": "Mount Pleasant",
+        "name": "Mount Pleasant",
         "growth_from_2000_to_2013": "53.2%",
         "latitude": 32.8323225,
         "longitude": -79.82842579999999,
@@ -4015,7 +4015,7 @@ cities = City.create(
         "state": "South Carolina"
     },
     {
-        "city": "Auburn",
+        "name": "Auburn",
         "growth_from_2000_to_2013": "34.9%",
         "latitude": 47.30732279999999,
         "longitude": -122.2284532,
@@ -4024,7 +4024,7 @@ cities = City.create(
         "state": "Washington"
     },
     {
-        "city": "Decatur",
+        "name": "Decatur",
         "growth_from_2000_to_2013": "-8.7%",
         "latitude": 39.8403147,
         "longitude": -88.9548001,
@@ -4033,7 +4033,7 @@ cities = City.create(
         "state": "Illinois"
     },
     {
-        "city": "San Ramon",
+        "name": "San Ramon",
         "growth_from_2000_to_2013": "65.8%",
         "latitude": 37.7799273,
         "longitude": -121.9780153,
@@ -4042,7 +4042,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Pleasanton",
+        "name": "Pleasanton",
         "growth_from_2000_to_2013": "15.2%",
         "latitude": 37.6624312,
         "longitude": -121.8746789,
@@ -4051,7 +4051,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Wyoming",
+        "name": "Wyoming",
         "growth_from_2000_to_2013": "6.5%",
         "latitude": 42.9133602,
         "longitude": -85.7053085,
@@ -4060,7 +4060,7 @@ cities = City.create(
         "state": "Michigan"
     },
     {
-        "city": "Lake Charles",
+        "name": "Lake Charles",
         "growth_from_2000_to_2013": "3.0%",
         "latitude": 30.2265949,
         "longitude": -93.2173758,
@@ -4069,7 +4069,7 @@ cities = City.create(
         "state": "Louisiana"
     },
     {
-        "city": "Plymouth",
+        "name": "Plymouth",
         "growth_from_2000_to_2013": "12.0%",
         "latitude": 45.0105194,
         "longitude": -93.4555093,
@@ -4078,7 +4078,7 @@ cities = City.create(
         "state": "Minnesota"
     },
     {
-        "city": "Bolingbrook",
+        "name": "Bolingbrook",
         "growth_from_2000_to_2013": "29.7%",
         "latitude": 41.69864159999999,
         "longitude": -88.0683955,
@@ -4087,7 +4087,7 @@ cities = City.create(
         "state": "Illinois"
     },
     {
-        "city": "Pharr",
+        "name": "Pharr",
         "growth_from_2000_to_2013": "55.7%",
         "latitude": 26.1947962,
         "longitude": -98.1836216,
@@ -4096,7 +4096,7 @@ cities = City.create(
         "state": "Texas"
     },
     {
-        "city": "Appleton",
+        "name": "Appleton",
         "growth_from_2000_to_2013": "4.5%",
         "latitude": 44.2619309,
         "longitude": -88.41538469999999,
@@ -4105,7 +4105,7 @@ cities = City.create(
         "state": "Wisconsin"
     },
     {
-        "city": "Gastonia",
+        "name": "Gastonia",
         "growth_from_2000_to_2013": "8.2%",
         "latitude": 35.262082,
         "longitude": -81.18730049999999,
@@ -4114,7 +4114,7 @@ cities = City.create(
         "state": "North Carolina"
     },
     {
-        "city": "Folsom",
+        "name": "Folsom",
         "growth_from_2000_to_2013": "38.6%",
         "latitude": 38.6779591,
         "longitude": -121.1760583,
@@ -4123,7 +4123,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Southfield",
+        "name": "Southfield",
         "growth_from_2000_to_2013": "-6.7%",
         "latitude": 42.4733688,
         "longitude": -83.2218731,
@@ -4132,7 +4132,7 @@ cities = City.create(
         "state": "Michigan"
     },
     {
-        "city": "Rochester Hills",
+        "name": "Rochester Hills",
         "growth_from_2000_to_2013": "5.7%",
         "latitude": 42.65836609999999,
         "longitude": -83.1499322,
@@ -4141,7 +4141,7 @@ cities = City.create(
         "state": "Michigan"
     },
     {
-        "city": "New Britain",
+        "name": "New Britain",
         "growth_from_2000_to_2013": "1.9%",
         "latitude": 41.6612104,
         "longitude": -72.7795419,
@@ -4150,7 +4150,7 @@ cities = City.create(
         "state": "Connecticut"
     },
     {
-        "city": "Goodyear",
+        "name": "Goodyear",
         "growth_from_2000_to_2013": "271.0%",
         "latitude": 33.4353394,
         "longitude": -112.3576567,
@@ -4159,7 +4159,7 @@ cities = City.create(
         "state": "Arizona"
     },
     {
-        "city": "Canton",
+        "name": "Canton",
         "growth_from_2000_to_2013": "-10.3%",
         "latitude": 40.79894729999999,
         "longitude": -81.378447,
@@ -4168,7 +4168,7 @@ cities = City.create(
         "state": "Ohio"
     },
     {
-        "city": "Warner Robins",
+        "name": "Warner Robins",
         "growth_from_2000_to_2013": "45.7%",
         "latitude": 32.6130007,
         "longitude": -83.624201,
@@ -4177,7 +4177,7 @@ cities = City.create(
         "state": "Georgia"
     },
     {
-        "city": "Union City",
+        "name": "Union City",
         "growth_from_2000_to_2013": "7.4%",
         "latitude": 37.5933918,
         "longitude": -122.0438298,
@@ -4186,7 +4186,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Perris",
+        "name": "Perris",
         "growth_from_2000_to_2013": "98.7%",
         "latitude": 33.7825194,
         "longitude": -117.2286478,
@@ -4195,7 +4195,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Manteca",
+        "name": "Manteca",
         "growth_from_2000_to_2013": "42.7%",
         "latitude": 37.7974273,
         "longitude": -121.2160526,
@@ -4204,7 +4204,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Iowa City",
+        "name": "Iowa City",
         "growth_from_2000_to_2013": "13.8%",
         "latitude": 41.6611277,
         "longitude": -91.5301683,
@@ -4213,7 +4213,7 @@ cities = City.create(
         "state": "Iowa"
     },
     {
-        "city": "Jonesboro",
+        "name": "Jonesboro",
         "growth_from_2000_to_2013": "28.3%",
         "latitude": 35.84229670000001,
         "longitude": -90.704279,
@@ -4222,7 +4222,7 @@ cities = City.create(
         "state": "Arkansas"
     },
     {
-        "city": "Wilmington",
+        "name": "Wilmington",
         "growth_from_2000_to_2013": "-1.6%",
         "latitude": 39.7390721,
         "longitude": -75.5397878,
@@ -4231,7 +4231,7 @@ cities = City.create(
         "state": "Delaware"
     },
     {
-        "city": "Lynwood",
+        "name": "Lynwood",
         "growth_from_2000_to_2013": "2.0%",
         "latitude": 33.930293,
         "longitude": -118.2114603,
@@ -4240,7 +4240,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Loveland",
+        "name": "Loveland",
         "growth_from_2000_to_2013": "37.4%",
         "latitude": 40.3977612,
         "longitude": -105.0749801,
@@ -4249,7 +4249,7 @@ cities = City.create(
         "state": "Colorado"
     },
     {
-        "city": "Pawtucket",
+        "name": "Pawtucket",
         "growth_from_2000_to_2013": "-2.5%",
         "latitude": 41.878711,
         "longitude": -71.38255579999999,
@@ -4258,7 +4258,7 @@ cities = City.create(
         "state": "Rhode Island"
     },
     {
-        "city": "Boynton Beach",
+        "name": "Boynton Beach",
         "growth_from_2000_to_2013": "17.3%",
         "latitude": 26.5317866,
         "longitude": -80.0905465,
@@ -4267,7 +4267,7 @@ cities = City.create(
         "state": "Florida"
     },
     {
-        "city": "Waukesha",
+        "name": "Waukesha",
         "growth_from_2000_to_2013": "8.0%",
         "latitude": 43.0116784,
         "longitude": -88.2314813,
@@ -4276,7 +4276,7 @@ cities = City.create(
         "state": "Wisconsin"
     },
     {
-        "city": "Gulfport",
+        "name": "Gulfport",
         "growth_from_2000_to_2013": "-0.6%",
         "latitude": 30.3674198,
         "longitude": -89.0928155,
@@ -4285,7 +4285,7 @@ cities = City.create(
         "state": "Mississippi"
     },
     {
-        "city": "Apple Valley",
+        "name": "Apple Valley",
         "growth_from_2000_to_2013": "29.9%",
         "latitude": 34.5008311,
         "longitude": -117.1858759,
@@ -4294,7 +4294,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Passaic",
+        "name": "Passaic",
         "growth_from_2000_to_2013": "4.3%",
         "latitude": 40.8567662,
         "longitude": -74.1284764,
@@ -4303,7 +4303,7 @@ cities = City.create(
         "state": "New Jersey"
     },
     {
-        "city": "Rapid City",
+        "name": "Rapid City",
         "growth_from_2000_to_2013": "17.9%",
         "latitude": 44.0805434,
         "longitude": -103.2310149,
@@ -4312,7 +4312,7 @@ cities = City.create(
         "state": "South Dakota"
     },
     {
-        "city": "Layton",
+        "name": "Layton",
         "growth_from_2000_to_2013": "20.2%",
         "latitude": 41.0602216,
         "longitude": -111.9710529,
@@ -4321,7 +4321,7 @@ cities = City.create(
         "state": "Utah"
     },
     {
-        "city": "Lafayette",
+        "name": "Lafayette",
         "growth_from_2000_to_2013": "14.5%",
         "latitude": 40.4167022,
         "longitude": -86.87528689999999,
@@ -4330,7 +4330,7 @@ cities = City.create(
         "state": "Indiana"
     },
     {
-        "city": "Turlock",
+        "name": "Turlock",
         "growth_from_2000_to_2013": "23.5%",
         "latitude": 37.4946568,
         "longitude": -120.8465941,
@@ -4339,7 +4339,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Muncie",
+        "name": "Muncie",
         "growth_from_2000_to_2013": "-0.7%",
         "latitude": 40.1933767,
         "longitude": -85.3863599,
@@ -4348,7 +4348,7 @@ cities = City.create(
         "state": "Indiana"
     },
     {
-        "city": "Temple",
+        "name": "Temple",
         "growth_from_2000_to_2013": "27.1%",
         "latitude": 31.0982344,
         "longitude": -97.342782,
@@ -4357,7 +4357,7 @@ cities = City.create(
         "state": "Texas"
     },
     {
-        "city": "Missouri City",
+        "name": "Missouri City",
         "growth_from_2000_to_2013": "31.1%",
         "latitude": 29.6185669,
         "longitude": -95.5377215,
@@ -4366,7 +4366,7 @@ cities = City.create(
         "state": "Texas"
     },
     {
-        "city": "Redlands",
+        "name": "Redlands",
         "growth_from_2000_to_2013": "9.4%",
         "latitude": 34.0555693,
         "longitude": -117.1825381,
@@ -4375,7 +4375,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Santa Fe",
+        "name": "Santa Fe",
         "growth_from_2000_to_2013": "10.5%",
         "latitude": 35.6869752,
         "longitude": -105.937799,
@@ -4384,7 +4384,7 @@ cities = City.create(
         "state": "New Mexico"
     },
     {
-        "city": "Lauderhill",
+        "name": "Lauderhill",
         "growth_from_2000_to_2013": "4.2%",
         "latitude": 26.1403635,
         "longitude": -80.2133808,
@@ -4393,7 +4393,7 @@ cities = City.create(
         "state": "Florida"
     },
     {
-        "city": "Milpitas",
+        "name": "Milpitas",
         "growth_from_2000_to_2013": "11.0%",
         "latitude": 37.4323341,
         "longitude": -121.8995741,
@@ -4402,7 +4402,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Palatine",
+        "name": "Palatine",
         "growth_from_2000_to_2013": "4.5%",
         "latitude": 42.1103041,
         "longitude": -88.03424000000001,
@@ -4411,7 +4411,7 @@ cities = City.create(
         "state": "Illinois"
     },
     {
-        "city": "Missoula",
+        "name": "Missoula",
         "growth_from_2000_to_2013": "19.7%",
         "latitude": 46.87871759999999,
         "longitude": -113.996586,
@@ -4420,7 +4420,7 @@ cities = City.create(
         "state": "Montana"
     },
     {
-        "city": "Rock Hill",
+        "name": "Rock Hill",
         "growth_from_2000_to_2013": "36.0%",
         "latitude": 34.9248667,
         "longitude": -81.02507840000001,
@@ -4429,7 +4429,7 @@ cities = City.create(
         "state": "South Carolina"
     },
     {
-        "city": "Jacksonville",
+        "name": "Jacksonville",
         "growth_from_2000_to_2013": "5.0%",
         "latitude": 34.7540524,
         "longitude": -77.4302414,
@@ -4438,7 +4438,7 @@ cities = City.create(
         "state": "North Carolina"
     },
     {
-        "city": "Franklin",
+        "name": "Franklin",
         "growth_from_2000_to_2013": "48.5%",
         "latitude": 35.9250637,
         "longitude": -86.8688899,
@@ -4447,7 +4447,7 @@ cities = City.create(
         "state": "Tennessee"
     },
     {
-        "city": "Flagstaff",
+        "name": "Flagstaff",
         "growth_from_2000_to_2013": "29.3%",
         "latitude": 35.1982836,
         "longitude": -111.651302,
@@ -4456,7 +4456,7 @@ cities = City.create(
         "state": "Arizona"
     },
     {
-        "city": "Flower Mound",
+        "name": "Flower Mound",
         "growth_from_2000_to_2013": "32.5%",
         "latitude": 33.0145673,
         "longitude": -97.0969552,
@@ -4465,7 +4465,7 @@ cities = City.create(
         "state": "Texas"
     },
     {
-        "city": "Weston",
+        "name": "Weston",
         "growth_from_2000_to_2013": "34.5%",
         "latitude": 26.1003654,
         "longitude": -80.3997748,
@@ -4474,7 +4474,7 @@ cities = City.create(
         "state": "Florida"
     },
     {
-        "city": "Waterloo",
+        "name": "Waterloo",
         "growth_from_2000_to_2013": "-0.5%",
         "latitude": 42.492786,
         "longitude": -92.34257749999999,
@@ -4483,7 +4483,7 @@ cities = City.create(
         "state": "Iowa"
     },
     {
-        "city": "Union City",
+        "name": "Union City",
         "growth_from_2000_to_2013": "1.7%",
         "latitude": 40.6975898,
         "longitude": -74.26316349999999,
@@ -4492,7 +4492,7 @@ cities = City.create(
         "state": "New Jersey"
     },
     {
-        "city": "Mount Vernon",
+        "name": "Mount Vernon",
         "growth_from_2000_to_2013": "-0.2%",
         "latitude": 40.9125992,
         "longitude": -73.8370786,
@@ -4501,7 +4501,7 @@ cities = City.create(
         "state": "New York"
     },
     {
-        "city": "Fort Myers",
+        "name": "Fort Myers",
         "growth_from_2000_to_2013": "31.2%",
         "latitude": 26.640628,
         "longitude": -81.8723084,
@@ -4510,7 +4510,7 @@ cities = City.create(
         "state": "Florida"
     },
     {
-        "city": "Dothan",
+        "name": "Dothan",
         "growth_from_2000_to_2013": "16.6%",
         "latitude": 31.2232313,
         "longitude": -85.3904888,
@@ -4519,7 +4519,7 @@ cities = City.create(
         "state": "Alabama"
     },
     {
-        "city": "Rancho Cordova",
+        "name": "Rancho Cordova",
         "growth_from_2000_to_2013": "26.4%",
         "latitude": 38.5890723,
         "longitude": -121.302728,
@@ -4528,7 +4528,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Redondo Beach",
+        "name": "Redondo Beach",
         "growth_from_2000_to_2013": "6.7%",
         "latitude": 33.8491816,
         "longitude": -118.3884078,
@@ -4537,7 +4537,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Jackson",
+        "name": "Jackson",
         "growth_from_2000_to_2013": "12.9%",
         "latitude": 35.6145169,
         "longitude": -88.81394689999999,
@@ -4546,7 +4546,7 @@ cities = City.create(
         "state": "Tennessee"
     },
     {
-        "city": "Pasco",
+        "name": "Pasco",
         "growth_from_2000_to_2013": "98.5%",
         "latitude": 46.2395793,
         "longitude": -119.1005657,
@@ -4555,7 +4555,7 @@ cities = City.create(
         "state": "Washington"
     },
     {
-        "city": "St. Charles",
+        "name": "St. Charles",
         "growth_from_2000_to_2013": "11.3%",
         "latitude": 38.7881062,
         "longitude": -90.4974359,
@@ -4564,7 +4564,7 @@ cities = City.create(
         "state": "Missouri"
     },
     {
-        "city": "Eau Claire",
+        "name": "Eau Claire",
         "growth_from_2000_to_2013": "8.7%",
         "latitude": 44.811349,
         "longitude": -91.4984941,
@@ -4573,7 +4573,7 @@ cities = City.create(
         "state": "Wisconsin"
     },
     {
-        "city": "North Richland Hills",
+        "name": "North Richland Hills",
         "growth_from_2000_to_2013": "20.2%",
         "latitude": 32.8342952,
         "longitude": -97.2289029,
@@ -4582,7 +4582,7 @@ cities = City.create(
         "state": "Texas"
     },
     {
-        "city": "Bismarck",
+        "name": "Bismarck",
         "growth_from_2000_to_2013": "20.1%",
         "latitude": 46.8083268,
         "longitude": -100.7837392,
@@ -4591,7 +4591,7 @@ cities = City.create(
         "state": "North Dakota"
     },
     {
-        "city": "Yorba Linda",
+        "name": "Yorba Linda",
         "growth_from_2000_to_2013": "13.4%",
         "latitude": 33.8886259,
         "longitude": -117.8131125,
@@ -4600,7 +4600,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Kenner",
+        "name": "Kenner",
         "growth_from_2000_to_2013": "-4.8%",
         "latitude": 29.9940924,
         "longitude": -90.2417434,
@@ -4609,7 +4609,7 @@ cities = City.create(
         "state": "Louisiana"
     },
     {
-        "city": "Walnut Creek",
+        "name": "Walnut Creek",
         "growth_from_2000_to_2013": "3.5%",
         "latitude": 37.9100783,
         "longitude": -122.0651819,
@@ -4618,7 +4618,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Frederick",
+        "name": "Frederick",
         "growth_from_2000_to_2013": "25.9%",
         "latitude": 39.41426879999999,
         "longitude": -77.4105409,
@@ -4627,7 +4627,7 @@ cities = City.create(
         "state": "Maryland"
     },
     {
-        "city": "Oshkosh",
+        "name": "Oshkosh",
         "growth_from_2000_to_2013": "5.3%",
         "latitude": 44.0247062,
         "longitude": -88.5426136,
@@ -4636,7 +4636,7 @@ cities = City.create(
         "state": "Wisconsin"
     },
     {
-        "city": "Pittsburg",
+        "name": "Pittsburg",
         "growth_from_2000_to_2013": "16.6%",
         "latitude": 38.0279762,
         "longitude": -121.8846806,
@@ -4645,7 +4645,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Palo Alto",
+        "name": "Palo Alto",
         "growth_from_2000_to_2013": "13.7%",
         "latitude": 37.4418834,
         "longitude": -122.1430195,
@@ -4654,7 +4654,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Bossier City",
+        "name": "Bossier City",
         "growth_from_2000_to_2013": "17.4%",
         "latitude": 32.5159852,
         "longitude": -93.7321228,
@@ -4663,7 +4663,7 @@ cities = City.create(
         "state": "Louisiana"
     },
     {
-        "city": "Portland",
+        "name": "Portland",
         "growth_from_2000_to_2013": "3.2%",
         "latitude": 43.66147100000001,
         "longitude": -70.2553259,
@@ -4672,7 +4672,7 @@ cities = City.create(
         "state": "Maine"
     },
     {
-        "city": "St. Cloud",
+        "name": "St. Cloud",
         "growth_from_2000_to_2013": "10.9%",
         "latitude": 45.5579451,
         "longitude": -94.16324039999999,
@@ -4681,7 +4681,7 @@ cities = City.create(
         "state": "Minnesota"
     },
     {
-        "city": "Davis",
+        "name": "Davis",
         "growth_from_2000_to_2013": "11.9%",
         "latitude": 38.5449065,
         "longitude": -121.7405167,
@@ -4690,7 +4690,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "South San Francisco",
+        "name": "South San Francisco",
         "growth_from_2000_to_2013": "9.1%",
         "latitude": 37.654656,
         "longitude": -122.4077498,
@@ -4699,7 +4699,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Camarillo",
+        "name": "Camarillo",
         "growth_from_2000_to_2013": "14.9%",
         "latitude": 34.2163937,
         "longitude": -119.0376023,
@@ -4708,7 +4708,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "North Little Rock",
+        "name": "North Little Rock",
         "growth_from_2000_to_2013": "9.0%",
         "latitude": 34.769536,
         "longitude": -92.2670941,
@@ -4717,7 +4717,7 @@ cities = City.create(
         "state": "Arkansas"
     },
     {
-        "city": "Schenectady",
+        "name": "Schenectady",
         "growth_from_2000_to_2013": "6.7%",
         "latitude": 42.8142432,
         "longitude": -73.9395687,
@@ -4726,7 +4726,7 @@ cities = City.create(
         "state": "New York"
     },
     {
-        "city": "Gaithersburg",
+        "name": "Gaithersburg",
         "growth_from_2000_to_2013": "24.2%",
         "latitude": 39.1434406,
         "longitude": -77.2013705,
@@ -4735,7 +4735,7 @@ cities = City.create(
         "state": "Maryland"
     },
     {
-        "city": "Harlingen",
+        "name": "Harlingen",
         "growth_from_2000_to_2013": "11.6%",
         "latitude": 26.1906306,
         "longitude": -97.69610259999999,
@@ -4744,7 +4744,7 @@ cities = City.create(
         "state": "Texas"
     },
     {
-        "city": "Woodbury",
+        "name": "Woodbury",
         "growth_from_2000_to_2013": "39.8%",
         "latitude": 44.9238552,
         "longitude": -92.9593797,
@@ -4753,7 +4753,7 @@ cities = City.create(
         "state": "Minnesota"
     },
     {
-        "city": "Eagan",
+        "name": "Eagan",
         "growth_from_2000_to_2013": "2.6%",
         "latitude": 44.8041322,
         "longitude": -93.1668858,
@@ -4762,7 +4762,7 @@ cities = City.create(
         "state": "Minnesota"
     },
     {
-        "city": "Yuba City",
+        "name": "Yuba City",
         "growth_from_2000_to_2013": "27.9%",
         "latitude": 39.1404477,
         "longitude": -121.6169108,
@@ -4771,7 +4771,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Maple Grove",
+        "name": "Maple Grove",
         "growth_from_2000_to_2013": "27.3%",
         "latitude": 45.0724642,
         "longitude": -93.4557877,
@@ -4780,7 +4780,7 @@ cities = City.create(
         "state": "Minnesota"
     },
     {
-        "city": "Youngstown",
+        "name": "Youngstown",
         "growth_from_2000_to_2013": "-20.2%",
         "latitude": 41.0997803,
         "longitude": -80.6495194,
@@ -4789,7 +4789,7 @@ cities = City.create(
         "state": "Ohio"
     },
     {
-        "city": "Skokie",
+        "name": "Skokie",
         "growth_from_2000_to_2013": "2.8%",
         "latitude": 42.0324025,
         "longitude": -87.7416246,
@@ -4798,7 +4798,7 @@ cities = City.create(
         "state": "Illinois"
     },
     {
-        "city": "Kissimmee",
+        "name": "Kissimmee",
         "growth_from_2000_to_2013": "32.6%",
         "latitude": 28.2919557,
         "longitude": -81.40757099999999,
@@ -4807,7 +4807,7 @@ cities = City.create(
         "state": "Florida"
     },
     {
-        "city": "Johnson City",
+        "name": "Johnson City",
         "growth_from_2000_to_2013": "16.2%",
         "latitude": 36.3134397,
         "longitude": -82.3534727,
@@ -4816,7 +4816,7 @@ cities = City.create(
         "state": "Tennessee"
     },
     {
-        "city": "Victoria",
+        "name": "Victoria",
         "growth_from_2000_to_2013": "7.5%",
         "latitude": 28.8052674,
         "longitude": -97.0035982,
@@ -4825,7 +4825,7 @@ cities = City.create(
         "state": "Texas"
     },
     {
-        "city": "San Clemente",
+        "name": "San Clemente",
         "growth_from_2000_to_2013": "28.6%",
         "latitude": 33.4269728,
         "longitude": -117.6119925,
@@ -4834,7 +4834,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Bayonne",
+        "name": "Bayonne",
         "growth_from_2000_to_2013": "5.1%",
         "latitude": 40.6687141,
         "longitude": -74.1143091,
@@ -4843,7 +4843,7 @@ cities = City.create(
         "state": "New Jersey"
     },
     {
-        "city": "Laguna Niguel",
+        "name": "Laguna Niguel",
         "growth_from_2000_to_2013": "2.8%",
         "latitude": 33.5225261,
         "longitude": -117.7075526,
@@ -4852,7 +4852,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "East Orange",
+        "name": "East Orange",
         "growth_from_2000_to_2013": "-7.4%",
         "latitude": 40.767323,
         "longitude": -74.2048677,
@@ -4861,7 +4861,7 @@ cities = City.create(
         "state": "New Jersey"
     },
     {
-        "city": "Shawnee",
+        "name": "Shawnee",
         "growth_from_2000_to_2013": "32.2%",
         "latitude": 39.02284849999999,
         "longitude": -94.7151865,
@@ -4870,7 +4870,7 @@ cities = City.create(
         "state": "Kansas"
     },
     {
-        "city": "Homestead",
+        "name": "Homestead",
         "growth_from_2000_to_2013": "100.7%",
         "latitude": 25.4687224,
         "longitude": -80.4775569,
@@ -4879,7 +4879,7 @@ cities = City.create(
         "state": "Florida"
     },
     {
-        "city": "Rockville",
+        "name": "Rockville",
         "growth_from_2000_to_2013": "34.0%",
         "latitude": 39.0839973,
         "longitude": -77.1527578,
@@ -4888,7 +4888,7 @@ cities = City.create(
         "state": "Maryland"
     },
     {
-        "city": "Delray Beach",
+        "name": "Delray Beach",
         "growth_from_2000_to_2013": "6.1%",
         "latitude": 26.4614625,
         "longitude": -80.0728201,
@@ -4897,7 +4897,7 @@ cities = City.create(
         "state": "Florida"
     },
     {
-        "city": "Janesville",
+        "name": "Janesville",
         "growth_from_2000_to_2013": "5.6%",
         "latitude": 42.6827885,
         "longitude": -89.0187222,
@@ -4906,7 +4906,7 @@ cities = City.create(
         "state": "Wisconsin"
     },
     {
-        "city": "Conway",
+        "name": "Conway",
         "growth_from_2000_to_2013": "46.1%",
         "latitude": 35.0886963,
         "longitude": -92.4421011,
@@ -4915,7 +4915,7 @@ cities = City.create(
         "state": "Arkansas"
     },
     {
-        "city": "Pico Rivera",
+        "name": "Pico Rivera",
         "growth_from_2000_to_2013": "0.4%",
         "latitude": 33.9830688,
         "longitude": -118.096735,
@@ -4924,7 +4924,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Lorain",
+        "name": "Lorain",
         "growth_from_2000_to_2013": "-7.2%",
         "latitude": 41.452819,
         "longitude": -82.1823746,
@@ -4933,7 +4933,7 @@ cities = City.create(
         "state": "Ohio"
     },
     {
-        "city": "Montebello",
+        "name": "Montebello",
         "growth_from_2000_to_2013": "2.0%",
         "latitude": 34.0165053,
         "longitude": -118.1137535,
@@ -4942,7 +4942,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Lodi",
+        "name": "Lodi",
         "growth_from_2000_to_2013": "10.1%",
         "latitude": 38.1341477,
         "longitude": -121.2722194,
@@ -4951,7 +4951,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "New Braunfels",
+        "name": "New Braunfels",
         "growth_from_2000_to_2013": "64.0%",
         "latitude": 29.7030024,
         "longitude": -98.1244531,
@@ -4960,7 +4960,7 @@ cities = City.create(
         "state": "Texas"
     },
     {
-        "city": "Marysville",
+        "name": "Marysville",
         "growth_from_2000_to_2013": "115.7%",
         "latitude": 48.0517637,
         "longitude": -122.1770818,
@@ -4969,7 +4969,7 @@ cities = City.create(
         "state": "Washington"
     },
     {
-        "city": "Tamarac",
+        "name": "Tamarac",
         "growth_from_2000_to_2013": "12.9%",
         "latitude": 26.2128609,
         "longitude": -80.2497707,
@@ -4978,7 +4978,7 @@ cities = City.create(
         "state": "Florida"
     },
     {
-        "city": "Madera",
+        "name": "Madera",
         "growth_from_2000_to_2013": "44.4%",
         "latitude": 36.9613356,
         "longitude": -120.0607176,
@@ -4987,7 +4987,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Conroe",
+        "name": "Conroe",
         "growth_from_2000_to_2013": "61.9%",
         "latitude": 30.3118769,
         "longitude": -95.45605119999999,
@@ -4996,7 +4996,7 @@ cities = City.create(
         "state": "Texas"
     },
     {
-        "city": "Santa Cruz",
+        "name": "Santa Cruz",
         "growth_from_2000_to_2013": "12.5%",
         "latitude": 36.9741171,
         "longitude": -122.0307963,
@@ -5005,7 +5005,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Eden Prairie",
+        "name": "Eden Prairie",
         "growth_from_2000_to_2013": "13.3%",
         "latitude": 44.8546856,
         "longitude": -93.47078599999999,
@@ -5014,7 +5014,7 @@ cities = City.create(
         "state": "Minnesota"
     },
     {
-        "city": "Cheyenne",
+        "name": "Cheyenne",
         "growth_from_2000_to_2013": "16.9%",
         "latitude": 41.1399814,
         "longitude": -104.8202462,
@@ -5023,7 +5023,7 @@ cities = City.create(
         "state": "Wyoming"
     },
     {
-        "city": "Daytona Beach",
+        "name": "Daytona Beach",
         "growth_from_2000_to_2013": "-2.3%",
         "latitude": 29.2108147,
         "longitude": -81.0228331,
@@ -5032,7 +5032,7 @@ cities = City.create(
         "state": "Florida"
     },
     {
-        "city": "Alpharetta",
+        "name": "Alpharetta",
         "growth_from_2000_to_2013": "33.6%",
         "latitude": 34.0753762,
         "longitude": -84.2940899,
@@ -5041,7 +5041,7 @@ cities = City.create(
         "state": "Georgia"
     },
     {
-        "city": "Hamilton",
+        "name": "Hamilton",
         "growth_from_2000_to_2013": "2.7%",
         "latitude": 39.3995008,
         "longitude": -84.5613355,
@@ -5050,7 +5050,7 @@ cities = City.create(
         "state": "Ohio"
     },
     {
-        "city": "Waltham",
+        "name": "Waltham",
         "growth_from_2000_to_2013": "5.0%",
         "latitude": 42.3764852,
         "longitude": -71.2356113,
@@ -5059,7 +5059,7 @@ cities = City.create(
         "state": "Massachusetts"
     },
     {
-        "city": "Coon Rapids",
+        "name": "Coon Rapids",
         "growth_from_2000_to_2013": "0.6%",
         "latitude": 45.1732394,
         "longitude": -93.30300629999999,
@@ -5068,7 +5068,7 @@ cities = City.create(
         "state": "Minnesota"
     },
     {
-        "city": "Haverhill",
+        "name": "Haverhill",
         "growth_from_2000_to_2013": "5.0%",
         "latitude": 42.7762015,
         "longitude": -71.0772796,
@@ -5077,7 +5077,7 @@ cities = City.create(
         "state": "Massachusetts"
     },
     {
-        "city": "Council Bluffs",
+        "name": "Council Bluffs",
         "growth_from_2000_to_2013": "6.2%",
         "latitude": 41.2619444,
         "longitude": -95.8608333,
@@ -5086,7 +5086,7 @@ cities = City.create(
         "state": "Iowa"
     },
     {
-        "city": "Taylor",
+        "name": "Taylor",
         "growth_from_2000_to_2013": "-6.3%",
         "latitude": 42.240872,
         "longitude": -83.2696509,
@@ -5095,7 +5095,7 @@ cities = City.create(
         "state": "Michigan"
     },
     {
-        "city": "Utica",
+        "name": "Utica",
         "growth_from_2000_to_2013": "2.2%",
         "latitude": 43.100903,
         "longitude": -75.232664,
@@ -5104,7 +5104,7 @@ cities = City.create(
         "state": "New York"
     },
     {
-        "city": "Ames",
+        "name": "Ames",
         "growth_from_2000_to_2013": "21.3%",
         "latitude": 42.034722,
         "longitude": -93.61999999999999,
@@ -5113,7 +5113,7 @@ cities = City.create(
         "state": "Iowa"
     },
     {
-        "city": "La Habra",
+        "name": "La Habra",
         "growth_from_2000_to_2013": "3.6%",
         "latitude": 33.9319578,
         "longitude": -117.9461734,
@@ -5122,7 +5122,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Encinitas",
+        "name": "Encinitas",
         "growth_from_2000_to_2013": "5.8%",
         "latitude": 33.0369867,
         "longitude": -117.2919818,
@@ -5131,7 +5131,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Bowling Green",
+        "name": "Bowling Green",
         "growth_from_2000_to_2013": "24.1%",
         "latitude": 36.9685219,
         "longitude": -86.4808043,
@@ -5140,7 +5140,7 @@ cities = City.create(
         "state": "Kentucky"
     },
     {
-        "city": "Burnsville",
+        "name": "Burnsville",
         "growth_from_2000_to_2013": "1.9%",
         "latitude": 44.7677424,
         "longitude": -93.27772259999999,
@@ -5149,7 +5149,7 @@ cities = City.create(
         "state": "Minnesota"
     },
     {
-        "city": "Greenville",
+        "name": "Greenville",
         "growth_from_2000_to_2013": "8.2%",
         "latitude": 34.85261759999999,
         "longitude": -82.3940104,
@@ -5158,7 +5158,7 @@ cities = City.create(
         "state": "South Carolina"
     },
     {
-        "city": "West Des Moines",
+        "name": "West Des Moines",
         "growth_from_2000_to_2013": "29.8%",
         "latitude": 41.5772115,
         "longitude": -93.711332,
@@ -5167,7 +5167,7 @@ cities = City.create(
         "state": "Iowa"
     },
     {
-        "city": "Cedar Park",
+        "name": "Cedar Park",
         "growth_from_2000_to_2013": "134.3%",
         "latitude": 30.505198,
         "longitude": -97.8202888,
@@ -5176,7 +5176,7 @@ cities = City.create(
         "state": "Texas"
     },
     {
-        "city": "Tulare",
+        "name": "Tulare",
         "growth_from_2000_to_2013": "33.3%",
         "latitude": 36.2077288,
         "longitude": -119.3473379,
@@ -5185,7 +5185,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Monterey Park",
+        "name": "Monterey Park",
         "growth_from_2000_to_2013": "1.5%",
         "latitude": 34.0625106,
         "longitude": -118.1228476,
@@ -5194,7 +5194,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Vineland",
+        "name": "Vineland",
         "growth_from_2000_to_2013": "9.3%",
         "latitude": 39.4863773,
         "longitude": -75.02596369999999,
@@ -5203,7 +5203,7 @@ cities = City.create(
         "state": "New Jersey"
     },
     {
-        "city": "Terre Haute",
+        "name": "Terre Haute",
         "growth_from_2000_to_2013": "2.5%",
         "latitude": 39.4667034,
         "longitude": -87.41390919999999,
@@ -5212,7 +5212,7 @@ cities = City.create(
         "state": "Indiana"
     },
     {
-        "city": "North Miami",
+        "name": "North Miami",
         "growth_from_2000_to_2013": "2.0%",
         "latitude": 25.8900949,
         "longitude": -80.1867138,
@@ -5221,7 +5221,7 @@ cities = City.create(
         "state": "Florida"
     },
     {
-        "city": "Mansfield",
+        "name": "Mansfield",
         "growth_from_2000_to_2013": "114.2%",
         "latitude": 32.5631924,
         "longitude": -97.1416768,
@@ -5230,7 +5230,7 @@ cities = City.create(
         "state": "Texas"
     },
     {
-        "city": "West Allis",
+        "name": "West Allis",
         "growth_from_2000_to_2013": "-0.6%",
         "latitude": 43.0166806,
         "longitude": -88.0070315,
@@ -5239,7 +5239,7 @@ cities = City.create(
         "state": "Wisconsin"
     },
     {
-        "city": "Bristol",
+        "name": "Bristol",
         "growth_from_2000_to_2013": "0.4%",
         "latitude": 41.67176480000001,
         "longitude": -72.9492703,
@@ -5248,7 +5248,7 @@ cities = City.create(
         "state": "Connecticut"
     },
     {
-        "city": "Taylorsville",
+        "name": "Taylorsville",
         "growth_from_2000_to_2013": "2.9%",
         "latitude": 40.66772479999999,
         "longitude": -111.9388258,
@@ -5257,7 +5257,7 @@ cities = City.create(
         "state": "Utah"
     },
     {
-        "city": "Malden",
+        "name": "Malden",
         "growth_from_2000_to_2013": "7.4%",
         "latitude": 42.4250964,
         "longitude": -71.066163,
@@ -5266,7 +5266,7 @@ cities = City.create(
         "state": "Massachusetts"
     },
     {
-        "city": "Meriden",
+        "name": "Meriden",
         "growth_from_2000_to_2013": "3.7%",
         "latitude": 41.5381535,
         "longitude": -72.80704349999999,
@@ -5275,7 +5275,7 @@ cities = City.create(
         "state": "Connecticut"
     },
     {
-        "city": "Blaine",
+        "name": "Blaine",
         "growth_from_2000_to_2013": "32.8%",
         "latitude": 45.1607987,
         "longitude": -93.23494889999999,
@@ -5284,7 +5284,7 @@ cities = City.create(
         "state": "Minnesota"
     },
     {
-        "city": "Wellington",
+        "name": "Wellington",
         "growth_from_2000_to_2013": "55.0%",
         "latitude": 26.6617635,
         "longitude": -80.2683571,
@@ -5293,7 +5293,7 @@ cities = City.create(
         "state": "Florida"
     },
     {
-        "city": "Cupertino",
+        "name": "Cupertino",
         "growth_from_2000_to_2013": "14.3%",
         "latitude": 37.3229978,
         "longitude": -122.0321823,
@@ -5302,7 +5302,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Springfield",
+        "name": "Springfield",
         "growth_from_2000_to_2013": "12.4%",
         "latitude": 44.0462362,
         "longitude": -123.0220289,
@@ -5311,7 +5311,7 @@ cities = City.create(
         "state": "Oregon"
     },
     {
-        "city": "Rogers",
+        "name": "Rogers",
         "growth_from_2000_to_2013": "50.6%",
         "latitude": 36.3320196,
         "longitude": -94.1185366,
@@ -5320,7 +5320,7 @@ cities = City.create(
         "state": "Arkansas"
     },
     {
-        "city": "St. Clair Shores",
+        "name": "St. Clair Shores",
         "growth_from_2000_to_2013": "-4.6%",
         "latitude": 42.4974085,
         "longitude": -82.89636039999999,
@@ -5329,7 +5329,7 @@ cities = City.create(
         "state": "Michigan"
     },
     {
-        "city": "Gardena",
+        "name": "Gardena",
         "growth_from_2000_to_2013": "3.4%",
         "latitude": 33.8883487,
         "longitude": -118.3089624,
@@ -5338,7 +5338,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Pontiac",
+        "name": "Pontiac",
         "growth_from_2000_to_2013": "-11.4%",
         "latitude": 42.6389216,
         "longitude": -83.29104679999999,
@@ -5347,7 +5347,7 @@ cities = City.create(
         "state": "Michigan"
     },
     {
-        "city": "National City",
+        "name": "National City",
         "growth_from_2000_to_2013": "10.1%",
         "latitude": 32.6781085,
         "longitude": -117.0991967,
@@ -5356,7 +5356,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Grand Junction",
+        "name": "Grand Junction",
         "growth_from_2000_to_2013": "30.9%",
         "latitude": 39.0638705,
         "longitude": -108.5506486,
@@ -5365,7 +5365,7 @@ cities = City.create(
         "state": "Colorado"
     },
     {
-        "city": "Rocklin",
+        "name": "Rocklin",
         "growth_from_2000_to_2013": "60.3%",
         "latitude": 38.7907339,
         "longitude": -121.2357828,
@@ -5374,7 +5374,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Chapel Hill",
+        "name": "Chapel Hill",
         "growth_from_2000_to_2013": "24.1%",
         "latitude": 35.9131996,
         "longitude": -79.0558445,
@@ -5383,7 +5383,7 @@ cities = City.create(
         "state": "North Carolina"
     },
     {
-        "city": "Casper",
+        "name": "Casper",
         "growth_from_2000_to_2013": "19.9%",
         "latitude": 42.866632,
         "longitude": -106.313081,
@@ -5392,7 +5392,7 @@ cities = City.create(
         "state": "Wyoming"
     },
     {
-        "city": "Broomfield",
+        "name": "Broomfield",
         "growth_from_2000_to_2013": "50.3%",
         "latitude": 39.9205411,
         "longitude": -105.0866504,
@@ -5401,7 +5401,7 @@ cities = City.create(
         "state": "Colorado"
     },
     {
-        "city": "Petaluma",
+        "name": "Petaluma",
         "growth_from_2000_to_2013": "8.4%",
         "latitude": 38.232417,
         "longitude": -122.6366524,
@@ -5410,7 +5410,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "South Jordan",
+        "name": "South Jordan",
         "growth_from_2000_to_2013": "100.1%",
         "latitude": 40.5621704,
         "longitude": -111.929658,
@@ -5419,7 +5419,7 @@ cities = City.create(
         "state": "Utah"
     },
     {
-        "city": "Springfield",
+        "name": "Springfield",
         "growth_from_2000_to_2013": "-9.8%",
         "latitude": 39.9242266,
         "longitude": -83.8088171,
@@ -5428,7 +5428,7 @@ cities = City.create(
         "state": "Ohio"
     },
     {
-        "city": "Great Falls",
+        "name": "Great Falls",
         "growth_from_2000_to_2013": "3.9%",
         "latitude": 47.4941836,
         "longitude": -111.2833449,
@@ -5437,7 +5437,7 @@ cities = City.create(
         "state": "Montana"
     },
     {
-        "city": "Lancaster",
+        "name": "Lancaster",
         "growth_from_2000_to_2013": "4.5%",
         "latitude": 40.0378755,
         "longitude": -76.3055144,
@@ -5446,7 +5446,7 @@ cities = City.create(
         "state": "Pennsylvania"
     },
     {
-        "city": "North Port",
+        "name": "North Port",
         "growth_from_2000_to_2013": "154.6%",
         "latitude": 27.044224,
         "longitude": -82.2359254,
@@ -5455,7 +5455,7 @@ cities = City.create(
         "state": "Florida"
     },
     {
-        "city": "Lakewood",
+        "name": "Lakewood",
         "growth_from_2000_to_2013": "1.1%",
         "latitude": 47.1717649,
         "longitude": -122.518458,
@@ -5464,7 +5464,7 @@ cities = City.create(
         "state": "Washington"
     },
     {
-        "city": "Marietta",
+        "name": "Marietta",
         "growth_from_2000_to_2013": "-3.8%",
         "latitude": 33.95260200000001,
         "longitude": -84.5499327,
@@ -5473,7 +5473,7 @@ cities = City.create(
         "state": "Georgia"
     },
     {
-        "city": "San Rafael",
+        "name": "San Rafael",
         "growth_from_2000_to_2013": "5.0%",
         "latitude": 37.9735346,
         "longitude": -122.5310874,
@@ -5482,7 +5482,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Royal Oak",
+        "name": "Royal Oak",
         "growth_from_2000_to_2013": "-1.7%",
         "latitude": 42.4894801,
         "longitude": -83.1446485,
@@ -5491,7 +5491,7 @@ cities = City.create(
         "state": "Michigan"
     },
     {
-        "city": "Des Plaines",
+        "name": "Des Plaines",
         "growth_from_2000_to_2013": "3.2%",
         "latitude": 42.0333623,
         "longitude": -87.88339909999999,
@@ -5500,7 +5500,7 @@ cities = City.create(
         "state": "Illinois"
     },
     {
-        "city": "Huntington Park",
+        "name": "Huntington Park",
         "growth_from_2000_to_2013": "-4.1%",
         "latitude": 33.9816812,
         "longitude": -118.2250725,
@@ -5509,7 +5509,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "La Mesa",
+        "name": "La Mesa",
         "growth_from_2000_to_2013": "6.9%",
         "latitude": 32.7678287,
         "longitude": -117.0230839,
@@ -5518,7 +5518,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Orland Park",
+        "name": "Orland Park",
         "growth_from_2000_to_2013": "13.9%",
         "latitude": 41.6303103,
         "longitude": -87.85394250000002,
@@ -5527,7 +5527,7 @@ cities = City.create(
         "state": "Illinois"
     },
     {
-        "city": "Auburn",
+        "name": "Auburn",
         "growth_from_2000_to_2013": "26.4%",
         "latitude": 32.6098566,
         "longitude": -85.48078249999999,
@@ -5536,7 +5536,7 @@ cities = City.create(
         "state": "Alabama"
     },
     {
-        "city": "Lakeville",
+        "name": "Lakeville",
         "growth_from_2000_to_2013": "34.3%",
         "latitude": 44.6496868,
         "longitude": -93.24271999999999,
@@ -5545,7 +5545,7 @@ cities = City.create(
         "state": "Minnesota"
     },
     {
-        "city": "Owensboro",
+        "name": "Owensboro",
         "growth_from_2000_to_2013": "7.7%",
         "latitude": 37.7719074,
         "longitude": -87.1111676,
@@ -5554,7 +5554,7 @@ cities = City.create(
         "state": "Kentucky"
     },
     {
-        "city": "Moore",
+        "name": "Moore",
         "growth_from_2000_to_2013": "41.5%",
         "latitude": 35.3395079,
         "longitude": -97.48670279999999,
@@ -5563,7 +5563,7 @@ cities = City.create(
         "state": "Oklahoma"
     },
     {
-        "city": "Jupiter",
+        "name": "Jupiter",
         "growth_from_2000_to_2013": "46.2%",
         "latitude": 26.9342246,
         "longitude": -80.0942087,
@@ -5572,7 +5572,7 @@ cities = City.create(
         "state": "Florida"
     },
     {
-        "city": "Idaho Falls",
+        "name": "Idaho Falls",
         "growth_from_2000_to_2013": "14.0%",
         "latitude": 43.49165139999999,
         "longitude": -112.0339645,
@@ -5581,7 +5581,7 @@ cities = City.create(
         "state": "Idaho"
     },
     {
-        "city": "Dubuque",
+        "name": "Dubuque",
         "growth_from_2000_to_2013": "0.9%",
         "latitude": 42.5005583,
         "longitude": -90.66457179999999,
@@ -5590,7 +5590,7 @@ cities = City.create(
         "state": "Iowa"
     },
     {
-        "city": "Bartlett",
+        "name": "Bartlett",
         "growth_from_2000_to_2013": "31.7%",
         "latitude": 35.2045328,
         "longitude": -89.8739753,
@@ -5599,7 +5599,7 @@ cities = City.create(
         "state": "Tennessee"
     },
     {
-        "city": "Rowlett",
+        "name": "Rowlett",
         "growth_from_2000_to_2013": "28.6%",
         "latitude": 32.9029017,
         "longitude": -96.56388,
@@ -5608,7 +5608,7 @@ cities = City.create(
         "state": "Texas"
     },
     {
-        "city": "Novi",
+        "name": "Novi",
         "growth_from_2000_to_2013": "22.0%",
         "latitude": 42.48059,
         "longitude": -83.4754913,
@@ -5617,7 +5617,7 @@ cities = City.create(
         "state": "Michigan"
     },
     {
-        "city": "White Plains",
+        "name": "White Plains",
         "growth_from_2000_to_2013": "8.5%",
         "latitude": 41.03398620000001,
         "longitude": -73.7629097,
@@ -5626,7 +5626,7 @@ cities = City.create(
         "state": "New York"
     },
     {
-        "city": "Arcadia",
+        "name": "Arcadia",
         "growth_from_2000_to_2013": "8.3%",
         "latitude": 34.1397292,
         "longitude": -118.0353449,
@@ -5635,7 +5635,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Redmond",
+        "name": "Redmond",
         "growth_from_2000_to_2013": "26.0%",
         "latitude": 47.6739881,
         "longitude": -122.121512,
@@ -5644,7 +5644,7 @@ cities = City.create(
         "state": "Washington"
     },
     {
-        "city": "Lake Elsinore",
+        "name": "Lake Elsinore",
         "growth_from_2000_to_2013": "96.5%",
         "latitude": 33.6680772,
         "longitude": -117.3272615,
@@ -5653,7 +5653,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Ocala",
+        "name": "Ocala",
         "growth_from_2000_to_2013": "20.8%",
         "latitude": 29.1871986,
         "longitude": -82.14009229999999,
@@ -5662,7 +5662,7 @@ cities = City.create(
         "state": "Florida"
     },
     {
-        "city": "Tinley Park",
+        "name": "Tinley Park",
         "growth_from_2000_to_2013": "16.3%",
         "latitude": 41.5731442,
         "longitude": -87.7932939,
@@ -5671,7 +5671,7 @@ cities = City.create(
         "state": "Illinois"
     },
     {
-        "city": "Port Orange",
+        "name": "Port Orange",
         "growth_from_2000_to_2013": "22.8%",
         "latitude": 29.1383165,
         "longitude": -80.9956105,
@@ -5680,7 +5680,7 @@ cities = City.create(
         "state": "Florida"
     },
     {
-        "city": "Medford",
+        "name": "Medford",
         "growth_from_2000_to_2013": "2.7%",
         "latitude": 42.4184296,
         "longitude": -71.1061639,
@@ -5689,7 +5689,7 @@ cities = City.create(
         "state": "Massachusetts"
     },
     {
-        "city": "Oak Lawn",
+        "name": "Oak Lawn",
         "growth_from_2000_to_2013": "3.3%",
         "latitude": 41.719978,
         "longitude": -87.7479528,
@@ -5698,7 +5698,7 @@ cities = City.create(
         "state": "Illinois"
     },
     {
-        "city": "Rocky Mount",
+        "name": "Rocky Mount",
         "growth_from_2000_to_2013": "-3.1%",
         "latitude": 35.9382103,
         "longitude": -77.7905339,
@@ -5707,7 +5707,7 @@ cities = City.create(
         "state": "North Carolina"
     },
     {
-        "city": "Kokomo",
+        "name": "Kokomo",
         "growth_from_2000_to_2013": "21.3%",
         "latitude": 40.486427,
         "longitude": -86.13360329999999,
@@ -5716,7 +5716,7 @@ cities = City.create(
         "state": "Indiana"
     },
     {
-        "city": "Coconut Creek",
+        "name": "Coconut Creek",
         "growth_from_2000_to_2013": "28.4%",
         "latitude": 26.2517482,
         "longitude": -80.17893509999999,
@@ -5725,7 +5725,7 @@ cities = City.create(
         "state": "Florida"
     },
     {
-        "city": "Bowie",
+        "name": "Bowie",
         "growth_from_2000_to_2013": "8.6%",
         "latitude": 39.0067768,
         "longitude": -76.77913649999999,
@@ -5734,7 +5734,7 @@ cities = City.create(
         "state": "Maryland"
     },
     {
-        "city": "Berwyn",
+        "name": "Berwyn",
         "growth_from_2000_to_2013": "5.1%",
         "latitude": 41.85058739999999,
         "longitude": -87.7936685,
@@ -5743,7 +5743,7 @@ cities = City.create(
         "state": "Illinois"
     },
     {
-        "city": "Midwest City",
+        "name": "Midwest City",
         "growth_from_2000_to_2013": "4.5%",
         "latitude": 35.4495065,
         "longitude": -97.3967019,
@@ -5752,7 +5752,7 @@ cities = City.create(
         "state": "Oklahoma"
     },
     {
-        "city": "Fountain Valley",
+        "name": "Fountain Valley",
         "growth_from_2000_to_2013": "3.0%",
         "latitude": 33.7091847,
         "longitude": -117.9536697,
@@ -5761,7 +5761,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Buckeye",
+        "name": "Buckeye",
         "growth_from_2000_to_2013": "480.9%",
         "latitude": 33.3703197,
         "longitude": -112.5837766,
@@ -5770,7 +5770,7 @@ cities = City.create(
         "state": "Arizona"
     },
     {
-        "city": "Dearborn Heights",
+        "name": "Dearborn Heights",
         "growth_from_2000_to_2013": "-3.0%",
         "latitude": 42.3369816,
         "longitude": -83.27326269999999,
@@ -5779,7 +5779,7 @@ cities = City.create(
         "state": "Michigan"
     },
     {
-        "city": "Woodland",
+        "name": "Woodland",
         "growth_from_2000_to_2013": "13.8%",
         "latitude": 38.67851570000001,
         "longitude": -121.7732971,
@@ -5788,7 +5788,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Noblesville",
+        "name": "Noblesville",
         "growth_from_2000_to_2013": "88.1%",
         "latitude": 40.0455917,
         "longitude": -86.0085955,
@@ -5797,7 +5797,7 @@ cities = City.create(
         "state": "Indiana"
     },
     {
-        "city": "Valdosta",
+        "name": "Valdosta",
         "growth_from_2000_to_2013": "22.3%",
         "latitude": 30.8327022,
         "longitude": -83.2784851,
@@ -5806,7 +5806,7 @@ cities = City.create(
         "state": "Georgia"
     },
     {
-        "city": "Diamond Bar",
+        "name": "Diamond Bar",
         "growth_from_2000_to_2013": "0.1%",
         "latitude": 34.0286226,
         "longitude": -117.8103367,
@@ -5815,7 +5815,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Manhattan",
+        "name": "Manhattan",
         "growth_from_2000_to_2013": "22.8%",
         "latitude": 39.18360819999999,
         "longitude": -96.57166939999999,
@@ -5824,7 +5824,7 @@ cities = City.create(
         "state": "Kansas"
     },
     {
-        "city": "Santee",
+        "name": "Santee",
         "growth_from_2000_to_2013": "5.7%",
         "latitude": 32.8383828,
         "longitude": -116.9739167,
@@ -5833,7 +5833,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Taunton",
+        "name": "Taunton",
         "growth_from_2000_to_2013": "0.0%",
         "latitude": 41.900101,
         "longitude": -71.0897674,
@@ -5842,7 +5842,7 @@ cities = City.create(
         "state": "Massachusetts"
     },
     {
-        "city": "Sanford",
+        "name": "Sanford",
         "growth_from_2000_to_2013": "42.8%",
         "latitude": 28.8028612,
         "longitude": -81.269453,
@@ -5851,7 +5851,7 @@ cities = City.create(
         "state": "Florida"
     },
     {
-        "city": "Kettering",
+        "name": "Kettering",
         "growth_from_2000_to_2013": "-3.1%",
         "latitude": 39.68950359999999,
         "longitude": -84.1688274,
@@ -5860,7 +5860,7 @@ cities = City.create(
         "state": "Ohio"
     },
     {
-        "city": "New Brunswick",
+        "name": "New Brunswick",
         "growth_from_2000_to_2013": "15.5%",
         "latitude": 40.4862157,
         "longitude": -74.4518188,
@@ -5869,7 +5869,7 @@ cities = City.create(
         "state": "New Jersey"
     },
     {
-        "city": "Decatur",
+        "name": "Decatur",
         "growth_from_2000_to_2013": "3.1%",
         "latitude": 34.6059253,
         "longitude": -86.9833417,
@@ -5878,7 +5878,7 @@ cities = City.create(
         "state": "Alabama"
     },
     {
-        "city": "Chicopee",
+        "name": "Chicopee",
         "growth_from_2000_to_2013": "1.7%",
         "latitude": 42.1487043,
         "longitude": -72.6078672,
@@ -5887,7 +5887,7 @@ cities = City.create(
         "state": "Massachusetts"
     },
     {
-        "city": "Anderson",
+        "name": "Anderson",
         "growth_from_2000_to_2013": "-6.6%",
         "latitude": 40.1053196,
         "longitude": -85.6802541,
@@ -5896,7 +5896,7 @@ cities = City.create(
         "state": "Indiana"
     },
     {
-        "city": "Margate",
+        "name": "Margate",
         "growth_from_2000_to_2013": "2.7%",
         "latitude": 26.2445263,
         "longitude": -80.206436,
@@ -5905,7 +5905,7 @@ cities = City.create(
         "state": "Florida"
     },
     {
-        "city": "Weymouth Town",
+        "name": "Weymouth Town",
         "growth_from_2000_to_2013": "",
         "latitude": 42.2180724,
         "longitude": -70.94103559999999,
@@ -5914,7 +5914,7 @@ cities = City.create(
         "state": "Massachusetts"
     },
     {
-        "city": "Hempstead",
+        "name": "Hempstead",
         "growth_from_2000_to_2013": "4.0%",
         "latitude": 40.7062128,
         "longitude": -73.6187397,
@@ -5923,7 +5923,7 @@ cities = City.create(
         "state": "New York"
     },
     {
-        "city": "Corvallis",
+        "name": "Corvallis",
         "growth_from_2000_to_2013": "11.8%",
         "latitude": 44.5645659,
         "longitude": -123.2620435,
@@ -5932,7 +5932,7 @@ cities = City.create(
         "state": "Oregon"
     },
     {
-        "city": "Eastvale",
+        "name": "Eastvale",
         "growth_from_2000_to_2013": "",
         "latitude": 33.952463,
         "longitude": -117.5848025,
@@ -5941,7 +5941,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Porterville",
+        "name": "Porterville",
         "growth_from_2000_to_2013": "20.1%",
         "latitude": 36.06523,
         "longitude": -119.0167679,
@@ -5950,7 +5950,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "West Haven",
+        "name": "West Haven",
         "growth_from_2000_to_2013": "5.1%",
         "latitude": 41.2705484,
         "longitude": -72.9469711,
@@ -5959,7 +5959,7 @@ cities = City.create(
         "state": "Connecticut"
     },
     {
-        "city": "Brentwood",
+        "name": "Brentwood",
         "growth_from_2000_to_2013": "122.3%",
         "latitude": 37.931868,
         "longitude": -121.6957863,
@@ -5968,7 +5968,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Paramount",
+        "name": "Paramount",
         "growth_from_2000_to_2013": "-0.7%",
         "latitude": 33.8894598,
         "longitude": -118.1597911,
@@ -5977,7 +5977,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Grand Forks",
+        "name": "Grand Forks",
         "growth_from_2000_to_2013": "11.5%",
         "latitude": 47.9252568,
         "longitude": -97.0328547,
@@ -5986,7 +5986,7 @@ cities = City.create(
         "state": "North Dakota"
     },
     {
-        "city": "Georgetown",
+        "name": "Georgetown",
         "growth_from_2000_to_2013": "91.9%",
         "latitude": 30.6332618,
         "longitude": -97.6779842,
@@ -5995,7 +5995,7 @@ cities = City.create(
         "state": "Texas"
     },
     {
-        "city": "St. Peters",
+        "name": "St. Peters",
         "growth_from_2000_to_2013": "6.5%",
         "latitude": 38.7874699,
         "longitude": -90.6298922,
@@ -6004,7 +6004,7 @@ cities = City.create(
         "state": "Missouri"
     },
     {
-        "city": "Shoreline",
+        "name": "Shoreline",
         "growth_from_2000_to_2013": "2.9%",
         "latitude": 47.7556531,
         "longitude": -122.3415178,
@@ -6013,7 +6013,7 @@ cities = City.create(
         "state": "Washington"
     },
     {
-        "city": "Mount Prospect",
+        "name": "Mount Prospect",
         "growth_from_2000_to_2013": "-2.5%",
         "latitude": 42.0664167,
         "longitude": -87.9372908,
@@ -6022,7 +6022,7 @@ cities = City.create(
         "state": "Illinois"
     },
     {
-        "city": "Hanford",
+        "name": "Hanford",
         "growth_from_2000_to_2013": "30.3%",
         "latitude": 36.3274502,
         "longitude": -119.6456844,
@@ -6031,7 +6031,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Normal",
+        "name": "Normal",
         "growth_from_2000_to_2013": "19.7%",
         "latitude": 40.5142026,
         "longitude": -88.9906312,
@@ -6040,7 +6040,7 @@ cities = City.create(
         "state": "Illinois"
     },
     {
-        "city": "Rosemead",
+        "name": "Rosemead",
         "growth_from_2000_to_2013": "1.7%",
         "latitude": 34.0805651,
         "longitude": -118.072846,
@@ -6049,7 +6049,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Lehi",
+        "name": "Lehi",
         "growth_from_2000_to_2013": "176.3%",
         "latitude": 40.3916172,
         "longitude": -111.8507662,
@@ -6058,7 +6058,7 @@ cities = City.create(
         "state": "Utah"
     },
     {
-        "city": "Pocatello",
+        "name": "Pocatello",
         "growth_from_2000_to_2013": "5.4%",
         "latitude": 42.8713032,
         "longitude": -112.4455344,
@@ -6067,7 +6067,7 @@ cities = City.create(
         "state": "Idaho"
     },
     {
-        "city": "Highland",
+        "name": "Highland",
         "growth_from_2000_to_2013": "21.0%",
         "latitude": 34.1283442,
         "longitude": -117.2086513,
@@ -6076,7 +6076,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Novato",
+        "name": "Novato",
         "growth_from_2000_to_2013": "13.3%",
         "latitude": 38.1074198,
         "longitude": -122.5697032,
@@ -6085,7 +6085,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Port Arthur",
+        "name": "Port Arthur",
         "growth_from_2000_to_2013": "-6.0%",
         "latitude": 29.8849504,
         "longitude": -93.93994699999999,
@@ -6094,7 +6094,7 @@ cities = City.create(
         "state": "Texas"
     },
     {
-        "city": "Carson City",
+        "name": "Carson City",
         "growth_from_2000_to_2013": "2.9%",
         "latitude": 39.1637984,
         "longitude": -119.7674034,
@@ -6103,7 +6103,7 @@ cities = City.create(
         "state": "Nevada"
     },
     {
-        "city": "San Marcos",
+        "name": "San Marcos",
         "growth_from_2000_to_2013": "48.5%",
         "latitude": 29.8832749,
         "longitude": -97.9413941,
@@ -6112,7 +6112,7 @@ cities = City.create(
         "state": "Texas"
     },
     {
-        "city": "Hendersonville",
+        "name": "Hendersonville",
         "growth_from_2000_to_2013": "31.7%",
         "latitude": 36.3047735,
         "longitude": -86.6199957,
@@ -6121,7 +6121,7 @@ cities = City.create(
         "state": "Tennessee"
     },
     {
-        "city": "Elyria",
+        "name": "Elyria",
         "growth_from_2000_to_2013": "-3.7%",
         "latitude": 41.3683798,
         "longitude": -82.10764859999999,
@@ -6130,7 +6130,7 @@ cities = City.create(
         "state": "Ohio"
     },
     {
-        "city": "Revere",
+        "name": "Revere",
         "growth_from_2000_to_2013": "13.4%",
         "latitude": 42.4084302,
         "longitude": -71.0119948,
@@ -6139,7 +6139,7 @@ cities = City.create(
         "state": "Massachusetts"
     },
     {
-        "city": "Pflugerville",
+        "name": "Pflugerville",
         "growth_from_2000_to_2013": "123.4%",
         "latitude": 30.4393696,
         "longitude": -97.62000429999999,
@@ -6148,7 +6148,7 @@ cities = City.create(
         "state": "Texas"
     },
     {
-        "city": "Greenwood",
+        "name": "Greenwood",
         "growth_from_2000_to_2013": "46.0%",
         "latitude": 39.6136578,
         "longitude": -86.10665259999999,
@@ -6157,7 +6157,7 @@ cities = City.create(
         "state": "Indiana"
     },
     {
-        "city": "Bellevue",
+        "name": "Bellevue",
         "growth_from_2000_to_2013": "20.5%",
         "latitude": 41.1543623,
         "longitude": -95.9145568,
@@ -6166,7 +6166,7 @@ cities = City.create(
         "state": "Nebraska"
     },
     {
-        "city": "Wheaton",
+        "name": "Wheaton",
         "growth_from_2000_to_2013": "-3.4%",
         "latitude": 41.8661403,
         "longitude": -88.1070127,
@@ -6175,7 +6175,7 @@ cities = City.create(
         "state": "Illinois"
     },
     {
-        "city": "Smyrna",
+        "name": "Smyrna",
         "growth_from_2000_to_2013": "20.0%",
         "latitude": 33.8839926,
         "longitude": -84.51437609999999,
@@ -6184,7 +6184,7 @@ cities = City.create(
         "state": "Georgia"
     },
     {
-        "city": "Sarasota",
+        "name": "Sarasota",
         "growth_from_2000_to_2013": "1.4%",
         "latitude": 27.3364347,
         "longitude": -82.53065269999999,
@@ -6193,7 +6193,7 @@ cities = City.create(
         "state": "Florida"
     },
     {
-        "city": "Blue Springs",
+        "name": "Blue Springs",
         "growth_from_2000_to_2013": "9.9%",
         "latitude": 39.0169509,
         "longitude": -94.2816148,
@@ -6202,7 +6202,7 @@ cities = City.create(
         "state": "Missouri"
     },
     {
-        "city": "Colton",
+        "name": "Colton",
         "growth_from_2000_to_2013": "10.8%",
         "latitude": 34.0739016,
         "longitude": -117.3136547,
@@ -6211,7 +6211,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Euless",
+        "name": "Euless",
         "growth_from_2000_to_2013": "15.1%",
         "latitude": 32.8370727,
         "longitude": -97.08195409999999,
@@ -6220,7 +6220,7 @@ cities = City.create(
         "state": "Texas"
     },
     {
-        "city": "Castle Rock",
+        "name": "Castle Rock",
         "growth_from_2000_to_2013": "153.5%",
         "latitude": 39.3722121,
         "longitude": -104.8560902,
@@ -6229,7 +6229,7 @@ cities = City.create(
         "state": "Colorado"
     },
     {
-        "city": "Cathedral City",
+        "name": "Cathedral City",
         "growth_from_2000_to_2013": "23.2%",
         "latitude": 33.7805388,
         "longitude": -116.4668036,
@@ -6238,7 +6238,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Kingsport",
+        "name": "Kingsport",
         "growth_from_2000_to_2013": "16.7%",
         "latitude": 36.548434,
         "longitude": -82.5618186,
@@ -6247,7 +6247,7 @@ cities = City.create(
         "state": "Tennessee"
     },
     {
-        "city": "Lake Havasu City",
+        "name": "Lake Havasu City",
         "growth_from_2000_to_2013": "24.6%",
         "latitude": 34.483901,
         "longitude": -114.3224548,
@@ -6256,7 +6256,7 @@ cities = City.create(
         "state": "Arizona"
     },
     {
-        "city": "Pensacola",
+        "name": "Pensacola",
         "growth_from_2000_to_2013": "-6.0%",
         "latitude": 30.42130899999999,
         "longitude": -87.2169149,
@@ -6265,7 +6265,7 @@ cities = City.create(
         "state": "Florida"
     },
     {
-        "city": "Hoboken",
+        "name": "Hoboken",
         "growth_from_2000_to_2013": "35.8%",
         "latitude": 40.7439905,
         "longitude": -74.0323626,
@@ -6274,7 +6274,7 @@ cities = City.create(
         "state": "New Jersey"
     },
     {
-        "city": "Yucaipa",
+        "name": "Yucaipa",
         "growth_from_2000_to_2013": "26.8%",
         "latitude": 34.033625,
         "longitude": -117.0430865,
@@ -6283,7 +6283,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Watsonville",
+        "name": "Watsonville",
         "growth_from_2000_to_2013": "12.7%",
         "latitude": 36.910231,
         "longitude": -121.7568946,
@@ -6292,7 +6292,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Richland",
+        "name": "Richland",
         "growth_from_2000_to_2013": "34.6%",
         "latitude": 46.2856907,
         "longitude": -119.2844621,
@@ -6301,7 +6301,7 @@ cities = City.create(
         "state": "Washington"
     },
     {
-        "city": "Delano",
+        "name": "Delano",
         "growth_from_2000_to_2013": "31.8%",
         "latitude": 35.7688425,
         "longitude": -119.2470536,
@@ -6310,7 +6310,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Hoffman Estates",
+        "name": "Hoffman Estates",
         "growth_from_2000_to_2013": "5.4%",
         "latitude": 42.0629915,
         "longitude": -88.12271989999999,
@@ -6319,7 +6319,7 @@ cities = City.create(
         "state": "Illinois"
     },
     {
-        "city": "Florissant",
+        "name": "Florissant",
         "growth_from_2000_to_2013": "-2.8%",
         "latitude": 38.789217,
         "longitude": -90.322614,
@@ -6328,7 +6328,7 @@ cities = City.create(
         "state": "Missouri"
     },
     {
-        "city": "Placentia",
+        "name": "Placentia",
         "growth_from_2000_to_2013": "11.8%",
         "latitude": 33.8722371,
         "longitude": -117.8703363,
@@ -6337,7 +6337,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "West New York",
+        "name": "West New York",
         "growth_from_2000_to_2013": "13.3%",
         "latitude": 40.7878788,
         "longitude": -74.0143064,
@@ -6346,7 +6346,7 @@ cities = City.create(
         "state": "New Jersey"
     },
     {
-        "city": "Dublin",
+        "name": "Dublin",
         "growth_from_2000_to_2013": "70.0%",
         "latitude": 37.7021521,
         "longitude": -121.9357918,
@@ -6355,7 +6355,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Oak Park",
+        "name": "Oak Park",
         "growth_from_2000_to_2013": "-0.8%",
         "latitude": 41.8850317,
         "longitude": -87.7845025,
@@ -6364,7 +6364,7 @@ cities = City.create(
         "state": "Illinois"
     },
     {
-        "city": "Peabody",
+        "name": "Peabody",
         "growth_from_2000_to_2013": "7.5%",
         "latitude": 42.5278731,
         "longitude": -70.9286609,
@@ -6373,7 +6373,7 @@ cities = City.create(
         "state": "Massachusetts"
     },
     {
-        "city": "Perth Amboy",
+        "name": "Perth Amboy",
         "growth_from_2000_to_2013": "9.7%",
         "latitude": 40.5067723,
         "longitude": -74.2654234,
@@ -6382,7 +6382,7 @@ cities = City.create(
         "state": "New Jersey"
     },
     {
-        "city": "Battle Creek",
+        "name": "Battle Creek",
         "growth_from_2000_to_2013": "-2.8%",
         "latitude": 42.3211522,
         "longitude": -85.17971419999999,
@@ -6391,7 +6391,7 @@ cities = City.create(
         "state": "Michigan"
     },
     {
-        "city": "Bradenton",
+        "name": "Bradenton",
         "growth_from_2000_to_2013": "3.4%",
         "latitude": 27.4989278,
         "longitude": -82.5748194,
@@ -6400,7 +6400,7 @@ cities = City.create(
         "state": "Florida"
     },
     {
-        "city": "Gilroy",
+        "name": "Gilroy",
         "growth_from_2000_to_2013": "23.9%",
         "latitude": 37.0057816,
         "longitude": -121.5682751,
@@ -6409,7 +6409,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Milford",
+        "name": "Milford",
         "growth_from_2000_to_2013": "1.8%",
         "latitude": 41.2306979,
         "longitude": -73.064036,
@@ -6418,7 +6418,7 @@ cities = City.create(
         "state": "Connecticut"
     },
     {
-        "city": "Albany",
+        "name": "Albany",
         "growth_from_2000_to_2013": "25.5%",
         "latitude": 44.6365107,
         "longitude": -123.1059282,
@@ -6427,7 +6427,7 @@ cities = City.create(
         "state": "Oregon"
     },
     {
-        "city": "Ankeny",
+        "name": "Ankeny",
         "growth_from_2000_to_2013": "86.9%",
         "latitude": 41.7317884,
         "longitude": -93.6001278,
@@ -6436,7 +6436,7 @@ cities = City.create(
         "state": "Iowa"
     },
     {
-        "city": "La Crosse",
+        "name": "La Crosse",
         "growth_from_2000_to_2013": "-0.8%",
         "latitude": 43.8013556,
         "longitude": -91.23958069999999,
@@ -6445,7 +6445,7 @@ cities = City.create(
         "state": "Wisconsin"
     },
     {
-        "city": "Burlington",
+        "name": "Burlington",
         "growth_from_2000_to_2013": "12.1%",
         "latitude": 36.0956918,
         "longitude": -79.43779909999999,
@@ -6454,7 +6454,7 @@ cities = City.create(
         "state": "North Carolina"
     },
     {
-        "city": "DeSoto",
+        "name": "DeSoto",
         "growth_from_2000_to_2013": "36.0%",
         "latitude": 32.5896998,
         "longitude": -96.8570738,
@@ -6463,7 +6463,7 @@ cities = City.create(
         "state": "Texas"
     },
     {
-        "city": "Harrisonburg",
+        "name": "Harrisonburg",
         "growth_from_2000_to_2013": "27.1%",
         "latitude": 38.4495688,
         "longitude": -78.8689155,
@@ -6472,7 +6472,7 @@ cities = City.create(
         "state": "Virginia"
     },
     {
-        "city": "Minnetonka",
+        "name": "Minnetonka",
         "growth_from_2000_to_2013": "0.4%",
         "latitude": 44.9211836,
         "longitude": -93.4687489,
@@ -6481,7 +6481,7 @@ cities = City.create(
         "state": "Minnesota"
     },
     {
-        "city": "Elkhart",
+        "name": "Elkhart",
         "growth_from_2000_to_2013": "-2.5%",
         "latitude": 41.6819935,
         "longitude": -85.9766671,
@@ -6490,7 +6490,7 @@ cities = City.create(
         "state": "Indiana"
     },
     {
-        "city": "Lakewood",
+        "name": "Lakewood",
         "growth_from_2000_to_2013": "-9.4%",
         "latitude": 41.4819932,
         "longitude": -81.7981908,
@@ -6499,7 +6499,7 @@ cities = City.create(
         "state": "Ohio"
     },
     {
-        "city": "Glendora",
+        "name": "Glendora",
         "growth_from_2000_to_2013": "3.1%",
         "latitude": 34.1361187,
         "longitude": -117.865339,
@@ -6508,7 +6508,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Southaven",
+        "name": "Southaven",
         "growth_from_2000_to_2013": "72.8%",
         "latitude": 34.9889818,
         "longitude": -90.0125913,
@@ -6517,7 +6517,7 @@ cities = City.create(
         "state": "Mississippi"
     },
     {
-        "city": "Charleston",
+        "name": "Charleston",
         "growth_from_2000_to_2013": "-4.7%",
         "latitude": 38.3498195,
         "longitude": -81.6326234,
@@ -6526,7 +6526,7 @@ cities = City.create(
         "state": "West Virginia"
     },
     {
-        "city": "Joplin",
+        "name": "Joplin",
         "growth_from_2000_to_2013": "11.2%",
         "latitude": 37.08422710000001,
         "longitude": -94.51328099999999,
@@ -6535,7 +6535,7 @@ cities = City.create(
         "state": "Missouri"
     },
     {
-        "city": "Enid",
+        "name": "Enid",
         "growth_from_2000_to_2013": "8.1%",
         "latitude": 36.3955891,
         "longitude": -97.8783911,
@@ -6544,7 +6544,7 @@ cities = City.create(
         "state": "Oklahoma"
     },
     {
-        "city": "Palm Beach Gardens",
+        "name": "Palm Beach Gardens",
         "growth_from_2000_to_2013": "39.6%",
         "latitude": 26.8233946,
         "longitude": -80.13865469999999,
@@ -6553,7 +6553,7 @@ cities = City.create(
         "state": "Florida"
     },
     {
-        "city": "Brookhaven",
+        "name": "Brookhaven",
         "growth_from_2000_to_2013": "",
         "latitude": 33.8651033,
         "longitude": -84.3365917,
@@ -6562,7 +6562,7 @@ cities = City.create(
         "state": "Georgia"
     },
     {
-        "city": "Plainfield",
+        "name": "Plainfield",
         "growth_from_2000_to_2013": "5.7%",
         "latitude": 40.6337136,
         "longitude": -74.4073736,
@@ -6571,7 +6571,7 @@ cities = City.create(
         "state": "New Jersey"
     },
     {
-        "city": "Grand Island",
+        "name": "Grand Island",
         "growth_from_2000_to_2013": "16.0%",
         "latitude": 40.9263957,
         "longitude": -98.3420118,
@@ -6580,7 +6580,7 @@ cities = City.create(
         "state": "Nebraska"
     },
     {
-        "city": "Palm Desert",
+        "name": "Palm Desert",
         "growth_from_2000_to_2013": "13.2%",
         "latitude": 33.7222445,
         "longitude": -116.3744556,
@@ -6589,7 +6589,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Huntersville",
+        "name": "Huntersville",
         "growth_from_2000_to_2013": "92.9%",
         "latitude": 35.410694,
         "longitude": -80.84285040000002,
@@ -6598,7 +6598,7 @@ cities = City.create(
         "state": "North Carolina"
     },
     {
-        "city": "Tigard",
+        "name": "Tigard",
         "growth_from_2000_to_2013": "17.8%",
         "latitude": 45.4312294,
         "longitude": -122.7714861,
@@ -6607,7 +6607,7 @@ cities = City.create(
         "state": "Oregon"
     },
     {
-        "city": "Lenexa",
+        "name": "Lenexa",
         "growth_from_2000_to_2013": "24.6%",
         "latitude": 38.9536174,
         "longitude": -94.73357089999999,
@@ -6616,7 +6616,7 @@ cities = City.create(
         "state": "Kansas"
     },
     {
-        "city": "Saginaw",
+        "name": "Saginaw",
         "growth_from_2000_to_2013": "-18.2%",
         "latitude": 43.4194699,
         "longitude": -83.9508068,
@@ -6625,7 +6625,7 @@ cities = City.create(
         "state": "Michigan"
     },
     {
-        "city": "Kentwood",
+        "name": "Kentwood",
         "growth_from_2000_to_2013": "10.5%",
         "latitude": 42.8694731,
         "longitude": -85.64474919999999,
@@ -6634,7 +6634,7 @@ cities = City.create(
         "state": "Michigan"
     },
     {
-        "city": "Doral",
+        "name": "Doral",
         "growth_from_2000_to_2013": "137.6%",
         "latitude": 25.8195424,
         "longitude": -80.3553302,
@@ -6643,7 +6643,7 @@ cities = City.create(
         "state": "Florida"
     },
     {
-        "city": "Apple Valley",
+        "name": "Apple Valley",
         "growth_from_2000_to_2013": "9.2%",
         "latitude": 44.7319094,
         "longitude": -93.21772000000001,
@@ -6652,7 +6652,7 @@ cities = City.create(
         "state": "Minnesota"
     },
     {
-        "city": "Grapevine",
+        "name": "Grapevine",
         "growth_from_2000_to_2013": "17.6%",
         "latitude": 32.9342919,
         "longitude": -97.0780654,
@@ -6661,7 +6661,7 @@ cities = City.create(
         "state": "Texas"
     },
     {
-        "city": "Aliso Viejo",
+        "name": "Aliso Viejo",
         "growth_from_2000_to_2013": "25.4%",
         "latitude": 33.5676842,
         "longitude": -117.7256083,
@@ -6670,7 +6670,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Sammamish",
+        "name": "Sammamish",
         "growth_from_2000_to_2013": "44.1%",
         "latitude": 47.61626829999999,
         "longitude": -122.0355736,
@@ -6679,7 +6679,7 @@ cities = City.create(
         "state": "Washington"
     },
     {
-        "city": "Casa Grande",
+        "name": "Casa Grande",
         "growth_from_2000_to_2013": "86.0%",
         "latitude": 32.8795022,
         "longitude": -111.7573521,
@@ -6688,7 +6688,7 @@ cities = City.create(
         "state": "Arizona"
     },
     {
-        "city": "Pinellas Park",
+        "name": "Pinellas Park",
         "growth_from_2000_to_2013": "5.9%",
         "latitude": 27.8428025,
         "longitude": -82.6995443,
@@ -6697,7 +6697,7 @@ cities = City.create(
         "state": "Florida"
     },
     {
-        "city": "Troy",
+        "name": "Troy",
         "growth_from_2000_to_2013": "1.5%",
         "latitude": 42.7284117,
         "longitude": -73.69178509999999,
@@ -6706,7 +6706,7 @@ cities = City.create(
         "state": "New York"
     },
     {
-        "city": "West Sacramento",
+        "name": "West Sacramento",
         "growth_from_2000_to_2013": "55.6%",
         "latitude": 38.5804609,
         "longitude": -121.530234,
@@ -6715,7 +6715,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Burien",
+        "name": "Burien",
         "growth_from_2000_to_2013": "56.7%",
         "latitude": 47.4703767,
         "longitude": -122.3467918,
@@ -6724,7 +6724,7 @@ cities = City.create(
         "state": "Washington"
     },
     {
-        "city": "Commerce City",
+        "name": "Commerce City",
         "growth_from_2000_to_2013": "135.4%",
         "latitude": 39.8083196,
         "longitude": -104.9338675,
@@ -6733,7 +6733,7 @@ cities = City.create(
         "state": "Colorado"
     },
     {
-        "city": "Monroe",
+        "name": "Monroe",
         "growth_from_2000_to_2013": "-6.1%",
         "latitude": 32.5093109,
         "longitude": -92.1193012,
@@ -6742,7 +6742,7 @@ cities = City.create(
         "state": "Louisiana"
     },
     {
-        "city": "Cerritos",
+        "name": "Cerritos",
         "growth_from_2000_to_2013": "-3.6%",
         "latitude": 33.8583483,
         "longitude": -118.0647871,
@@ -6751,7 +6751,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Downers Grove",
+        "name": "Downers Grove",
         "growth_from_2000_to_2013": "0.0%",
         "latitude": 41.8089191,
         "longitude": -88.01117459999999,
@@ -6760,7 +6760,7 @@ cities = City.create(
         "state": "Illinois"
     },
     {
-        "city": "Coral Gables",
+        "name": "Coral Gables",
         "growth_from_2000_to_2013": "16.1%",
         "latitude": 25.72149,
         "longitude": -80.2683838,
@@ -6769,7 +6769,7 @@ cities = City.create(
         "state": "Florida"
     },
     {
-        "city": "Wilson",
+        "name": "Wilson",
         "growth_from_2000_to_2013": "10.1%",
         "latitude": 35.7212689,
         "longitude": -77.9155395,
@@ -6778,7 +6778,7 @@ cities = City.create(
         "state": "North Carolina"
     },
     {
-        "city": "Niagara Falls",
+        "name": "Niagara Falls",
         "growth_from_2000_to_2013": "-10.8%",
         "latitude": 43.0962143,
         "longitude": -79.0377388,
@@ -6787,7 +6787,7 @@ cities = City.create(
         "state": "New York"
     },
     {
-        "city": "Poway",
+        "name": "Poway",
         "growth_from_2000_to_2013": "2.4%",
         "latitude": 32.9628232,
         "longitude": -117.0358646,
@@ -6796,7 +6796,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Edina",
+        "name": "Edina",
         "growth_from_2000_to_2013": "4.1%",
         "latitude": 44.8896866,
         "longitude": -93.3499489,
@@ -6805,7 +6805,7 @@ cities = City.create(
         "state": "Minnesota"
     },
     {
-        "city": "Cuyahoga Falls",
+        "name": "Cuyahoga Falls",
         "growth_from_2000_to_2013": "-0.2%",
         "latitude": 41.1339449,
         "longitude": -81.48455849999999,
@@ -6814,7 +6814,7 @@ cities = City.create(
         "state": "Ohio"
     },
     {
-        "city": "Rancho Santa Margarita",
+        "name": "Rancho Santa Margarita",
         "growth_from_2000_to_2013": "4.6%",
         "latitude": 33.640855,
         "longitude": -117.603104,
@@ -6823,7 +6823,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Harrisburg",
+        "name": "Harrisburg",
         "growth_from_2000_to_2013": "0.6%",
         "latitude": 40.2731911,
         "longitude": -76.8867008,
@@ -6832,7 +6832,7 @@ cities = City.create(
         "state": "Pennsylvania"
     },
     {
-        "city": "Huntington",
+        "name": "Huntington",
         "growth_from_2000_to_2013": "-5.0%",
         "latitude": 38.4192496,
         "longitude": -82.44515400000002,
@@ -6841,7 +6841,7 @@ cities = City.create(
         "state": "West Virginia"
     },
     {
-        "city": "La Mirada",
+        "name": "La Mirada",
         "growth_from_2000_to_2013": "4.6%",
         "latitude": 33.9172357,
         "longitude": -118.0120086,
@@ -6850,7 +6850,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Cypress",
+        "name": "Cypress",
         "growth_from_2000_to_2013": "5.3%",
         "latitude": 33.8169599,
         "longitude": -118.0372852,
@@ -6859,7 +6859,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Caldwell",
+        "name": "Caldwell",
         "growth_from_2000_to_2013": "77.1%",
         "latitude": 43.66293839999999,
         "longitude": -116.6873596,
@@ -6868,7 +6868,7 @@ cities = City.create(
         "state": "Idaho"
     },
     {
-        "city": "Logan",
+        "name": "Logan",
         "growth_from_2000_to_2013": "14.5%",
         "latitude": 41.7369803,
         "longitude": -111.8338359,
@@ -6877,7 +6877,7 @@ cities = City.create(
         "state": "Utah"
     },
     {
-        "city": "Galveston",
+        "name": "Galveston",
         "growth_from_2000_to_2013": "-15.2%",
         "latitude": 29.3013479,
         "longitude": -94.7976958,
@@ -6886,7 +6886,7 @@ cities = City.create(
         "state": "Texas"
     },
     {
-        "city": "Sheboygan",
+        "name": "Sheboygan",
         "growth_from_2000_to_2013": "-3.9%",
         "latitude": 43.7508284,
         "longitude": -87.71453,
@@ -6895,7 +6895,7 @@ cities = City.create(
         "state": "Wisconsin"
     },
     {
-        "city": "Middletown",
+        "name": "Middletown",
         "growth_from_2000_to_2013": "-5.7%",
         "latitude": 39.5150576,
         "longitude": -84.39827629999999,
@@ -6904,7 +6904,7 @@ cities = City.create(
         "state": "Ohio"
     },
     {
-        "city": "Murray",
+        "name": "Murray",
         "growth_from_2000_to_2013": "6.6%",
         "latitude": 40.6668916,
         "longitude": -111.8879909,
@@ -6913,7 +6913,7 @@ cities = City.create(
         "state": "Utah"
     },
     {
-        "city": "Roswell",
+        "name": "Roswell",
         "growth_from_2000_to_2013": "7.5%",
         "latitude": 33.3942655,
         "longitude": -104.5230242,
@@ -6922,7 +6922,7 @@ cities = City.create(
         "state": "New Mexico"
     },
     {
-        "city": "Parker",
+        "name": "Parker",
         "growth_from_2000_to_2013": "96.4%",
         "latitude": 39.5186002,
         "longitude": -104.7613633,
@@ -6931,7 +6931,7 @@ cities = City.create(
         "state": "Colorado"
     },
     {
-        "city": "Bedford",
+        "name": "Bedford",
         "growth_from_2000_to_2013": "2.9%",
         "latitude": 32.844017,
         "longitude": -97.1430671,
@@ -6940,7 +6940,7 @@ cities = City.create(
         "state": "Texas"
     },
     {
-        "city": "East Lansing",
+        "name": "East Lansing",
         "growth_from_2000_to_2013": "4.2%",
         "latitude": 42.7369792,
         "longitude": -84.48386540000001,
@@ -6949,7 +6949,7 @@ cities = City.create(
         "state": "Michigan"
     },
     {
-        "city": "Methuen",
+        "name": "Methuen",
         "growth_from_2000_to_2013": "10.3%",
         "latitude": 42.7262016,
         "longitude": -71.1908924,
@@ -6958,7 +6958,7 @@ cities = City.create(
         "state": "Massachusetts"
     },
     {
-        "city": "Covina",
+        "name": "Covina",
         "growth_from_2000_to_2013": "3.3%",
         "latitude": 34.0900091,
         "longitude": -117.8903397,
@@ -6967,7 +6967,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Alexandria",
+        "name": "Alexandria",
         "growth_from_2000_to_2013": "4.1%",
         "latitude": 31.3112936,
         "longitude": -92.4451371,
@@ -6976,7 +6976,7 @@ cities = City.create(
         "state": "Louisiana"
     },
     {
-        "city": "Olympia",
+        "name": "Olympia",
         "growth_from_2000_to_2013": "12.1%",
         "latitude": 47.0378741,
         "longitude": -122.9006951,
@@ -6985,7 +6985,7 @@ cities = City.create(
         "state": "Washington"
     },
     {
-        "city": "Euclid",
+        "name": "Euclid",
         "growth_from_2000_to_2013": "-8.4%",
         "latitude": 41.5931049,
         "longitude": -81.5267873,
@@ -6994,7 +6994,7 @@ cities = City.create(
         "state": "Ohio"
     },
     {
-        "city": "Mishawaka",
+        "name": "Mishawaka",
         "growth_from_2000_to_2013": "2.0%",
         "latitude": 41.6619927,
         "longitude": -86.15861559999999,
@@ -7003,7 +7003,7 @@ cities = City.create(
         "state": "Indiana"
     },
     {
-        "city": "Salina",
+        "name": "Salina",
         "growth_from_2000_to_2013": "4.5%",
         "latitude": 38.8402805,
         "longitude": -97.61142369999999,
@@ -7012,7 +7012,7 @@ cities = City.create(
         "state": "Kansas"
     },
     {
-        "city": "Azusa",
+        "name": "Azusa",
         "growth_from_2000_to_2013": "6.7%",
         "latitude": 34.1336186,
         "longitude": -117.9075627,
@@ -7021,7 +7021,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Newark",
+        "name": "Newark",
         "growth_from_2000_to_2013": "3.1%",
         "latitude": 40.0581205,
         "longitude": -82.4012642,
@@ -7030,7 +7030,7 @@ cities = City.create(
         "state": "Ohio"
     },
     {
-        "city": "Chesterfield",
+        "name": "Chesterfield",
         "growth_from_2000_to_2013": "1.9%",
         "latitude": 38.6631083,
         "longitude": -90.5770675,
@@ -7039,7 +7039,7 @@ cities = City.create(
         "state": "Missouri"
     },
     {
-        "city": "Leesburg",
+        "name": "Leesburg",
         "growth_from_2000_to_2013": "66.0%",
         "latitude": 39.1156615,
         "longitude": -77.56360149999999,
@@ -7048,7 +7048,7 @@ cities = City.create(
         "state": "Virginia"
     },
     {
-        "city": "Dunwoody",
+        "name": "Dunwoody",
         "growth_from_2000_to_2013": "",
         "latitude": 33.9462125,
         "longitude": -84.3346473,
@@ -7057,7 +7057,7 @@ cities = City.create(
         "state": "Georgia"
     },
     {
-        "city": "Hattiesburg",
+        "name": "Hattiesburg",
         "growth_from_2000_to_2013": "3.1%",
         "latitude": 31.3271189,
         "longitude": -89.29033919999999,
@@ -7066,7 +7066,7 @@ cities = City.create(
         "state": "Mississippi"
     },
     {
-        "city": "Roseville",
+        "name": "Roseville",
         "growth_from_2000_to_2013": "-1.0%",
         "latitude": 42.4972583,
         "longitude": -82.9371409,
@@ -7075,7 +7075,7 @@ cities = City.create(
         "state": "Michigan"
     },
     {
-        "city": "Bonita Springs",
+        "name": "Bonita Springs",
         "growth_from_2000_to_2013": "43.8%",
         "latitude": 26.339806,
         "longitude": -81.7786972,
@@ -7084,7 +7084,7 @@ cities = City.create(
         "state": "Florida"
     },
     {
-        "city": "Portage",
+        "name": "Portage",
         "growth_from_2000_to_2013": "5.7%",
         "latitude": 42.2011538,
         "longitude": -85.5800022,
@@ -7093,7 +7093,7 @@ cities = City.create(
         "state": "Michigan"
     },
     {
-        "city": "St. Louis Park",
+        "name": "St. Louis Park",
         "growth_from_2000_to_2013": "7.3%",
         "latitude": 44.9597376,
         "longitude": -93.3702186,
@@ -7102,7 +7102,7 @@ cities = City.create(
         "state": "Minnesota"
     },
     {
-        "city": "Collierville",
+        "name": "Collierville",
         "growth_from_2000_to_2013": "43.4%",
         "latitude": 35.042036,
         "longitude": -89.6645266,
@@ -7111,7 +7111,7 @@ cities = City.create(
         "state": "Tennessee"
     },
     {
-        "city": "Middletown",
+        "name": "Middletown",
         "growth_from_2000_to_2013": "3.6%",
         "latitude": 41.5623209,
         "longitude": -72.6506488,
@@ -7120,7 +7120,7 @@ cities = City.create(
         "state": "Connecticut"
     },
     {
-        "city": "Stillwater",
+        "name": "Stillwater",
         "growth_from_2000_to_2013": "20.1%",
         "latitude": 36.1156071,
         "longitude": -97.0583681,
@@ -7129,7 +7129,7 @@ cities = City.create(
         "state": "Oklahoma"
     },
     {
-        "city": "East Providence",
+        "name": "East Providence",
         "growth_from_2000_to_2013": "-3.3%",
         "latitude": 41.8137116,
         "longitude": -71.3700545,
@@ -7138,7 +7138,7 @@ cities = City.create(
         "state": "Rhode Island"
     },
     {
-        "city": "Lawrence",
+        "name": "Lawrence",
         "growth_from_2000_to_2013": "20.5%",
         "latitude": 39.8386516,
         "longitude": -86.0252612,
@@ -7147,7 +7147,7 @@ cities = City.create(
         "state": "Indiana"
     },
     {
-        "city": "Wauwatosa",
+        "name": "Wauwatosa",
         "growth_from_2000_to_2013": "0.0%",
         "latitude": 43.0494572,
         "longitude": -88.0075875,
@@ -7156,7 +7156,7 @@ cities = City.create(
         "state": "Wisconsin"
     },
     {
-        "city": "Mentor",
+        "name": "Mentor",
         "growth_from_2000_to_2013": "-6.6%",
         "latitude": 41.6661573,
         "longitude": -81.339552,
@@ -7165,7 +7165,7 @@ cities = City.create(
         "state": "Ohio"
     },
     {
-        "city": "Ceres",
+        "name": "Ceres",
         "growth_from_2000_to_2013": "34.0%",
         "latitude": 37.5949316,
         "longitude": -120.9577098,
@@ -7174,7 +7174,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Cedar Hill",
+        "name": "Cedar Hill",
         "growth_from_2000_to_2013": "42.4%",
         "latitude": 32.5884689,
         "longitude": -96.9561152,
@@ -7183,7 +7183,7 @@ cities = City.create(
         "state": "Texas"
     },
     {
-        "city": "Mansfield",
+        "name": "Mansfield",
         "growth_from_2000_to_2013": "-10.1%",
         "latitude": 40.75839,
         "longitude": -82.5154471,
@@ -7192,7 +7192,7 @@ cities = City.create(
         "state": "Ohio"
     },
     {
-        "city": "Binghamton",
+        "name": "Binghamton",
         "growth_from_2000_to_2013": "-1.7%",
         "latitude": 42.09868669999999,
         "longitude": -75.91797380000001,
@@ -7201,7 +7201,7 @@ cities = City.create(
         "state": "New York"
     },
     {
-        "city": "Coeur d'Alene",
+        "name": "Coeur d'Alene",
         "growth_from_2000_to_2013": "32.8%",
         "latitude": 47.6776832,
         "longitude": -116.7804664,
@@ -7210,7 +7210,7 @@ cities = City.create(
         "state": "Idaho"
     },
     {
-        "city": "San Luis Obispo",
+        "name": "San Luis Obispo",
         "growth_from_2000_to_2013": "4.4%",
         "latitude": 35.2827524,
         "longitude": -120.6596156,
@@ -7219,7 +7219,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Minot",
+        "name": "Minot",
         "growth_from_2000_to_2013": "26.6%",
         "latitude": 48.2329668,
         "longitude": -101.2922906,
@@ -7228,7 +7228,7 @@ cities = City.create(
         "state": "North Dakota"
     },
     {
-        "city": "Palm Springs",
+        "name": "Palm Springs",
         "growth_from_2000_to_2013": "7.7%",
         "latitude": 33.8302961,
         "longitude": -116.5452921,
@@ -7237,7 +7237,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Pine Bluff",
+        "name": "Pine Bluff",
         "growth_from_2000_to_2013": "-16.2%",
         "latitude": 34.2284312,
         "longitude": -92.00319549999999,
@@ -7246,7 +7246,7 @@ cities = City.create(
         "state": "Arkansas"
     },
     {
-        "city": "Texas City",
+        "name": "Texas City",
         "growth_from_2000_to_2013": "10.3%",
         "latitude": 29.383845,
         "longitude": -94.9027002,
@@ -7255,7 +7255,7 @@ cities = City.create(
         "state": "Texas"
     },
     {
-        "city": "Summerville",
+        "name": "Summerville",
         "growth_from_2000_to_2013": "62.9%",
         "latitude": 33.0185039,
         "longitude": -80.17564809999999,
@@ -7264,7 +7264,7 @@ cities = City.create(
         "state": "South Carolina"
     },
     {
-        "city": "Twin Falls",
+        "name": "Twin Falls",
         "growth_from_2000_to_2013": "31.5%",
         "latitude": 42.5629668,
         "longitude": -114.4608711,
@@ -7273,7 +7273,7 @@ cities = City.create(
         "state": "Idaho"
     },
     {
-        "city": "Jeffersonville",
+        "name": "Jeffersonville",
         "growth_from_2000_to_2013": "53.3%",
         "latitude": 38.2775702,
         "longitude": -85.7371847,
@@ -7282,7 +7282,7 @@ cities = City.create(
         "state": "Indiana"
     },
     {
-        "city": "San Jacinto",
+        "name": "San Jacinto",
         "growth_from_2000_to_2013": "91.8%",
         "latitude": 33.7839084,
         "longitude": -116.958635,
@@ -7291,7 +7291,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Madison",
+        "name": "Madison",
         "growth_from_2000_to_2013": "53.7%",
         "latitude": 34.6992579,
         "longitude": -86.74833180000002,
@@ -7300,7 +7300,7 @@ cities = City.create(
         "state": "Alabama"
     },
     {
-        "city": "Altoona",
+        "name": "Altoona",
         "growth_from_2000_to_2013": "-7.3%",
         "latitude": 40.5186809,
         "longitude": -78.3947359,
@@ -7309,7 +7309,7 @@ cities = City.create(
         "state": "Pennsylvania"
     },
     {
-        "city": "Columbus",
+        "name": "Columbus",
         "growth_from_2000_to_2013": "16.4%",
         "latitude": 39.2014404,
         "longitude": -85.9213796,
@@ -7318,7 +7318,7 @@ cities = City.create(
         "state": "Indiana"
     },
     {
-        "city": "Beavercreek",
+        "name": "Beavercreek",
         "growth_from_2000_to_2013": "19.0%",
         "latitude": 39.7092262,
         "longitude": -84.06326849999999,
@@ -7327,7 +7327,7 @@ cities = City.create(
         "state": "Ohio"
     },
     {
-        "city": "Apopka",
+        "name": "Apopka",
         "growth_from_2000_to_2013": "63.9%",
         "latitude": 28.6934076,
         "longitude": -81.5322149,
@@ -7336,7 +7336,7 @@ cities = City.create(
         "state": "Florida"
     },
     {
-        "city": "Elmhurst",
+        "name": "Elmhurst",
         "growth_from_2000_to_2013": "5.7%",
         "latitude": 41.8994744,
         "longitude": -87.9403418,
@@ -7345,7 +7345,7 @@ cities = City.create(
         "state": "Illinois"
     },
     {
-        "city": "Maricopa",
+        "name": "Maricopa",
         "growth_from_2000_to_2013": "2503.4%",
         "latitude": 33.0581063,
         "longitude": -112.0476423,
@@ -7354,7 +7354,7 @@ cities = City.create(
         "state": "Arizona"
     },
     {
-        "city": "Farmington",
+        "name": "Farmington",
         "growth_from_2000_to_2013": "18.1%",
         "latitude": 36.72805830000001,
         "longitude": -108.2186856,
@@ -7363,7 +7363,7 @@ cities = City.create(
         "state": "New Mexico"
     },
     {
-        "city": "Glenview",
+        "name": "Glenview",
         "growth_from_2000_to_2013": "5.2%",
         "latitude": 42.0697509,
         "longitude": -87.7878408,
@@ -7372,7 +7372,7 @@ cities = City.create(
         "state": "Illinois"
     },
     {
-        "city": "Cleveland Heights",
+        "name": "Cleveland Heights",
         "growth_from_2000_to_2013": "-10.3%",
         "latitude": 41.5200518,
         "longitude": -81.556235,
@@ -7381,7 +7381,7 @@ cities = City.create(
         "state": "Ohio"
     },
     {
-        "city": "Draper",
+        "name": "Draper",
         "growth_from_2000_to_2013": "77.4%",
         "latitude": 40.5246711,
         "longitude": -111.8638226,
@@ -7390,7 +7390,7 @@ cities = City.create(
         "state": "Utah"
     },
     {
-        "city": "Lincoln",
+        "name": "Lincoln",
         "growth_from_2000_to_2013": "285.2%",
         "latitude": 38.891565,
         "longitude": -121.2930079,
@@ -7399,7 +7399,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Sierra Vista",
+        "name": "Sierra Vista",
         "growth_from_2000_to_2013": "19.3%",
         "latitude": 31.5455001,
         "longitude": -110.2772856,
@@ -7408,7 +7408,7 @@ cities = City.create(
         "state": "Arizona"
     },
     {
-        "city": "Lacey",
+        "name": "Lacey",
         "growth_from_2000_to_2013": "41.7%",
         "latitude": 47.03426289999999,
         "longitude": -122.8231915,
@@ -7417,7 +7417,7 @@ cities = City.create(
         "state": "Washington"
     },
     {
-        "city": "Biloxi",
+        "name": "Biloxi",
         "growth_from_2000_to_2013": "-11.5%",
         "latitude": 30.3960318,
         "longitude": -88.88530779999999,
@@ -7426,7 +7426,7 @@ cities = City.create(
         "state": "Mississippi"
     },
     {
-        "city": "Strongsville",
+        "name": "Strongsville",
         "growth_from_2000_to_2013": "1.9%",
         "latitude": 41.3144966,
         "longitude": -81.83569,
@@ -7435,7 +7435,7 @@ cities = City.create(
         "state": "Ohio"
     },
     {
-        "city": "Barnstable Town",
+        "name": "Barnstable Town",
         "growth_from_2000_to_2013": "-7.1%",
         "latitude": 41.7003208,
         "longitude": -70.3002024,
@@ -7444,7 +7444,7 @@ cities = City.create(
         "state": "Massachusetts"
     },
     {
-        "city": "Wylie",
+        "name": "Wylie",
         "growth_from_2000_to_2013": "185.2%",
         "latitude": 33.0151201,
         "longitude": -96.5388789,
@@ -7453,7 +7453,7 @@ cities = City.create(
         "state": "Texas"
     },
     {
-        "city": "Sayreville",
+        "name": "Sayreville",
         "growth_from_2000_to_2013": "9.6%",
         "latitude": 40.45940210000001,
         "longitude": -74.360846,
@@ -7462,7 +7462,7 @@ cities = City.create(
         "state": "New Jersey"
     },
     {
-        "city": "Kannapolis",
+        "name": "Kannapolis",
         "growth_from_2000_to_2013": "18.6%",
         "latitude": 35.4873613,
         "longitude": -80.6217341,
@@ -7471,7 +7471,7 @@ cities = City.create(
         "state": "North Carolina"
     },
     {
-        "city": "Charlottesville",
+        "name": "Charlottesville",
         "growth_from_2000_to_2013": "10.5%",
         "latitude": 38.0293059,
         "longitude": -78.47667810000002,
@@ -7480,7 +7480,7 @@ cities = City.create(
         "state": "Virginia"
     },
     {
-        "city": "Littleton",
+        "name": "Littleton",
         "growth_from_2000_to_2013": "9.4%",
         "latitude": 39.613321,
         "longitude": -105.0166498,
@@ -7489,7 +7489,7 @@ cities = City.create(
         "state": "Colorado"
     },
     {
-        "city": "Titusville",
+        "name": "Titusville",
         "growth_from_2000_to_2013": "7.8%",
         "latitude": 28.6122187,
         "longitude": -80.8075537,
@@ -7498,7 +7498,7 @@ cities = City.create(
         "state": "Florida"
     },
     {
-        "city": "Hackensack",
+        "name": "Hackensack",
         "growth_from_2000_to_2013": "2.9%",
         "latitude": 40.8859325,
         "longitude": -74.0434736,
@@ -7507,7 +7507,7 @@ cities = City.create(
         "state": "New Jersey"
     },
     {
-        "city": "Newark",
+        "name": "Newark",
         "growth_from_2000_to_2013": "3.3%",
         "latitude": 37.5296593,
         "longitude": -122.0402399,
@@ -7516,7 +7516,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Pittsfield",
+        "name": "Pittsfield",
         "growth_from_2000_to_2013": "-3.6%",
         "latitude": 42.4500845,
         "longitude": -73.2453824,
@@ -7525,7 +7525,7 @@ cities = City.create(
         "state": "Massachusetts"
     },
     {
-        "city": "York",
+        "name": "York",
         "growth_from_2000_to_2013": "6.4%",
         "latitude": 39.9625984,
         "longitude": -76.727745,
@@ -7534,7 +7534,7 @@ cities = City.create(
         "state": "Pennsylvania"
     },
     {
-        "city": "Lombard",
+        "name": "Lombard",
         "growth_from_2000_to_2013": "2.9%",
         "latitude": 41.8800296,
         "longitude": -88.00784349999999,
@@ -7543,7 +7543,7 @@ cities = City.create(
         "state": "Illinois"
     },
     {
-        "city": "Attleboro",
+        "name": "Attleboro",
         "growth_from_2000_to_2013": "4.6%",
         "latitude": 41.94454409999999,
         "longitude": -71.2856082,
@@ -7552,7 +7552,7 @@ cities = City.create(
         "state": "Massachusetts"
     },
     {
-        "city": "DeKalb",
+        "name": "DeKalb",
         "growth_from_2000_to_2013": "11.8%",
         "latitude": 41.9294736,
         "longitude": -88.75036469999999,
@@ -7561,7 +7561,7 @@ cities = City.create(
         "state": "Illinois"
     },
     {
-        "city": "Blacksburg",
+        "name": "Blacksburg",
         "growth_from_2000_to_2013": "9.4%",
         "latitude": 37.2295733,
         "longitude": -80.4139393,
@@ -7570,7 +7570,7 @@ cities = City.create(
         "state": "Virginia"
     },
     {
-        "city": "Dublin",
+        "name": "Dublin",
         "growth_from_2000_to_2013": "37.6%",
         "latitude": 40.0992294,
         "longitude": -83.1140771,
@@ -7579,7 +7579,7 @@ cities = City.create(
         "state": "Ohio"
     },
     {
-        "city": "Haltom City",
+        "name": "Haltom City",
         "growth_from_2000_to_2013": "11.4%",
         "latitude": 32.7995738,
         "longitude": -97.26918169999999,
@@ -7588,7 +7588,7 @@ cities = City.create(
         "state": "Texas"
     },
     {
-        "city": "Lompoc",
+        "name": "Lompoc",
         "growth_from_2000_to_2013": "5.5%",
         "latitude": 34.6391501,
         "longitude": -120.4579409,
@@ -7597,7 +7597,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "El Centro",
+        "name": "El Centro",
         "growth_from_2000_to_2013": "13.7%",
         "latitude": 32.792,
         "longitude": -115.5630514,
@@ -7606,7 +7606,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Danville",
+        "name": "Danville",
         "growth_from_2000_to_2013": "3.7%",
         "latitude": 37.8215929,
         "longitude": -121.9999606,
@@ -7615,7 +7615,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Jefferson City",
+        "name": "Jefferson City",
         "growth_from_2000_to_2013": "6.7%",
         "latitude": 38.57670170000001,
         "longitude": -92.1735164,
@@ -7624,7 +7624,7 @@ cities = City.create(
         "state": "Missouri"
     },
     {
-        "city": "Cutler Bay",
+        "name": "Cutler Bay",
         "growth_from_2000_to_2013": "42.9%",
         "latitude": 25.5808323,
         "longitude": -80.34685929999999,
@@ -7633,7 +7633,7 @@ cities = City.create(
         "state": "Florida"
     },
     {
-        "city": "Oakland Park",
+        "name": "Oakland Park",
         "growth_from_2000_to_2013": "2.7%",
         "latitude": 26.1723065,
         "longitude": -80.1319893,
@@ -7642,7 +7642,7 @@ cities = City.create(
         "state": "Florida"
     },
     {
-        "city": "North Miami Beach",
+        "name": "North Miami Beach",
         "growth_from_2000_to_2013": "3.6%",
         "latitude": 25.9331488,
         "longitude": -80.1625463,
@@ -7651,7 +7651,7 @@ cities = City.create(
         "state": "Florida"
     },
     {
-        "city": "Freeport",
+        "name": "Freeport",
         "growth_from_2000_to_2013": "-1.4%",
         "latitude": 40.6576022,
         "longitude": -73.58318349999999,
@@ -7660,7 +7660,7 @@ cities = City.create(
         "state": "New York"
     },
     {
-        "city": "Moline",
+        "name": "Moline",
         "growth_from_2000_to_2013": "-1.9%",
         "latitude": 41.5067003,
         "longitude": -90.51513419999999,
@@ -7669,7 +7669,7 @@ cities = City.create(
         "state": "Illinois"
     },
     {
-        "city": "Coachella",
+        "name": "Coachella",
         "growth_from_2000_to_2013": "88.4%",
         "latitude": 33.6803003,
         "longitude": -116.173894,
@@ -7678,7 +7678,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Fort Pierce",
+        "name": "Fort Pierce",
         "growth_from_2000_to_2013": "6.9%",
         "latitude": 27.4467056,
         "longitude": -80.3256056,
@@ -7687,7 +7687,7 @@ cities = City.create(
         "state": "Florida"
     },
     {
-        "city": "Smyrna",
+        "name": "Smyrna",
         "growth_from_2000_to_2013": "54.9%",
         "latitude": 35.9828412,
         "longitude": -86.5186045,
@@ -7696,7 +7696,7 @@ cities = City.create(
         "state": "Tennessee"
     },
     {
-        "city": "Bountiful",
+        "name": "Bountiful",
         "growth_from_2000_to_2013": "3.9%",
         "latitude": 40.8893895,
         "longitude": -111.880771,
@@ -7705,7 +7705,7 @@ cities = City.create(
         "state": "Utah"
     },
     {
-        "city": "Fond du Lac",
+        "name": "Fond du Lac",
         "growth_from_2000_to_2013": "1.7%",
         "latitude": 43.7730448,
         "longitude": -88.4470508,
@@ -7714,7 +7714,7 @@ cities = City.create(
         "state": "Wisconsin"
     },
     {
-        "city": "Everett",
+        "name": "Everett",
         "growth_from_2000_to_2013": "12.1%",
         "latitude": 42.40843,
         "longitude": -71.0536625,
@@ -7723,7 +7723,7 @@ cities = City.create(
         "state": "Massachusetts"
     },
     {
-        "city": "Danville",
+        "name": "Danville",
         "growth_from_2000_to_2013": "-11.0%",
         "latitude": 36.5859718,
         "longitude": -79.39502279999999,
@@ -7732,7 +7732,7 @@ cities = City.create(
         "state": "Virginia"
     },
     {
-        "city": "Keller",
+        "name": "Keller",
         "growth_from_2000_to_2013": "53.3%",
         "latitude": 32.9341893,
         "longitude": -97.229298,
@@ -7741,7 +7741,7 @@ cities = City.create(
         "state": "Texas"
     },
     {
-        "city": "Belleville",
+        "name": "Belleville",
         "growth_from_2000_to_2013": "1.2%",
         "latitude": 38.5200504,
         "longitude": -89.9839935,
@@ -7750,7 +7750,7 @@ cities = City.create(
         "state": "Illinois"
     },
     {
-        "city": "Bell Gardens",
+        "name": "Bell Gardens",
         "growth_from_2000_to_2013": "-2.7%",
         "latitude": 33.9652918,
         "longitude": -118.1514588,
@@ -7759,7 +7759,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Cleveland",
+        "name": "Cleveland",
         "growth_from_2000_to_2013": "14.1%",
         "latitude": 35.1595182,
         "longitude": -84.8766115,
@@ -7768,7 +7768,7 @@ cities = City.create(
         "state": "Tennessee"
     },
     {
-        "city": "North Lauderdale",
+        "name": "North Lauderdale",
         "growth_from_2000_to_2013": "10.8%",
         "latitude": 26.217305,
         "longitude": -80.2258811,
@@ -7777,7 +7777,7 @@ cities = City.create(
         "state": "Florida"
     },
     {
-        "city": "Fairfield",
+        "name": "Fairfield",
         "growth_from_2000_to_2013": "1.2%",
         "latitude": 39.3454673,
         "longitude": -84.5603187,
@@ -7786,7 +7786,7 @@ cities = City.create(
         "state": "Ohio"
     },
     {
-        "city": "Salem",
+        "name": "Salem",
         "growth_from_2000_to_2013": "5.1%",
         "latitude": 42.51954,
         "longitude": -70.8967155,
@@ -7795,7 +7795,7 @@ cities = City.create(
         "state": "Massachusetts"
     },
     {
-        "city": "Rancho Palos Verdes",
+        "name": "Rancho Palos Verdes",
         "growth_from_2000_to_2013": "2.9%",
         "latitude": 33.7444613,
         "longitude": -118.3870173,
@@ -7804,7 +7804,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "San Bruno",
+        "name": "San Bruno",
         "growth_from_2000_to_2013": "5.6%",
         "latitude": 37.6304904,
         "longitude": -122.4110835,
@@ -7813,7 +7813,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Concord",
+        "name": "Concord",
         "growth_from_2000_to_2013": "4.1%",
         "latitude": 43.2081366,
         "longitude": -71.5375718,
@@ -7822,7 +7822,7 @@ cities = City.create(
         "state": "New Hampshire"
     },
     {
-        "city": "Burlington",
+        "name": "Burlington",
         "growth_from_2000_to_2013": "6.1%",
         "latitude": 44.4758825,
         "longitude": -73.21207199999999,
@@ -7831,7 +7831,7 @@ cities = City.create(
         "state": "Vermont"
     },
     {
-        "city": "Apex",
+        "name": "Apex",
         "growth_from_2000_to_2013": "98.8%",
         "latitude": 35.732652,
         "longitude": -78.85028559999999,
@@ -7840,7 +7840,7 @@ cities = City.create(
         "state": "North Carolina"
     },
     {
-        "city": "Midland",
+        "name": "Midland",
         "growth_from_2000_to_2013": "0.9%",
         "latitude": 43.6155825,
         "longitude": -84.2472116,
@@ -7849,7 +7849,7 @@ cities = City.create(
         "state": "Michigan"
     },
     {
-        "city": "Altamonte Springs",
+        "name": "Altamonte Springs",
         "growth_from_2000_to_2013": "2.0%",
         "latitude": 28.6611089,
         "longitude": -81.3656242,
@@ -7858,7 +7858,7 @@ cities = City.create(
         "state": "Florida"
     },
     {
-        "city": "Hutchinson",
+        "name": "Hutchinson",
         "growth_from_2000_to_2013": "0.1%",
         "latitude": 38.0608445,
         "longitude": -97.92977429999999,
@@ -7867,7 +7867,7 @@ cities = City.create(
         "state": "Kansas"
     },
     {
-        "city": "Buffalo Grove",
+        "name": "Buffalo Grove",
         "growth_from_2000_to_2013": "-3.4%",
         "latitude": 42.1662831,
         "longitude": -87.9631308,
@@ -7876,7 +7876,7 @@ cities = City.create(
         "state": "Illinois"
     },
     {
-        "city": "Urbandale",
+        "name": "Urbandale",
         "growth_from_2000_to_2013": "41.5%",
         "latitude": 41.6266555,
         "longitude": -93.71216559999999,
@@ -7885,7 +7885,7 @@ cities = City.create(
         "state": "Iowa"
     },
     {
-        "city": "State College",
+        "name": "State College",
         "growth_from_2000_to_2013": "8.7%",
         "latitude": 40.7933949,
         "longitude": -77.8600012,
@@ -7894,7 +7894,7 @@ cities = City.create(
         "state": "Pennsylvania"
     },
     {
-        "city": "Urbana",
+        "name": "Urbana",
         "growth_from_2000_to_2013": "10.3%",
         "latitude": 40.1105875,
         "longitude": -88.2072697,
@@ -7903,7 +7903,7 @@ cities = City.create(
         "state": "Illinois"
     },
     {
-        "city": "Plainfield",
+        "name": "Plainfield",
         "growth_from_2000_to_2013": "203.6%",
         "latitude": 41.632223,
         "longitude": -88.2120315,
@@ -7912,7 +7912,7 @@ cities = City.create(
         "state": "Illinois"
     },
     {
-        "city": "Manassas",
+        "name": "Manassas",
         "growth_from_2000_to_2013": "19.5%",
         "latitude": 38.7509488,
         "longitude": -77.47526669999999,
@@ -7921,7 +7921,7 @@ cities = City.create(
         "state": "Virginia"
     },
     {
-        "city": "Bartlett",
+        "name": "Bartlett",
         "growth_from_2000_to_2013": "13.1%",
         "latitude": 41.9950276,
         "longitude": -88.1856301,
@@ -7930,7 +7930,7 @@ cities = City.create(
         "state": "Illinois"
     },
     {
-        "city": "Kearny",
+        "name": "Kearny",
         "growth_from_2000_to_2013": "2.8%",
         "latitude": 40.7684342,
         "longitude": -74.1454214,
@@ -7939,7 +7939,7 @@ cities = City.create(
         "state": "New Jersey"
     },
     {
-        "city": "Oro Valley",
+        "name": "Oro Valley",
         "growth_from_2000_to_2013": "27.0%",
         "latitude": 32.3909071,
         "longitude": -110.966488,
@@ -7948,7 +7948,7 @@ cities = City.create(
         "state": "Arizona"
     },
     {
-        "city": "Findlay",
+        "name": "Findlay",
         "growth_from_2000_to_2013": "5.8%",
         "latitude": 41.04422,
         "longitude": -83.6499321,
@@ -7957,7 +7957,7 @@ cities = City.create(
         "state": "Ohio"
     },
     {
-        "city": "Rohnert Park",
+        "name": "Rohnert Park",
         "growth_from_2000_to_2013": "0.0%",
         "latitude": 38.3396367,
         "longitude": -122.7010984,
@@ -7966,7 +7966,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Westfield",
+        "name": "Westfield",
         "growth_from_2000_to_2013": "3.0%",
         "latitude": 42.1250929,
         "longitude": -72.749538,
@@ -7975,7 +7975,7 @@ cities = City.create(
         "state": "Massachusetts"
     },
     {
-        "city": "Linden",
+        "name": "Linden",
         "growth_from_2000_to_2013": "4.7%",
         "latitude": 40.6220478,
         "longitude": -74.24459019999999,
@@ -7984,7 +7984,7 @@ cities = City.create(
         "state": "New Jersey"
     },
     {
-        "city": "Sumter",
+        "name": "Sumter",
         "growth_from_2000_to_2013": "1.3%",
         "latitude": 33.9204354,
         "longitude": -80.3414693,
@@ -7993,7 +7993,7 @@ cities = City.create(
         "state": "South Carolina"
     },
     {
-        "city": "Wilkes-Barre",
+        "name": "Wilkes-Barre",
         "growth_from_2000_to_2013": "-4.3%",
         "latitude": 41.2459149,
         "longitude": -75.88130749999999,
@@ -8002,7 +8002,7 @@ cities = City.create(
         "state": "Pennsylvania"
     },
     {
-        "city": "Woonsocket",
+        "name": "Woonsocket",
         "growth_from_2000_to_2013": "-5.2%",
         "latitude": 42.00287609999999,
         "longitude": -71.51478390000001,
@@ -8011,7 +8011,7 @@ cities = City.create(
         "state": "Rhode Island"
     },
     {
-        "city": "Leominster",
+        "name": "Leominster",
         "growth_from_2000_to_2013": "-1.1%",
         "latitude": 42.5250906,
         "longitude": -71.759794,
@@ -8020,7 +8020,7 @@ cities = City.create(
         "state": "Massachusetts"
     },
     {
-        "city": "Shelton",
+        "name": "Shelton",
         "growth_from_2000_to_2013": "7.3%",
         "latitude": 41.3164856,
         "longitude": -73.0931641,
@@ -8029,7 +8029,7 @@ cities = City.create(
         "state": "Connecticut"
     },
     {
-        "city": "Brea",
+        "name": "Brea",
         "growth_from_2000_to_2013": "15.2%",
         "latitude": 33.9166805,
         "longitude": -117.9000604,
@@ -8038,7 +8038,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Covington",
+        "name": "Covington",
         "growth_from_2000_to_2013": "-4.7%",
         "latitude": 39.0836712,
         "longitude": -84.5085536,
@@ -8047,7 +8047,7 @@ cities = City.create(
         "state": "Kentucky"
     },
     {
-        "city": "Rockwall",
+        "name": "Rockwall",
         "growth_from_2000_to_2013": "117.2%",
         "latitude": 32.93123360000001,
         "longitude": -96.4597089,
@@ -8056,7 +8056,7 @@ cities = City.create(
         "state": "Texas"
     },
     {
-        "city": "Meridian",
+        "name": "Meridian",
         "growth_from_2000_to_2013": "-0.9%",
         "latitude": 32.3643098,
         "longitude": -88.703656,
@@ -8065,7 +8065,7 @@ cities = City.create(
         "state": "Mississippi"
     },
     {
-        "city": "Riverton",
+        "name": "Riverton",
         "growth_from_2000_to_2013": "61.6%",
         "latitude": 40.521893,
         "longitude": -111.9391023,
@@ -8074,7 +8074,7 @@ cities = City.create(
         "state": "Utah"
     },
     {
-        "city": "St. Cloud",
+        "name": "St. Cloud",
         "growth_from_2000_to_2013": "86.2%",
         "latitude": 28.2489016,
         "longitude": -81.2811801,
@@ -8083,7 +8083,7 @@ cities = City.create(
         "state": "Florida"
     },
     {
-        "city": "Quincy",
+        "name": "Quincy",
         "growth_from_2000_to_2013": "0.5%",
         "latitude": 39.9356016,
         "longitude": -91.4098726,
@@ -8092,7 +8092,7 @@ cities = City.create(
         "state": "Illinois"
     },
     {
-        "city": "Morgan Hill",
+        "name": "Morgan Hill",
         "growth_from_2000_to_2013": "19.5%",
         "latitude": 37.1305012,
         "longitude": -121.6543901,
@@ -8101,7 +8101,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Warren",
+        "name": "Warren",
         "growth_from_2000_to_2013": "-15.2%",
         "latitude": 41.2375569,
         "longitude": -80.81841659999999,
@@ -8110,7 +8110,7 @@ cities = City.create(
         "state": "Ohio"
     },
     {
-        "city": "Edmonds",
+        "name": "Edmonds",
         "growth_from_2000_to_2013": "2.9%",
         "latitude": 47.8106521,
         "longitude": -122.3773552,
@@ -8119,7 +8119,7 @@ cities = City.create(
         "state": "Washington"
     },
     {
-        "city": "Burleson",
+        "name": "Burleson",
         "growth_from_2000_to_2013": "85.3%",
         "latitude": 32.5420821,
         "longitude": -97.3208492,
@@ -8128,7 +8128,7 @@ cities = City.create(
         "state": "Texas"
     },
     {
-        "city": "Beverly",
+        "name": "Beverly",
         "growth_from_2000_to_2013": "2.0%",
         "latitude": 42.5584283,
         "longitude": -70.880049,
@@ -8137,7 +8137,7 @@ cities = City.create(
         "state": "Massachusetts"
     },
     {
-        "city": "Mankato",
+        "name": "Mankato",
         "growth_from_2000_to_2013": "24.7%",
         "latitude": 44.1635775,
         "longitude": -93.99939959999999,
@@ -8146,7 +8146,7 @@ cities = City.create(
         "state": "Minnesota"
     },
     {
-        "city": "Hagerstown",
+        "name": "Hagerstown",
         "growth_from_2000_to_2013": "10.4%",
         "latitude": 39.6417629,
         "longitude": -77.71999319999999,
@@ -8155,7 +8155,7 @@ cities = City.create(
         "state": "Maryland"
     },
     {
-        "city": "Prescott",
+        "name": "Prescott",
         "growth_from_2000_to_2013": "18.1%",
         "latitude": 34.5400242,
         "longitude": -112.4685025,
@@ -8164,7 +8164,7 @@ cities = City.create(
         "state": "Arizona"
     },
     {
-        "city": "Campbell",
+        "name": "Campbell",
         "growth_from_2000_to_2013": "4.2%",
         "latitude": 37.2871651,
         "longitude": -121.9499568,
@@ -8173,7 +8173,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Cedar Falls",
+        "name": "Cedar Falls",
         "growth_from_2000_to_2013": "12.0%",
         "latitude": 42.5348993,
         "longitude": -92.4453161,
@@ -8182,7 +8182,7 @@ cities = City.create(
         "state": "Iowa"
     },
     {
-        "city": "Beaumont",
+        "name": "Beaumont",
         "growth_from_2000_to_2013": "254.5%",
         "latitude": 33.9294606,
         "longitude": -116.977248,
@@ -8191,7 +8191,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "La Puente",
+        "name": "La Puente",
         "growth_from_2000_to_2013": "-1.6%",
         "latitude": 34.0200114,
         "longitude": -117.9495083,
@@ -8200,7 +8200,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Crystal Lake",
+        "name": "Crystal Lake",
         "growth_from_2000_to_2013": "5.3%",
         "latitude": 42.2411344,
         "longitude": -88.31619649999999,
@@ -8209,7 +8209,7 @@ cities = City.create(
         "state": "Illinois"
     },
     {
-        "city": "Fitchburg",
+        "name": "Fitchburg",
         "growth_from_2000_to_2013": "3.5%",
         "latitude": 42.5834228,
         "longitude": -71.8022955,
@@ -8218,7 +8218,7 @@ cities = City.create(
         "state": "Massachusetts"
     },
     {
-        "city": "Carol Stream",
+        "name": "Carol Stream",
         "growth_from_2000_to_2013": "-0.2%",
         "latitude": 41.91252859999999,
         "longitude": -88.13479269999999,
@@ -8227,7 +8227,7 @@ cities = City.create(
         "state": "Illinois"
     },
     {
-        "city": "Hickory",
+        "name": "Hickory",
         "growth_from_2000_to_2013": "7.0%",
         "latitude": 35.7344538,
         "longitude": -81.3444573,
@@ -8236,7 +8236,7 @@ cities = City.create(
         "state": "North Carolina"
     },
     {
-        "city": "Streamwood",
+        "name": "Streamwood",
         "growth_from_2000_to_2013": "10.1%",
         "latitude": 42.0255827,
         "longitude": -88.17840849999999,
@@ -8245,7 +8245,7 @@ cities = City.create(
         "state": "Illinois"
     },
     {
-        "city": "Norwich",
+        "name": "Norwich",
         "growth_from_2000_to_2013": "11.6%",
         "latitude": 41.5242649,
         "longitude": -72.07591049999999,
@@ -8254,7 +8254,7 @@ cities = City.create(
         "state": "Connecticut"
     },
     {
-        "city": "Coppell",
+        "name": "Coppell",
         "growth_from_2000_to_2013": "10.3%",
         "latitude": 32.9545687,
         "longitude": -97.01500779999999,
@@ -8263,7 +8263,7 @@ cities = City.create(
         "state": "Texas"
     },
     {
-        "city": "San Gabriel",
+        "name": "San Gabriel",
         "growth_from_2000_to_2013": "0.9%",
         "latitude": 34.09611110000001,
         "longitude": -118.1058333,
@@ -8272,7 +8272,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Holyoke",
+        "name": "Holyoke",
         "growth_from_2000_to_2013": "0.9%",
         "latitude": 42.2042586,
         "longitude": -72.6162009,
@@ -8281,7 +8281,7 @@ cities = City.create(
         "state": "Massachusetts"
     },
     {
-        "city": "Bentonville",
+        "name": "Bentonville",
         "growth_from_2000_to_2013": "97.7%",
         "latitude": 36.3728538,
         "longitude": -94.2088172,
@@ -8290,7 +8290,7 @@ cities = City.create(
         "state": "Arkansas"
     },
     {
-        "city": "Florence",
+        "name": "Florence",
         "growth_from_2000_to_2013": "10.2%",
         "latitude": 34.79981,
         "longitude": -87.677251,
@@ -8299,7 +8299,7 @@ cities = City.create(
         "state": "Alabama"
     },
     {
-        "city": "Peachtree Corners",
+        "name": "Peachtree Corners",
         "growth_from_2000_to_2013": "",
         "latitude": 33.9698929,
         "longitude": -84.2214551,
@@ -8308,7 +8308,7 @@ cities = City.create(
         "state": "Georgia"
     },
     {
-        "city": "Brentwood",
+        "name": "Brentwood",
         "growth_from_2000_to_2013": "51.9%",
         "latitude": 36.0331164,
         "longitude": -86.78277720000001,
@@ -8317,7 +8317,7 @@ cities = City.create(
         "state": "Tennessee"
     },
     {
-        "city": "Bozeman",
+        "name": "Bozeman",
         "growth_from_2000_to_2013": "41.9%",
         "latitude": 45.6769979,
         "longitude": -111.0429339,
@@ -8326,7 +8326,7 @@ cities = City.create(
         "state": "Montana"
     },
     {
-        "city": "New Berlin",
+        "name": "New Berlin",
         "growth_from_2000_to_2013": "3.6%",
         "latitude": 42.9764027,
         "longitude": -88.1084224,
@@ -8335,7 +8335,7 @@ cities = City.create(
         "state": "Wisconsin"
     },
     {
-        "city": "Goose Creek",
+        "name": "Goose Creek",
         "growth_from_2000_to_2013": "26.1%",
         "latitude": 32.9810059,
         "longitude": -80.03258670000001,
@@ -8344,7 +8344,7 @@ cities = City.create(
         "state": "South Carolina"
     },
     {
-        "city": "Huntsville",
+        "name": "Huntsville",
         "growth_from_2000_to_2013": "13.2%",
         "latitude": 30.7235263,
         "longitude": -95.55077709999999,
@@ -8353,7 +8353,7 @@ cities = City.create(
         "state": "Texas"
     },
     {
-        "city": "Prescott Valley",
+        "name": "Prescott Valley",
         "growth_from_2000_to_2013": "62.9%",
         "latitude": 34.6100243,
         "longitude": -112.315721,
@@ -8362,7 +8362,7 @@ cities = City.create(
         "state": "Arizona"
     },
     {
-        "city": "Maplewood",
+        "name": "Maplewood",
         "growth_from_2000_to_2013": "12.3%",
         "latitude": 44.9530215,
         "longitude": -92.9952153,
@@ -8371,7 +8371,7 @@ cities = City.create(
         "state": "Minnesota"
     },
     {
-        "city": "Romeoville",
+        "name": "Romeoville",
         "growth_from_2000_to_2013": "79.5%",
         "latitude": 41.6475306,
         "longitude": -88.0895061,
@@ -8380,7 +8380,7 @@ cities = City.create(
         "state": "Illinois"
     },
     {
-        "city": "Duncanville",
+        "name": "Duncanville",
         "growth_from_2000_to_2013": "9.7%",
         "latitude": 32.6518004,
         "longitude": -96.9083366,
@@ -8389,7 +8389,7 @@ cities = City.create(
         "state": "Texas"
     },
     {
-        "city": "Atlantic City",
+        "name": "Atlantic City",
         "growth_from_2000_to_2013": "-2.2%",
         "latitude": 39.3642834,
         "longitude": -74.4229266,
@@ -8398,7 +8398,7 @@ cities = City.create(
         "state": "New Jersey"
     },
     {
-        "city": "Clovis",
+        "name": "Clovis",
         "growth_from_2000_to_2013": "21.3%",
         "latitude": 34.4047987,
         "longitude": -103.2052272,
@@ -8407,7 +8407,7 @@ cities = City.create(
         "state": "New Mexico"
     },
     {
-        "city": "The Colony",
+        "name": "The Colony",
         "growth_from_2000_to_2013": "45.7%",
         "latitude": 33.0806083,
         "longitude": -96.89283089999999,
@@ -8416,7 +8416,7 @@ cities = City.create(
         "state": "Texas"
     },
     {
-        "city": "Culver City",
+        "name": "Culver City",
         "growth_from_2000_to_2013": "1.3%",
         "latitude": 34.0211224,
         "longitude": -118.3964665,
@@ -8425,7 +8425,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Marlborough",
+        "name": "Marlborough",
         "growth_from_2000_to_2013": "7.6%",
         "latitude": 42.3459271,
         "longitude": -71.5522874,
@@ -8434,7 +8434,7 @@ cities = City.create(
         "state": "Massachusetts"
     },
     {
-        "city": "Hilton Head Island",
+        "name": "Hilton Head Island",
         "growth_from_2000_to_2013": "16.0%",
         "latitude": 32.216316,
         "longitude": -80.752608,
@@ -8443,7 +8443,7 @@ cities = City.create(
         "state": "South Carolina"
     },
     {
-        "city": "Moorhead",
+        "name": "Moorhead",
         "growth_from_2000_to_2013": "21.3%",
         "latitude": 46.8737648,
         "longitude": -96.76780389999999,
@@ -8452,7 +8452,7 @@ cities = City.create(
         "state": "Minnesota"
     },
     {
-        "city": "Calexico",
+        "name": "Calexico",
         "growth_from_2000_to_2013": "44.0%",
         "latitude": 32.6789476,
         "longitude": -115.4988834,
@@ -8461,7 +8461,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Bullhead City",
+        "name": "Bullhead City",
         "growth_from_2000_to_2013": "15.9%",
         "latitude": 35.1359386,
         "longitude": -114.5285981,
@@ -8470,7 +8470,7 @@ cities = City.create(
         "state": "Arizona"
     },
     {
-        "city": "Germantown",
+        "name": "Germantown",
         "growth_from_2000_to_2013": "4.1%",
         "latitude": 35.0867577,
         "longitude": -89.8100858,
@@ -8479,7 +8479,7 @@ cities = City.create(
         "state": "Tennessee"
     },
     {
-        "city": "La Quinta",
+        "name": "La Quinta",
         "growth_from_2000_to_2013": "59.9%",
         "latitude": 33.6633573,
         "longitude": -116.3100095,
@@ -8488,7 +8488,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Lancaster",
+        "name": "Lancaster",
         "growth_from_2000_to_2013": "10.7%",
         "latitude": 39.7136754,
         "longitude": -82.5993294,
@@ -8497,7 +8497,7 @@ cities = City.create(
         "state": "Ohio"
     },
     {
-        "city": "Wausau",
+        "name": "Wausau",
         "growth_from_2000_to_2013": "1.7%",
         "latitude": 44.9591352,
         "longitude": -89.6301221,
@@ -8506,7 +8506,7 @@ cities = City.create(
         "state": "Wisconsin"
     },
     {
-        "city": "Sherman",
+        "name": "Sherman",
         "growth_from_2000_to_2013": "11.6%",
         "latitude": 33.6356618,
         "longitude": -96.6088805,
@@ -8515,7 +8515,7 @@ cities = City.create(
         "state": "Texas"
     },
     {
-        "city": "Ocoee",
+        "name": "Ocoee",
         "growth_from_2000_to_2013": "57.9%",
         "latitude": 28.5691677,
         "longitude": -81.5439619,
@@ -8524,7 +8524,7 @@ cities = City.create(
         "state": "Florida"
     },
     {
-        "city": "Shakopee",
+        "name": "Shakopee",
         "growth_from_2000_to_2013": "85.7%",
         "latitude": 44.7973962,
         "longitude": -93.5272861,
@@ -8533,7 +8533,7 @@ cities = City.create(
         "state": "Minnesota"
     },
     {
-        "city": "Woburn",
+        "name": "Woburn",
         "growth_from_2000_to_2013": "4.4%",
         "latitude": 42.4792618,
         "longitude": -71.1522765,
@@ -8542,7 +8542,7 @@ cities = City.create(
         "state": "Massachusetts"
     },
     {
-        "city": "Bremerton",
+        "name": "Bremerton",
         "growth_from_2000_to_2013": "4.9%",
         "latitude": 47.5673202,
         "longitude": -122.6329356,
@@ -8551,7 +8551,7 @@ cities = City.create(
         "state": "Washington"
     },
     {
-        "city": "Rock Island",
+        "name": "Rock Island",
         "growth_from_2000_to_2013": "-1.9%",
         "latitude": 41.5094771,
         "longitude": -90.5787476,
@@ -8560,7 +8560,7 @@ cities = City.create(
         "state": "Illinois"
     },
     {
-        "city": "Muskogee",
+        "name": "Muskogee",
         "growth_from_2000_to_2013": "-0.7%",
         "latitude": 35.7478769,
         "longitude": -95.3696909,
@@ -8569,7 +8569,7 @@ cities = City.create(
         "state": "Oklahoma"
     },
     {
-        "city": "Cape Girardeau",
+        "name": "Cape Girardeau",
         "growth_from_2000_to_2013": "9.4%",
         "latitude": 37.3058839,
         "longitude": -89.51814759999999,
@@ -8578,7 +8578,7 @@ cities = City.create(
         "state": "Missouri"
     },
     {
-        "city": "Annapolis",
+        "name": "Annapolis",
         "growth_from_2000_to_2013": "7.6%",
         "latitude": 38.9784453,
         "longitude": -76.4921829,
@@ -8587,7 +8587,7 @@ cities = City.create(
         "state": "Maryland"
     },
     {
-        "city": "Greenacres",
+        "name": "Greenacres",
         "growth_from_2000_to_2013": "35.5%",
         "latitude": 26.6276276,
         "longitude": -80.1353896,
@@ -8596,7 +8596,7 @@ cities = City.create(
         "state": "Florida"
     },
     {
-        "city": "Ormond Beach",
+        "name": "Ormond Beach",
         "growth_from_2000_to_2013": "5.8%",
         "latitude": 29.2858129,
         "longitude": -81.0558894,
@@ -8605,7 +8605,7 @@ cities = City.create(
         "state": "Florida"
     },
     {
-        "city": "Hallandale Beach",
+        "name": "Hallandale Beach",
         "growth_from_2000_to_2013": "12.4%",
         "latitude": 25.9812024,
         "longitude": -80.14837899999999,
@@ -8614,7 +8614,7 @@ cities = City.create(
         "state": "Florida"
     },
     {
-        "city": "Stanton",
+        "name": "Stanton",
         "growth_from_2000_to_2013": "2.8%",
         "latitude": 33.8025155,
         "longitude": -117.9931165,
@@ -8623,7 +8623,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Puyallup",
+        "name": "Puyallup",
         "growth_from_2000_to_2013": "11.8%",
         "latitude": 47.1853785,
         "longitude": -122.2928974,
@@ -8632,7 +8632,7 @@ cities = City.create(
         "state": "Washington"
     },
     {
-        "city": "Pacifica",
+        "name": "Pacifica",
         "growth_from_2000_to_2013": "0.5%",
         "latitude": 37.6138253,
         "longitude": -122.4869194,
@@ -8641,7 +8641,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Hanover Park",
+        "name": "Hanover Park",
         "growth_from_2000_to_2013": "0.6%",
         "latitude": 41.9994722,
         "longitude": -88.1450735,
@@ -8650,7 +8650,7 @@ cities = City.create(
         "state": "Illinois"
     },
     {
-        "city": "Hurst",
+        "name": "Hurst",
         "growth_from_2000_to_2013": "5.8%",
         "latitude": 32.8234621,
         "longitude": -97.1705678,
@@ -8659,7 +8659,7 @@ cities = City.create(
         "state": "Texas"
     },
     {
-        "city": "Lima",
+        "name": "Lima",
         "growth_from_2000_to_2013": "-8.1%",
         "latitude": 40.742551,
         "longitude": -84.1052256,
@@ -8668,7 +8668,7 @@ cities = City.create(
         "state": "Ohio"
     },
     {
-        "city": "Marana",
+        "name": "Marana",
         "growth_from_2000_to_2013": "166.2%",
         "latitude": 32.436381,
         "longitude": -111.2224422,
@@ -8677,7 +8677,7 @@ cities = City.create(
         "state": "Arizona"
     },
     {
-        "city": "Carpentersville",
+        "name": "Carpentersville",
         "growth_from_2000_to_2013": "22.8%",
         "latitude": 42.1211364,
         "longitude": -88.2578582,
@@ -8686,7 +8686,7 @@ cities = City.create(
         "state": "Illinois"
     },
     {
-        "city": "Oakley",
+        "name": "Oakley",
         "growth_from_2000_to_2013": "47.7%",
         "latitude": 37.9974219,
         "longitude": -121.7124536,
@@ -8695,7 +8695,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Huber Heights",
+        "name": "Huber Heights",
         "growth_from_2000_to_2013": "-0.2%",
         "latitude": 39.843947,
         "longitude": -84.12466080000002,
@@ -8704,7 +8704,7 @@ cities = City.create(
         "state": "Ohio"
     },
     {
-        "city": "Lancaster",
+        "name": "Lancaster",
         "growth_from_2000_to_2013": "46.4%",
         "latitude": 32.5920798,
         "longitude": -96.7561082,
@@ -8713,7 +8713,7 @@ cities = City.create(
         "state": "Texas"
     },
     {
-        "city": "Montclair",
+        "name": "Montclair",
         "growth_from_2000_to_2013": "12.1%",
         "latitude": 34.0775104,
         "longitude": -117.6897776,
@@ -8722,7 +8722,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Wheeling",
+        "name": "Wheeling",
         "growth_from_2000_to_2013": "4.8%",
         "latitude": 42.1391927,
         "longitude": -87.9289591,
@@ -8731,7 +8731,7 @@ cities = City.create(
         "state": "Illinois"
     },
     {
-        "city": "Brookfield",
+        "name": "Brookfield",
         "growth_from_2000_to_2013": "-1.9%",
         "latitude": 43.0605671,
         "longitude": -88.1064787,
@@ -8740,7 +8740,7 @@ cities = City.create(
         "state": "Wisconsin"
     },
     {
-        "city": "Park Ridge",
+        "name": "Park Ridge",
         "growth_from_2000_to_2013": "0.1%",
         "latitude": 42.0111412,
         "longitude": -87.84061919999999,
@@ -8749,7 +8749,7 @@ cities = City.create(
         "state": "Illinois"
     },
     {
-        "city": "Florence",
+        "name": "Florence",
         "growth_from_2000_to_2013": "19.8%",
         "latitude": 34.1954331,
         "longitude": -79.7625625,
@@ -8758,7 +8758,7 @@ cities = City.create(
         "state": "South Carolina"
     },
     {
-        "city": "Roy",
+        "name": "Roy",
         "growth_from_2000_to_2013": "13.3%",
         "latitude": 41.1616108,
         "longitude": -112.0263313,
@@ -8767,7 +8767,7 @@ cities = City.create(
         "state": "Utah"
     },
     {
-        "city": "Winter Garden",
+        "name": "Winter Garden",
         "growth_from_2000_to_2013": "142.5%",
         "latitude": 28.5652787,
         "longitude": -81.58618469999999,
@@ -8776,7 +8776,7 @@ cities = City.create(
         "state": "Florida"
     },
     {
-        "city": "Chelsea",
+        "name": "Chelsea",
         "growth_from_2000_to_2013": "7.3%",
         "latitude": 42.3917638,
         "longitude": -71.0328284,
@@ -8785,7 +8785,7 @@ cities = City.create(
         "state": "Massachusetts"
     },
     {
-        "city": "Valley Stream",
+        "name": "Valley Stream",
         "growth_from_2000_to_2013": "3.6%",
         "latitude": 40.6642699,
         "longitude": -73.70846449999999,
@@ -8794,7 +8794,7 @@ cities = City.create(
         "state": "New York"
     },
     {
-        "city": "Spartanburg",
+        "name": "Spartanburg",
         "growth_from_2000_to_2013": "-6.2%",
         "latitude": 34.9495672,
         "longitude": -81.9320482,
@@ -8803,7 +8803,7 @@ cities = City.create(
         "state": "South Carolina"
     },
     {
-        "city": "Lake Oswego",
+        "name": "Lake Oswego",
         "growth_from_2000_to_2013": "5.3%",
         "latitude": 45.42067489999999,
         "longitude": -122.6706498,
@@ -8812,7 +8812,7 @@ cities = City.create(
         "state": "Oregon"
     },
     {
-        "city": "Friendswood",
+        "name": "Friendswood",
         "growth_from_2000_to_2013": "28.6%",
         "latitude": 29.5293998,
         "longitude": -95.2010447,
@@ -8821,7 +8821,7 @@ cities = City.create(
         "state": "Texas"
     },
     {
-        "city": "Westerville",
+        "name": "Westerville",
         "growth_from_2000_to_2013": "5.7%",
         "latitude": 40.1261743,
         "longitude": -82.92906959999999,
@@ -8830,7 +8830,7 @@ cities = City.create(
         "state": "Ohio"
     },
     {
-        "city": "Northglenn",
+        "name": "Northglenn",
         "growth_from_2000_to_2013": "15.5%",
         "latitude": 39.8961821,
         "longitude": -104.9811468,
@@ -8839,7 +8839,7 @@ cities = City.create(
         "state": "Colorado"
     },
     {
-        "city": "Phenix City",
+        "name": "Phenix City",
         "growth_from_2000_to_2013": "31.9%",
         "latitude": 32.4709761,
         "longitude": -85.0007653,
@@ -8848,7 +8848,7 @@ cities = City.create(
         "state": "Alabama"
     },
     {
-        "city": "Grove City",
+        "name": "Grove City",
         "growth_from_2000_to_2013": "35.6%",
         "latitude": 39.88145189999999,
         "longitude": -83.0929644,
@@ -8857,7 +8857,7 @@ cities = City.create(
         "state": "Ohio"
     },
     {
-        "city": "Texarkana",
+        "name": "Texarkana",
         "growth_from_2000_to_2013": "7.4%",
         "latitude": 33.425125,
         "longitude": -94.04768820000001,
@@ -8866,7 +8866,7 @@ cities = City.create(
         "state": "Texas"
     },
     {
-        "city": "Addison",
+        "name": "Addison",
         "growth_from_2000_to_2013": "2.6%",
         "latitude": 41.931696,
         "longitude": -87.9889556,
@@ -8875,7 +8875,7 @@ cities = City.create(
         "state": "Illinois"
     },
     {
-        "city": "Dover",
+        "name": "Dover",
         "growth_from_2000_to_2013": "16.0%",
         "latitude": 39.158168,
         "longitude": -75.5243682,
@@ -8884,7 +8884,7 @@ cities = City.create(
         "state": "Delaware"
     },
     {
-        "city": "Lincoln Park",
+        "name": "Lincoln Park",
         "growth_from_2000_to_2013": "-6.7%",
         "latitude": 42.2505943,
         "longitude": -83.1785361,
@@ -8893,7 +8893,7 @@ cities = City.create(
         "state": "Michigan"
     },
     {
-        "city": "Calumet City",
+        "name": "Calumet City",
         "growth_from_2000_to_2013": "-4.5%",
         "latitude": 41.6155909,
         "longitude": -87.5294871,
@@ -8902,7 +8902,7 @@ cities = City.create(
         "state": "Illinois"
     },
     {
-        "city": "Muskegon",
+        "name": "Muskegon",
         "growth_from_2000_to_2013": "-7.1%",
         "latitude": 43.2341813,
         "longitude": -86.24839209999999,
@@ -8911,7 +8911,7 @@ cities = City.create(
         "state": "Michigan"
     },
     {
-        "city": "Aventura",
+        "name": "Aventura",
         "growth_from_2000_to_2013": "47.2%",
         "latitude": 25.9564812,
         "longitude": -80.1392121,
@@ -8920,7 +8920,7 @@ cities = City.create(
         "state": "Florida"
     },
     {
-        "city": "Martinez",
+        "name": "Martinez",
         "growth_from_2000_to_2013": "3.4%",
         "latitude": 38.0193657,
         "longitude": -122.1341321,
@@ -8929,7 +8929,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Greenfield",
+        "name": "Greenfield",
         "growth_from_2000_to_2013": "4.8%",
         "latitude": 42.9614039,
         "longitude": -88.0125865,
@@ -8938,7 +8938,7 @@ cities = City.create(
         "state": "Wisconsin"
     },
     {
-        "city": "Apache Junction",
+        "name": "Apache Junction",
         "growth_from_2000_to_2013": "15.7%",
         "latitude": 33.4150485,
         "longitude": -111.5495777,
@@ -8947,7 +8947,7 @@ cities = City.create(
         "state": "Arizona"
     },
     {
-        "city": "Monrovia",
+        "name": "Monrovia",
         "growth_from_2000_to_2013": "0.2%",
         "latitude": 34.1442616,
         "longitude": -118.0019482,
@@ -8956,7 +8956,7 @@ cities = City.create(
         "state": "California"
     },
     {
-        "city": "Weslaco",
+        "name": "Weslaco",
         "growth_from_2000_to_2013": "28.8%",
         "latitude": 26.1595194,
         "longitude": -97.9908366,
@@ -8965,7 +8965,7 @@ cities = City.create(
         "state": "Texas"
     },
     {
-        "city": "Keizer",
+        "name": "Keizer",
         "growth_from_2000_to_2013": "14.4%",
         "latitude": 44.9901194,
         "longitude": -123.0262077,
@@ -8974,7 +8974,7 @@ cities = City.create(
         "state": "Oregon"
     },
     {
-        "city": "Spanish Fork",
+        "name": "Spanish Fork",
         "growth_from_2000_to_2013": "78.1%",
         "latitude": 40.114955,
         "longitude": -111.654923,
@@ -8983,7 +8983,7 @@ cities = City.create(
         "state": "Utah"
     },
     {
-        "city": "Beloit",
+        "name": "Beloit",
         "growth_from_2000_to_2013": "2.9%",
         "latitude": 42.5083482,
         "longitude": -89.03177649999999,
@@ -8992,7 +8992,7 @@ cities = City.create(
         "state": "Wisconsin"
     },
     {
-        "city": "Panama City",
+        "name": "Panama City",
         "growth_from_2000_to_2013": "0.1%",
         "latitude": 30.1588129,
         "longitude": -85.6602058,
