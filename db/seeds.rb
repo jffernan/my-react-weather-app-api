@@ -29,50 +29,5 @@ cities = City.create(
     },
     {
         name: "San Jose"
-    },
-    {
-        name: "Austin"
-    },
-    {
-        name: "Indianapolis"
-    },
-    {
-        name: "Jacksonville"
-    },
-    {
-        name: "San Francisco"
-    },
-    {
-        name: "Columbus"
-    },
-    {
-        name: "Charlotte"
-    },
-    {
-        name: "Fort Worth"
-    },
-    {
-        name: "Detroit"
-    },
-    {
-        name: "El Paso"
-    },
-    {
-        name: "Memphis"
-    },
-    {
-        name: "Seattle"
-    },
-    {
-        name: "Denver"
-    },
-    {
-        name: "Washington"
-    },
-    {
-        name: "Boston"
-    },
-    {
-        name: "Nashville-Davidson"
     }
 ])
