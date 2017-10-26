@@ -1,33 +1,18 @@
 cities = City.create(
-[
+  [
     {
-        name: "New York"
+      name: "New York"
     },
     {
-        name: "Los Angeles"
+      name: "Los Angeles"
     },
     {
-        name: "Chicago"
+      name: "Chicago"
     },
     {
-        name: "Houston"
+      name: "Houston"
     },
     {
-        name: "Philadelphia"
-    },
-    {
-        name: "Phoenix"
-    },
-    {
-        name: "San Antonio"
-    },
-    {
-        name: "San Diego"
-    },
-    {
-        name: "Dallas"
-    },
-    {
-        name: "San Jose"
+      name: "Phoenix"
     }
-])
+  ])
