@@ -11,6 +11,12 @@ module Api::V1
       render json: @city
     end
 
+    def update
+      @city = City.find(params[:id])
+      @city.update_attributes(city_params)
+      render json: @cities
+    end
+
     private
 
       def city_params
