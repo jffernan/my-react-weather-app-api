@@ -14,11 +14,5 @@ cities = City.create(
     },
     {
       name: "Phoenix"
-    },
-    {
-        name: "San Antonio"
-    },
-    {
-        name: "San Diego"
     }
 ])
