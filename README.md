@@ -1,7 +1,10 @@
 # my-react-weather-app-api
 
 Welcome to My React Weather App Rails API, where you can fetch the current weather by entering a location.  To try my app, first clone my React repo here from GitHub at https://github.com/jffernan/my-react-weather-app
+
 Video demo at: https://youtu.be/WA0c3tG6zGo
+
+View my blog about the development of my app at: https://github.com/jffernan/jffernan.github.io/blob/master/_posts/2017-10-13-project_5_blog_react-redux-app.markdown
 
 ## Installation
 
