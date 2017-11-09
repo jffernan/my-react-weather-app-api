@@ -2,22 +2,22 @@ cities = City.create(
   [
     {
       name: "New York",
-      total: ''
+      total: '0'
     },
     {
       name: "Los Angeles",
-      total: ''
+      total: '0'
     },
     {
       name: "Chicago",
-      total: ''
+      total: '0'
     },
     {
       name: "Houston",
-      total: ''
+      total: '0'
     },
     {
       name: "Phoenix",
-      total: ''
+      total: '0'
     }
 ])
