@@ -10,13 +10,13 @@ module Api::V1
       @city = City.create(city_params)
       render json: @city
     end
-=begin
+
     def update
       @city = City.find(params[:id])
       @city.update_attributes(city_params)
       render json: @cities
     end
-=end
+
     private
 
       def city_params
