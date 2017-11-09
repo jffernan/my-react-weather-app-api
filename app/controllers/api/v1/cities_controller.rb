@@ -14,13 +14,17 @@ module Api::V1
     def update
       @city = City.find(params[:id])
       @city.update_attributes(city_params)
-      render json: @cities
+      render json: @city
     end
-
+=begin
+    def destroy
+      City.destroy(params[:id])
+    end
+=end
     private
 
       def city_params
-        params.require(:city).permit(:name, :total)
+        params.require(:city).permit(:id, :name, :total)
       end
   end
 end
