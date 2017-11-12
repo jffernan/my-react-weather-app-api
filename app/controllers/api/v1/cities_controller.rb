@@ -16,11 +16,11 @@ module Api::V1
       @city.update_attributes(city_params)
       render json: @city
     end
-=begin
+
     def destroy
       City.destroy(params[:id])
     end
-=end
+
     private
 
       def city_params
