@@ -2,7 +2,7 @@ module Api::V1
   class CitiesController < ApplicationController
 
     def index
-      @cities = City.order(:name)
+      @cities = City.all
       render json: @cities
     end
 
