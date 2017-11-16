@@ -18,4 +18,3 @@
 !/tmp/.keep
 
 .byebug_history
-echo '/node_modules' >> .gitignore
