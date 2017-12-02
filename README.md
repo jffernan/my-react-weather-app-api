@@ -11,7 +11,7 @@ View my blog about the development of my app at: https://github.com/jffernan/jff
 
 ## Installation
 
-To use BOTH my React app with my companion Rails API, first clone both from GitHub via 'git@github.com:jffernan/my-react-weather-app-api.git' and 'git@github.com:jffernan/my-react-weather-app.git' at your terminal.  'CD' to the 'my-react-weather-app' repo, and then run ‘npm install’. Last, 'CD' to the 'my-react-weather-app-api' repo, and then run ‘rake start' to launch your http server.
+To use BOTH my React app with my companion Rails API, first clone both from GitHub via 'git clone git@github.com:jffernan/my-react-weather-app-api.git' and 'git clone git@github.com:jffernan/my-react-weather-app.git' at your terminal.  'CD' to the 'my-react-weather-app' repo, and then run ‘npm install’. Last, 'CD' to the 'my-react-weather-app-api' repo, and then run ‘rake start' to launch your http server.
 
 ## Contributing
 
