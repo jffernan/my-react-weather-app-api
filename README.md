@@ -11,7 +11,7 @@ View my blog about the development of my app at: https://github.com/jffernan/jff
 
 ## Installation
 
-To use my React app, first clone my React repo from GitHub via 'git clone git@github.com:jffernan/my-react-weather-app.git' at your terminal, 'cd' to the new directory, then run ‘npm install’, and last, run ‘npm start' to launch your http server.  Last, follow the provided http link to open my app in your browser.
+To use BOTH my React app with my companion Rails API, first clone both from GitHub via 'git@github.com:jffernan/my-react-weather-app-api.git' and 'git@github.com:jffernan/my-react-weather-app.git' at your terminal.  'CD' to the 'my-react-weather-app' repo, and then run ‘npm install’. Last, 'CD' to the 'my-react-weather-app-api' repo, and then run ‘rake start' to launch your http server.
 
 ## Contributing
 
