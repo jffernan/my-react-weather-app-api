@@ -9,6 +9,8 @@ Video at: https://youtu.be/WA0c3tG6zGo
 
 View my blog about the development of my app at: https://github.com/jffernan/jffernan.github.io/blob/master/_posts/2017-10-13-project_5_blog_react-redux-app.markdown
 
+Contact: James Fernandez | Email: jffernan@comcast.net | Phone: (206) 658-5295
+
 ## Installation
 
 To use BOTH my React app with my companion Rails API, first clone both from GitHub via 'git clone git@github.com:jffernan/my-react-weather-app-api.git' and 'git clone git@github.com:jffernan/my-react-weather-app.git' at your terminal.  'CD' to the 'my-react-weather-app' repo, and then run ‘npm install’. Last, 'CD' to the 'my-react-weather-app-api' repo, and then run ‘rake start' to launch your http server.
