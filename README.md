@@ -1,6 +1,6 @@
 # my-react-weather-app-api
 
-Welcome to My React Weather App Rails API, the companion Rails API repo to My React Weather App repo.  
+Welcome to My React Weather App Rails API, the companion Rails API repo to My React Weather App repo.  [![StackShare](https://img.shields.io/badge/tech-stack-0690fa.svg?style=flat)](https://stackshare.io/jffernan/demo-react-redux-weather-app)  
 
 To try my app where you can fetch the current weather, go to my React repo to clone at https://github.com/jffernan/my-react-weather-app
 
